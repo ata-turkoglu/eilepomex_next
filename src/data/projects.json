@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": {
+            "tr": "İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesi",
+            "en": "Istanbul Bosphorus Bridge Ortaköy Approach Viaduct Reinforcement"
+        },
+        "image1": "assets/projects/project1.jpg",
+        "image2": "assets/products/eile_TH_70.png",
+        "product": "31",
+        "text": {
+            "tr": "İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde",
+            "en": "Istanbul Bosphorus Bridge Ortaköy Approach Viaduct Reinforcement"
+        },
+        "description": ""
+    },
+    {
+        "id": 2,
+        "name": {
+            "tr": "Vestel Manisa Fabrika Binası İnşaatı",
+            "en": "Vestel Manisa Factory Building Construction"
+        },
+        "image1": "assets/projects/project2.jpg",
+        "image2": "assets/products/epx_630.png",
+        "product": "11",
+        "text": {
+            "tr": "Vestel Manisa Fabrika Binası İnşaatında",
+            "en": "Vestel Manisa Factory Building Construction"
+        },
+        "description": ""
+    },
+    {
+        "id": 3,
+        "name": {
+            "tr": "Antalya Havaalanı Deprem İzolatörü Montajı",
+            "en": "Antalya Airport Earthquake Isolator Installation"
+        },
+        "image1": "assets/projects/project3.jpg",
+        "image2": "assets/products/epox.png",
+        "product": "41",
+        "text": {
+            "tr": "Antalya Havaalanı Deprem İzolatörü Montajında",
+            "en": "Antalya Airport Earthquake Isolator Installation"
+        },
+        "description": ""
+    },
+    {
+        "id": 4,
+        "name": {
+            "tr": "Yeda İnşaat İzmir Atatürk Yüzme Havuzu Tadilatı",
+            "en": "Yeda İnşaat in İzmir Atatürk Swimming Pool Renovation"
+        },
+        "image1": "assets/projects/project4.jpg",
+        "image2": "assets/products/likit_akrilik.png",
+        "product": "57",
+        "text": {
+            "tr": "Yeda İnşaat İzmir Atatürk Yüzme Havuzu Tadilatında",
+            "en": "Yeda İnşaat in İzmir Atatürk Swimming Pool Renovation"
+        },
+        "description": ""
+    },
+    {
+        "id": 5,
+        "name": {
+            "tr": "Tüpraş Dolum İskelesi Onarım İşleri",
+            "en": "Tüpraş Filling Pier Repair Works"
+        },
+        "image1": "assets/projects/project5.jpg",
+        "image2": "assets/products/epx_50.png",
+        "product": "32",
+        "text": {
+            "tr": "Tüpraş Dolum İskelesi Onarım İşlerinde",
+            "en": "Tüpraş Filling Pier Repair Works"
+        },
+        "description": ""
+    },
+    {
+        "id": 6,
+        "name": {
+            "tr": "İzsu İshale Hatları",
+            "en": "Izsu Transmission Lines"
+        },
+        "image1": "assets/projects/project6.jpg",
+        "image2": "assets/products/eile_ASEAL.png",
+        "product": "64",
+        "text": {
+            "tr": "İzsu İshale Hatlarında",
+            "en": "In Izsu Transmission Lines"
+        },
+        "description": ""
+    }
+]
