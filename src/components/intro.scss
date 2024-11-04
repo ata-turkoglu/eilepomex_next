@@ -1,0 +1,102 @@
+.intro{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+  /*   margin-top: 2rem; */
+
+    @media screen and (max-width: 768px) {
+        margin-top: 0;
+        height: 300px;
+    }
+
+    .imgContainer{
+        width: 100%;
+        height: 600px;
+        @media screen and (max-width:768px) {
+            height: 100%;
+            min-height: 100%;
+            width: unset;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            @media screen and (max-width:768px) {
+                background-position-x: center;
+            }
+        }
+
+        .detailButton{
+            width: 200px;
+            height:70px;
+            display: grid;
+            align-content: center;
+            border-radius: .5rem;
+            background-color: rgba(0, 0, 0, 0.4);
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 80%;
+            color: white;
+            font-size: 2rem;
+            font-weight: 700;
+            z-index: 3;
+            cursor: pointer;
+            transition: all .25s ease;
+            text-transform: capitalize;
+
+            @media screen and (max-width:768px) {
+                width: 100px;
+                height: 40px;
+                font-size: 1rem;
+                margin-right: 54%;
+                top: 70%;
+            }
+        }
+        .detailButton:hover{   
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);;
+        }
+    }
+
+    .brightness70
+    {
+        filter: brightness(70%);
+        -webkit-filter: brightness(70%);
+        -moz-filter: brightness(70%);
+        -o-filter: brightness(70%);
+        -ms-filter: brightness(70%);
+    }
+
+    @media screen and (max-width:768px) {
+        .carousel-item{
+            height: 100%;
+            width: unset !important;
+        }
+        .carousel-inner{
+            height: 100%;
+        }
+        .carousel{
+            height: 100%;
+        }
+        
+    }
+    .abslt{
+        display: none;
+
+        @media screen and (max-width:768px) {
+                position: absolute;
+                left: 10%;
+                top: 10%;
+                width: 80%;
+                height: 80%;
+                z-index: 10;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        }
+    }
+}
