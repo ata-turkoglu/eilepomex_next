@@ -15,7 +15,9 @@ import {
 import Dropdown from "react-bootstrap/Dropdown";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
+
+import { useTranslations } from "next-intl";
 
 function Header() {
     const [narrowHeader, setNarrowHeader] = useState(false);
@@ -28,6 +30,10 @@ function Header() {
     const [lang, setLang] = useState(null);
 
     const route = usePathname();
+    const router = useRouter();
+
+    const pathname = usePathname();
+    const t = useTranslations("Header");
 
     const getLogo = (lng) => {
         if (lng == "en") {
@@ -37,9 +43,9 @@ function Header() {
         }
     };
 
-    const t = (text) => {
+    /* const t = (text) => {
         return langTexts[lang][text] || text;
-    };
+    }; */
 
     useLayoutEffect(() => {
         const storagelLang = window.localStorage.getItem("lang");
@@ -165,8 +171,10 @@ function Header() {
     const changeLanguage = (language) => {
         setLang(language);
         setLangState(language);
-        window.location.replace("/");
         window.localStorage.setItem("lang", language);
+
+        const path = pathname.split("/").splice(2).join("/");
+        router.push("/" + language + "/" + path);
     };
 
     return (
