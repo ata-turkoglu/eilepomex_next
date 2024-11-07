@@ -1,0 +1,18 @@
+{
+    "Header": {
+        "projects": "projects",
+        "aboutus": "about us",
+        "certificates": "certificates",
+        "contact": "contact",
+        "products": "products"
+    },
+    "Home": {
+        "title": "Landing Page"
+    },
+    "About": {
+        "title": "About Page"
+    },
+    "Contact": {
+        "title": "Contact Page"
+    }
+}

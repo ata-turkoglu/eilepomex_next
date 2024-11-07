@@ -1,0 +1,18 @@
+{
+    "Header": {
+        "projects": "projeler",
+        "aboutus": "hakkımızda",
+        "certificates": "sertifikalar",
+        "contact": "iletişim",
+        "products": "ürünler"
+    },
+    "Home": {
+        "title": "Başlanfıç Sayfası"
+    },
+    "About": {
+        "title": "Hakkımızda Sayfası"
+    },
+    "Contact": {
+        "title": "İletişim Sayfası"
+    }
+}
