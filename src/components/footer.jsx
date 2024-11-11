@@ -3,27 +3,33 @@
 import React, { useLayoutEffect, useState } from "react";
 import "./footer.scss";
 import productData from "@/data/products.json";
-import langTexts from "@/data/langTexts";
+//import langTexts from "@/data/langTexts";
+import { useParams } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 function Footer() {
     const [isSafari, setIsSafari] = useState(false);
     const [lang, setLang] = useState(null);
+    const { locale } = useParams();
+
+    const t = useTranslations("Footer");
 
     useLayoutEffect(() => {
-        const storagelLang = window.localStorage.getItem("lang");
+        setLang(locale);
+        /* const storagelLang = window.localStorage.getItem("lang");
 
         if (storagelLang) {
             setLang(storagelLang);
         } else {
             const browserLang = window.navigator.language.slice(0, 2);
             setLang(browserLang);
-        }
+        } */
         setIsSafari(!!window.safari);
     }, []);
 
-    const t = (text) => {
+    /* const t = (text) => {
         return langTexts[lang][text] || text;
-    };
+    }; */
 
     return (
         <>

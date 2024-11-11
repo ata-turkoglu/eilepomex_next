@@ -3,7 +3,7 @@
 import React, { useEffect, useState, useLayoutEffect } from "react";
 import "./header.scss";
 import productsJSON from "@/data/products.json";
-import langTexts from "@/data/langTexts";
+//import langTexts from "@/data/langTexts";
 import {
     Instagram,
     Facebook,
@@ -15,8 +15,7 @@ import {
 import Dropdown from "react-bootstrap/Dropdown";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
-
+import { useParams, usePathname, useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 
 function Header() {
@@ -31,7 +30,7 @@ function Header() {
 
     const route = usePathname();
     const router = useRouter();
-
+    const { locale } = useParams();
     const pathname = usePathname();
     const t = useTranslations("Header");
 
@@ -86,7 +85,7 @@ function Header() {
                             <Link
                                 className="productGroup1"
                                 onClick={handleListItemClick}
-                                href={"/products/" + item.key}
+                                href={"/" + locale + "/products/" + item.key}
                             >
                                 <p>{item.name[lang]}</p>
                             </Link>
@@ -99,7 +98,10 @@ function Header() {
                                                 className="subGroupLink"
                                                 onClick={handleListItemClick}
                                                 href={
-                                                    "/products/" + subGroup.key
+                                                    "/" +
+                                                    locale +
+                                                    "/products/" +
+                                                    subGroup.key
                                                 }
                                             >
                                                 {subGroup.name[lang]}
@@ -312,7 +314,7 @@ function Header() {
                                     className={`nav-item ${
                                         activeTab == "projects" && "active-nav"
                                     }`}
-                                    href="/projects"
+                                    href={"/" + locale + "/projects"}
                                     style={{
                                         paddingBlock: narrowHeader
                                             ? "0"
@@ -329,7 +331,7 @@ function Header() {
                                     className={`nav-item ${
                                         activeTab == "about" && "active-nav"
                                     }`}
-                                    href="/about"
+                                    href={"/" + locale + "/about"}
                                     style={{
                                         paddingBlock: narrowHeader
                                             ? "0"
@@ -346,7 +348,7 @@ function Header() {
                                     className={`nav-item ${
                                         activeTab == "docs" && "active-nav"
                                     }`}
-                                    href="/docs"
+                                    href={"/" + locale + "/docs"}
                                     style={{
                                         paddingBlock: narrowHeader
                                             ? "0"
@@ -364,7 +366,7 @@ function Header() {
                                     className={`nav-item ${
                                         activeTab == "contact" && "active-nav"
                                     }`}
-                                    href="/contact"
+                                    href={"/" + locale + "/contact"}
                                     style={{
                                         paddingBlock: narrowHeader
                                             ? "0"
