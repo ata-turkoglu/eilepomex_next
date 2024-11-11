@@ -14,7 +14,7 @@ function Contact() {
     const [message, setMessage] = useState("");
     const [token, setToken] = useState(null);
 
-    const { locale } = useParams();
+    //const { locale } = useParams();
 
     const t = useTranslations("Contact");
 
