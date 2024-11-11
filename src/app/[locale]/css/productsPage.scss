@@ -1,0 +1,232 @@
+@import "../../../variables.scss";
+
+.products {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: calc(100vh);
+    overflow: hidden;
+
+    @media screen and (max-width: 768px) {
+        padding-top: $mobile-padding-top;
+    }
+
+    .close-categories {
+        animation: bg-slide-left 0.5s ease;
+    }
+    .open-categories {
+        animation: bg-slide-right 0.5s ease;
+    }
+
+    .categories {
+        width: max-content;
+        min-height: calc(100vh - 100px);
+        height: 100%;
+        padding-block: 2rem;
+        border-right: 1px solid rgb(200, 200, 200);
+        background-color: white;
+
+        @media screen and (max-width: 768px) {
+            margin-top: calc(3.5rem);
+            position: absolute;
+            z-index: 1;
+            //animation: bg-slide-right .5s ease;
+            border: none;
+            box-shadow: 0 10px 15px -3px grey;
+            padding-block: 1rem;
+            min-height: unset;
+            height: calc(100% - 3.5rem - 75px);
+        }
+
+        ul.group {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: auto;
+
+            li {
+                height: fit-content;
+                list-style: none;
+                margin: 0;
+                cursor: pointer;
+                padding: 0;
+                text-align: left;
+                transition: transform ease 0.2s;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+
+                span {
+                    padding-inline: 1rem;
+                    width: 100%;
+                    font-size: 1rem;
+                    padding-block: 0.3rem;
+                    color: $logo-blue;
+                    text-wrap: nowrap;
+                    /* filter: drop-shadow(0 0 5px $main-grey); */
+                    text-transform: capitalize;
+                }
+                span {
+                    &:hover {
+                        border-bottom: 1px solid $main-grey;
+                    }
+                }
+
+                .open {
+                    animation: 0.25s ease-out slide-nav-down;
+                }
+                .close {
+                    animation: 0.25s ease-out slide-nav-up;
+                }
+
+                ul.subGroup {
+                    display: none;
+                    height: 100%;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    padding-bottom: 1rem;
+                    padding-left: 1.5rem;
+                    transform-origin: top;
+
+                    li {
+                        list-style: none;
+                        margin: 0;
+                        cursor: pointer;
+                        padding: 0;
+                        text-align: left;
+                        font-size: 0.9rem;
+                        transition: transform ease 0.2s;
+                        padding-block: 0.3rem;
+                        padding-right: 0.5rem;
+                        /* color: $logo-green; */
+                        color: $main-blue;
+                        text-wrap: nowrap;
+                        /* filter: drop-shadow(0 0 5px $main-grey); */
+                        text-transform: capitalize;
+                        &:hover {
+                            transform: translateX(8px);
+                            transition: transform ease 0.2s;
+                        }
+                    }
+                }
+            }
+            .bg-slide {
+                background-color: $main-grey;
+                //animation: .3s ease-out bg-slide-right ;
+            }
+        }
+    }
+
+    .listContainer {
+        margin: 0;
+        padding-top: 2rem;
+        flex: 1;
+        animation: 0.25s ease-out bg-slide-right;
+        height: 100%;
+
+        @media screen and (max-width: 768px) {
+            padding-top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .headerContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            @media screen and (max-width:768px){
+                justify-content: space-between;
+                padding-block: 1rem;
+            }
+            .filter-icon {
+                height: 100%;
+                width: fit-content;
+                display: grid;
+                justify-items: center;
+                cursor: pointer;
+                padding-left: 1rem;
+            }
+            h3 {
+                padding: 0;
+                margin: 0;
+                /* filter: drop-shadow(0 0 5px $main-grey); */
+                text-transform: capitalize;
+            }
+        }
+
+        .productList {
+            padding: 2rem;
+            display: flex;
+            flex: 1;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: center;
+            animation: 0.25s ease-out bg-slide-right;
+            overflow: auto;
+            height: 100%;
+
+            @media screen and (max-width: 768px) {
+                padding-inline: 1rem;
+                padding-bottom: 4rem;
+                padding-top: 0;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1rem;
+            }
+        }
+        .productRowList {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            animation: 0.25s ease-out bg-slide-right;
+            height: 100%;
+            padding-inline: 1rem;
+            padding-bottom: 1rem;
+            padding-top: 0;
+            overflow: auto;
+        }
+    }
+}
+
+@keyframes slide-nav-down {
+    from {
+        opacity: 0;
+        transform: scaleY(0);
+    }
+    to {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}
+@keyframes slide-nav-up {
+    from {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+    to {
+        opacity: 0;
+        transform: scaleY(0);
+    }
+}
+
+@keyframes bg-slide-right {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bg-slide-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

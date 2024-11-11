@@ -1,0 +1,99 @@
+@import "../../../variables.scss";
+
+.pomex_blok_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+    
+    .intro {
+        width: 100%;
+        height: fit-content;
+        position: relative;
+
+        @media screen and (max-width:768px) {
+            height: 300px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+        }
+
+        .logo{
+            max-width: 500px;
+            position: absolute;
+            z-index: 20;
+            top: 110%;
+            left: 0;
+            right: 0;
+        }
+    }
+
+    .videoIntro{
+        position: relative;
+        height: fit-content;
+        max-height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        video{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        @media screen and (max-width:768px) {
+            height: 400px;
+            overflow: hidden;
+            video{
+                object-fit: cover;
+            }
+        }
+
+        .logoContainer{
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            width: fit-content;
+            height: 50px;
+            z-index: 3;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                filter: drop-shadow(0 0 5px rgb(100, 100, 100));
+            }
+
+            @media screen and (max-width:768px){
+                height: 30px;
+            }
+        }
+
+        .textContainer{
+            position: absolute;
+            right: 20px;
+            bottom: 100px;
+            z-index: 3;
+            color: white;
+            text-align: right;
+            filter: drop-shadow(0 0 5px rgb(100, 100, 100));
+
+            @media screen and (max-width:768px) {
+                bottom: 20px;
+            }
+        }
+    }
+
+    .info{
+        /* background: rgb(245, 245, 245); */
+        padding-block: 3rem;
+        padding-inline: 1rem;
+        color: $logo-blue;
+        filter: drop-shadow(0 0 5px rgb(169, 169, 169));
+        width: 100%;
+    }
+    
+
+}

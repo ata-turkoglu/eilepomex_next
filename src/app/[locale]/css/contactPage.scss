@@ -1,0 +1,211 @@
+@import "../../../variables.scss";
+
+.contact {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 100px;
+
+    @media screen and (max-width:768px) {
+      padding-top: $mobile-padding-top;
+    }
+    
+    .banner-area {
+      background-image: url("/assets/pages/contact.jpg");
+      position: relative;
+      width: 100%;
+      height: 400px;
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: 10%;
+      z-index: 1;
+
+      @media screen and (max-width:768px) {
+        display: grid;
+        align-items: center;
+      }
+    
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: #130f40;
+        opacity: 0.7;
+        z-index: -1;
+      }
+    
+      h2 {
+        padding-top: 13%;
+        padding-left: 4%;
+        font-size: 50px;
+        color: rgba(250, 250, 250, 0.97);
+        text-align: center;
+        align-items: center;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        @media screen and (max-width:768px) {
+          padding:0;
+          font-size: 3rem;
+        }
+      }
+    }
+    
+    
+    .content-area {
+      width: 100%;
+      height: 50%;
+      padding: 50px 100px;
+      min-height: 100vh;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(243, 243, 243);
+      @media screen and (max-width:768px) {
+        padding-inline: 2rem;
+      }
+    
+      .wrapper {
+        margin: 40px;
+        text-align: center;
+        max-width: 800px;
+        @media screen and (max-width:768px) {
+          margin-inline:0;
+          text-align: left;
+        }
+        h2 {
+          /* font-weight: bold; */
+          font-size: 40px;
+          color: rgb(16, 16, 89);
+          text-transform: capitalize;
+        }
+    
+        p {
+          font-size: 30px;
+        }
+        p:first-letter{
+          text-transform: uppercase;
+        }
+      }
+    
+      .content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        padding-left: 10%;
+
+        @media screen and (max-width:768px) {
+          flex-direction: column;
+          padding-left: 0;
+        }
+    
+        .contact-info {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+
+          @media screen and (max-width:768px) {
+            width: 100%;
+            margin-bottom: 2rem;
+          }
+    
+          .box {
+            position: relative;
+            padding: 10px 0px;
+            display: flex;
+    
+            .icon {
+              min-width: 60px;
+              height: 25px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: rgb(16, 16, 89);
+              margin-right: 0;
+              margin-inline: "1rem";
+            }
+    
+            .text {
+              display: flex;
+              font-size: 16px;
+              flex-direction: column;
+              font-weight: 300;
+              align-items: flex-start;
+              justify-content: flex-start;
+    
+              h3 {
+                /* font-weight: bold; */
+                font-size: 25px;
+                color: rgb(16, 16, 89);
+                text-transform: capitalize;
+              }
+    
+              p {
+                text-align: left;
+              }
+            }
+          }
+        }
+    
+    
+        .contactForm {
+          width: 50%;
+          padding: 40px;
+          background-color: rgba(250, 250, 250, 0.97);
+
+        @media screen and (max-width:768px) {
+          width: 100%;
+        }
+    
+        h2 {
+          font-size: 30px;
+          color: rgb(16, 16, 89);
+          /* font-weight: bold; */
+          text-transform: capitalize;
+        }
+    
+        .inputBox {
+          position: relative;
+          width: 100%;
+          margin-top: 10px;
+    
+          [type="button"] {
+            width: 100px;
+            background-color: rgb(16, 16, 89);
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 18px;
+          }
+    
+          .input {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            margin: 12px 0;
+            border: none;
+            border-bottom: 2.5px solid rgb(16, 16, 89);
+            outline: none;
+            background-color: rgba(250, 250, 250, 0.97);
+          }
+          .input::placeholder{
+            text-transform: capitalize;
+          }
+        }
+      }
+      }
+    
+      
+    }
+
+}
+
