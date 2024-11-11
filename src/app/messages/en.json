@@ -44,5 +44,19 @@
         "email": "email",
         "yourMessage": "your message",
         "send": "send"
+    },
+    "Docs": {
+        "companyCertificates": "company certificates",
+        "chemicalAnchorCertificates": "Chemical Anchor Certificates",
+        "cementBasedReinforcementCertificates": "Cement Based Reinforcement Certificates",
+        "epoxyBasedReinforcementCertificates": "Epoxy Based Reinforcement Certificates",
+        "cementBasedWaterproofingCertificates": "Cement Based Waterproofing Certificates",
+        "acrylicBasedWaterproofingCertificates": "Acrylic Based Waterproofing Certificates",
+        "bitumenBasedWaterproofingCertificates": "Bitumen Based Waterproofing Certificates",
+        "surfaceHardeners": "Surface Hardeners Certificates",
+        "thermalInsulationSystemCertificates": "Thermal Insulation System Certificates",
+        "plasterCertificates": "Plaster Certificates",
+        "cementBasedAdhesiveCertificates": "Cement Based Adhesive Certificates",
+        "cementBasedGroutingsCertificates": "Cement Based Groutings Certificates"
     }
 }

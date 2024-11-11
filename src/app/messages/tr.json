@@ -44,5 +44,19 @@
         "email": "e-posta",
         "yourMessage": "Mesajınız",
         "send": "gönder"
+    },
+    "Docs": {
+        "companyCertificates": "şirket belgeleri",
+        "chemicalAnchorCertificates": "Kimyasal Dübel Belgelerimiz",
+        "cementBasedReinforcementCertificates": "Çimento Esaslı Onarım Güçlendirme Belgelerimiz",
+        "epoxyBasedReinforcementCertificates": "Epoksi Esaslı Onarım Güçlendirme Belgelerimiz",
+        "cementBasedWaterproofingCertificates": "Çimento Esaslı Su Yalıtım Belgelerimiz",
+        "acrylicBasedWaterproofingCertificates": "Akrilik Esaslı Su Yalıtım Belgelerimiz",
+        "bitumenBasedWaterproofingCertificates": "Bitum Esaslı Su Yalıtımı Belgelerimiz",
+        "surfaceHardeners": "Çimento Esaslı Zemin Sistemleri Belgelerimiz",
+        "thermalInsulationSystemCertificates": "Isı Yalıtım Belgelerimiz",
+        "plasterCertificates": "Sıva Belgelerimiz",
+        "cementBasedAdhesiveCertificates": "Çimento Esaslı Yapıştırıcı Belgelerimiz",
+        "cementBasedGroutingsCertificates": "Çimento Esaslı Derz Dolgu Belgelerimiz"
     }
 }

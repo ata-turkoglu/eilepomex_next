@@ -4,7 +4,6 @@ import "../css/contactPage.scss";
 import { MapPinned, Phone, Printer, Mail } from "lucide-react";
 import swal from "sweetalert";
 import ReCAPTCHA from "react-google-recaptcha";
-import { useParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 
 function Contact() {
