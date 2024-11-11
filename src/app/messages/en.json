@@ -33,6 +33,16 @@
         "ourVision1": "As a company that has earned the trust of the industry over the years, our vision is to continuously improve ourselves and increase the effectiveness and efficiency of our company in both national and international markets, aiming to become a respected organization that operates with principles of innovation and environmentalism."
     },
     "Contact": {
-        "title": "Contact Page"
+        "contact": "contact",
+        "contactUs": "contact us",
+        "reachUs": "reach us",
+        "nameSurname": "name surname",
+        "address": "address",
+        "telephone": "telephone",
+        "fax": "fax",
+        "contactForm": "contact form",
+        "email": "email",
+        "yourMessage": "your message",
+        "send": "send"
     }
 }

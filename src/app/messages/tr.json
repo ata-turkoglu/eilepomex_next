@@ -33,6 +33,16 @@
         "ourVision1": "Sektörde yılların güvenini kazanmış bir firma olarak, kendimizi sürekli geliştirip firmamızın ulusal ve uluslararası pazardaki etkinliğini ve verimliliğini artırmak; Türkiye'nin inovasyon ve çevrecilik prensipleriyle hareket eden saygın bir kuruluşu olmaktır."
     },
     "Contact": {
-        "title": "İletişim Sayfası"
+        "contact": "iletişim",
+        "contactUs": "bize ulaşın",
+        "reachUs": "ilgili numaramızı arayarak ya da iletişim formunu doldurarak bize ulaşabilirsiniz.",
+        "nameSurname": "isim soyisim",
+        "address": "adres",
+        "telephone": "telefon",
+        "fax": "faks",
+        "contactForm": "iletişim formu",
+        "email": "e-posta",
+        "yourMessage": "Mesajınız",
+        "send": "gönder"
     }
 }

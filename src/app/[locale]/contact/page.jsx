@@ -1,8 +1,11 @@
-import React, { useState, useLayoutEffect, useCallback, useRef } from "react";
+"use client";
+import React, { useState, useCallback, useRef } from "react";
 import "../css/contactPage.scss";
 import { MapPinned, Phone, Printer, Mail } from "lucide-react";
 import swal from "sweetalert";
 import ReCAPTCHA from "react-google-recaptcha";
+import { useParams } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 function Contact() {
     const recaptchaRef = useRef();
@@ -10,6 +13,10 @@ function Contact() {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const [token, setToken] = useState(null);
+
+    const { locale } = useParams();
+
+    const t = useTranslations("Contact");
 
     const onVerify = useCallback((token) => {
         setToken(token);
