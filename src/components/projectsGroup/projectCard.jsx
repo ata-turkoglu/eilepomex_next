@@ -3,15 +3,14 @@ import React, { useLayoutEffect, useState } from "react";
 import "./projectCard.scss";
 //import { useNavigate } from "react-router-dom";
 //import { useSelector } from "react-redux";
-import { useParams, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 
-function ProjectCard({ project }) {
+function ProjectCard({ project, locale }) {
     //const navigate = useNavigate();
     //const lang = useSelector((state) => state.language.lang);
     const [isSafari, setIsSafari] = useState(false);
 
     const router = useRouter();
-    const { locale } = useParams();
 
     useLayoutEffect(() => {
         setIsSafari(!!window.safari);

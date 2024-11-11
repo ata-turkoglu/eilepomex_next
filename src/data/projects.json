@@ -5,8 +5,8 @@
             "tr": "İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesi",
             "en": "Istanbul Bosphorus Bridge Ortaköy Approach Viaduct Reinforcement"
         },
-        "image1": "assets/projects/project1.jpg",
-        "image2": "assets/products/eile_TH_70.png",
+        "image1": "/assets/projects/project1.jpg",
+        "image2": "/assets/products/eile_TH_70.png",
         "product": "31",
         "text": {
             "tr": "İstanbul Boğaz Köprüsü Ortaköy Yaklaşma Viyadüğü Güçlendirmesinde",
@@ -20,8 +20,8 @@
             "tr": "Vestel Manisa Fabrika Binası İnşaatı",
             "en": "Vestel Manisa Factory Building Construction"
         },
-        "image1": "assets/projects/project2.jpg",
-        "image2": "assets/products/epx_630.png",
+        "image1": "/assets/projects/project2.jpg",
+        "image2": "/assets/products/epx_630.png",
         "product": "11",
         "text": {
             "tr": "Vestel Manisa Fabrika Binası İnşaatında",
@@ -35,8 +35,8 @@
             "tr": "Antalya Havaalanı Deprem İzolatörü Montajı",
             "en": "Antalya Airport Earthquake Isolator Installation"
         },
-        "image1": "assets/projects/project3.jpg",
-        "image2": "assets/products/epox.png",
+        "image1": "/assets/projects/project3.jpg",
+        "image2": "/assets/products/epox.png",
         "product": "41",
         "text": {
             "tr": "Antalya Havaalanı Deprem İzolatörü Montajında",
@@ -50,8 +50,8 @@
             "tr": "Yeda İnşaat İzmir Atatürk Yüzme Havuzu Tadilatı",
             "en": "Yeda İnşaat in İzmir Atatürk Swimming Pool Renovation"
         },
-        "image1": "assets/projects/project4.jpg",
-        "image2": "assets/products/likit_akrilik.png",
+        "image1": "/assets/projects/project4.jpg",
+        "image2": "/assets/products/likit_akrilik.png",
         "product": "57",
         "text": {
             "tr": "Yeda İnşaat İzmir Atatürk Yüzme Havuzu Tadilatında",
@@ -65,8 +65,8 @@
             "tr": "Tüpraş Dolum İskelesi Onarım İşleri",
             "en": "Tüpraş Filling Pier Repair Works"
         },
-        "image1": "assets/projects/project5.jpg",
-        "image2": "assets/products/epx_50.png",
+        "image1": "/assets/projects/project5.jpg",
+        "image2": "/assets/products/epx_50.png",
         "product": "32",
         "text": {
             "tr": "Tüpraş Dolum İskelesi Onarım İşlerinde",
@@ -80,8 +80,8 @@
             "tr": "İzsu İshale Hatları",
             "en": "Izsu Transmission Lines"
         },
-        "image1": "assets/projects/project6.jpg",
-        "image2": "assets/products/eile_ASEAL.png",
+        "image1": "/assets/projects/project6.jpg",
+        "image2": "/assets/products/eile_ASEAL.png",
         "product": "64",
         "text": {
             "tr": "İzsu İshale Hatlarında",
