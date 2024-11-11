@@ -6,11 +6,31 @@
         "contact": "contact",
         "products": "products"
     },
+    "Footer": {
+        "aboutus": "about us",
+        "ourQualityPolicy": "our quality policy",
+        "missionVision": "mission vision",
+        "products": "products",
+        "certificates": "certificates",
+        "companyCertificates": "company certificates",
+        "productCertificates": "product certificates",
+        "copyright": "copyright",
+        "kvkk": "kvkk"
+    },
     "Home": {
         "title": "Landing Page"
     },
     "About": {
-        "title": "About Page"
+        "whoWeAre": "who we are",
+        "aboutus": "about",
+        "about1": "Pomza Export is one of the leading companies shaping Turkey's mining sector since 1961. Operating with the principle of sustainability, our company established eile Pomex Construction Chemicals in 2007 to produce value-added building products by adopting the 'zero-discharge' business model. By using aggregates such as perlite, quartz, and corundum produced in our own mines in these construction products, we have introduced quality, sustainability, and innovation to the market",
+        "about2": "Ensuring customer satisfaction at the highest level and acting in accordance with national and international quality standards are our main priorities. All our employees receive continuous training and support for their development, and training is provided at the highest professional standards to ensure the highest level of occupational health and safety awareness. In this way, we aim to increase awareness of occupational safety among our employees and create a safer working environment.",
+        "about3": "Additionally, we continuously improve our management system within the framework of respect for nature and humanity to prevent errors and avoid their repetition.",
+        "about4": "Operating in compliance with all laws and regulations is an integral part of our business. By demonstrating top-level performance in customer satisfaction, sustainability, quality, safety, and legal compliance, we fulfil our responsibilities to both our customers and the society.",
+        "ourMission": "mission",
+        "ourMission1": "To provide sustainable, value-added production in accordance with business ethics by understanding market needs and expectations and form long-term partnerships with our national and international customers.",
+        "ourVision": "vision",
+        "ourVision1": "As a company that has earned the trust of the industry over the years, our vision is to continuously improve ourselves and increase the effectiveness and efficiency of our company in both national and international markets, aiming to become a respected organization that operates with principles of innovation and environmentalism."
     },
     "Contact": {
         "title": "Contact Page"

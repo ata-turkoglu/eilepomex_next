@@ -6,11 +6,31 @@
         "contact": "iletişim",
         "products": "ürünler"
     },
+    "Footer": {
+        "aboutus": "hakkımızda",
+        "ourQualityPolicy": "kalite politikamız",
+        "missionVision": "misyonumuz-vizyonumuz",
+        "products": "ürünler",
+        "certificates": "belgelerimiz",
+        "companyCertificates": "şirket belgeleri",
+        "productCertificates": "ürün belgeleri",
+        "copyright": "eile pomex tüm hakları saklıdır.",
+        "kvkk": " kişisel verilerin korunması"
+    },
     "Home": {
         "title": "Başlanfıç Sayfası"
     },
     "About": {
-        "title": "Hakkımızda Sayfası"
+        "whoWeAre": "biz kimiz",
+        "aboutus": "hakkımızda",
+        "about1": "Pomza Export A.Ş., madencilik sektöründe tamamen yerli sermaye kurulmuş, köklü bir şirket olarak 50 yıldan fazla süredir faaliyet göstermektedir. Sürdürülebilirlik ilkesiyle hareket eden firmamız, 2007 yılında Türkiye'ye daha fazla katma değer sağlamak amacıyla, 'sıfır-deşarj' üretim modelini benimseyerek eile Pomex Yapı Kimyasalları şirketini kurmuştur. Bu sayede, kendi madenlerinde üretilen perlit, kuvars, korund gibi agregaları yapı ürünlerinde kullanarak kaliteli, sürdürülebilir ve yenilikçi çözümleri pazara sunmuştur.",
+        "about2": "Müşteri memnuniyetini en üst düzeyde tutarak, ulusal ve uluslararası kalite standartlarına uygun şekilde hareket etmek temel önceliğimizdir. Tüm çalışanlarımızın sürekli mesleki alanda bilgilendirilmesi ve gelişimlerinin desteklenmesi, iş sağlığı ve iş güvenliği bilincinin en üst seviyede olması için en yüksek profesyonel standartlara uygun eğitimler verilmektedir. Bu şekilde, çalışanlarımızın iş güvenliği konusundaki bilincini artırarak daha güvenli bir çalışma ortamı sağlamayı hedefliyoruz.",
+        "about3": "Ayrıca, hataları önceden önlemek ve tekrarlanmasını engellemek için doğaya ve insana saygı çerçevesinde sürekli iyileştirmeler yaparak yönetim sistemimizi geliştirmekteyiz.",
+        "about4": "Tüm yasa ve mevzuatlara uygun olarak faaliyet göstermek ve en doğru şekilde çalışmak da işimizin ayrılmaz bir parçasıdır. Müşteri memnuniyeti, sürdürülebilirlik, kalite, güvenlik ve yasal uyumluluk alanlarında en üst düzeyde performans sergileyerek çalışanlarımıza, müşterilerimize ve topluma karşı sorumluluklarımızı yerine getiriyoruz.",
+        "ourMission": "Misyonumuz",
+        "ourMission1": "Genç, dinamik mühendis kadromuzla müşteri ihtiyaç ve beklentilerini en iyi şekilde anlayarak, iş etiği ve ahlak kurallarına uygun, sürdürülebilir ve kaliteli üretim sağlamaktır.",
+        "ourVision": "Vizyonumuz",
+        "ourVision1": "Sektörde yılların güvenini kazanmış bir firma olarak, kendimizi sürekli geliştirip firmamızın ulusal ve uluslararası pazardaki etkinliğini ve verimliliğini artırmak; Türkiye'nin inovasyon ve çevrecilik prensipleriyle hareket eden saygın bir kuruluşu olmaktır."
     },
     "Contact": {
         "title": "İletişim Sayfası"
