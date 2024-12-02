@@ -200,7 +200,7 @@ function Header() {
                                 ? "logo-container-narrow"
                                 : "logo-container"
                         }
-                        href="/"
+                        href={"/" + locale}
                         /* style={{ paddingBlock: narrowHeader ? "0" : "1rem" }} */
                         onClick={menuClose}
                     >
@@ -295,7 +295,7 @@ function Header() {
                                     className={`nav-item ${
                                         activeTab == "products" && "active-nav"
                                     }`}
-                                    href="/products/0"
+                                    href={"/" + locale + "/products/0"}
                                     style={{
                                         paddingBlock: narrowHeader
                                             ? "0"
@@ -499,35 +499,35 @@ function Header() {
                     >
                         <Link
                             className="nav-item"
-                            href="/products/0"
+                            href={"/" + locale + "/products/0"}
                             onClick={() => menuClose()}
                         >
                             <span>{t("products")}</span>
                         </Link>
                         <Link
                             className="nav-item"
-                            href="/projects"
+                            href={"/" + locale + "/projects"}
                             onClick={() => menuClose()}
                         >
                             <span>{t("projects")}</span>
                         </Link>
                         <Link
                             className="nav-item"
-                            href="/about"
+                            href={"/" + locale + "/about"}
                             onClick={() => menuClose()}
                         >
                             <span>{t("aboutus")}</span>
                         </Link>
                         <Link
                             className="nav-item"
-                            href="/docs"
+                            href={"/" + locale + "/docs"}
                             onClick={() => menuClose()}
                         >
                             <span>{t("certificates")}</span>
                         </Link>
                         <Link
                             className="nav-item"
-                            href="/contact"
+                            href={"/" + locale + "/contact"}
                             onClick={() => menuClose()}
                         >
                             <span>{t("contact")}</span>
