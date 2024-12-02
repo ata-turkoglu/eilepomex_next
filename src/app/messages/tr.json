@@ -58,5 +58,21 @@
         "plasterCertificates": "Sıva Belgelerimiz",
         "cementBasedAdhesiveCertificates": "Çimento Esaslı Yapıştırıcı Belgelerimiz",
         "cementBasedGroutingsCertificates": "Çimento Esaslı Derz Dolgu Belgelerimiz"
+    },
+    "ProductsPage": {
+        "products": "ürünler",
+        "mainTitles": "ana gruplar",
+        "all": "tümü"
+    },
+    "ProductDetailPage": {
+        "areasOfUsage": "kullanım alanları",
+        "featuresOfProduct": "ürün özellikleri",
+        "surfacePreparation": "Yüzey Hazırlığı",
+        "mixing": "karıştırma",
+        "application": "uygulama",
+        "package": "Ambalaj",
+        "storage": "Depolama",
+        "pointsToTakeIntoConsideration": "dikkat edilmesi gereken noktalar",
+        "documents": "belgeler"
     }
 }

@@ -58,5 +58,21 @@
         "plasterCertificates": "Plaster Certificates",
         "cementBasedAdhesiveCertificates": "Cement Based Adhesive Certificates",
         "cementBasedGroutingsCertificates": "Cement Based Groutings Certificates"
+    },
+    "ProductsPage": {
+        "products": "products",
+        "mainTitles": "main titles",
+        "all": "all"
+    },
+    "ProductDetailPage": {
+        "areasOfUsage": "areas of usage",
+        "featuresOfProduct": "features of product",
+        "surfacePreparation": "surface preparation",
+        "mixing": "mixing",
+        "application": "application",
+        "package": "package",
+        "storage": "storage",
+        "pointsToTakeIntoConsideration": "points to take into consideration",
+        "documents": "documents"
     }
 }
