@@ -1,0 +1,51 @@
+@import "@/app/variables.scss";
+.metrics{
+    width: 100%;
+    height: 250px;
+    padding-block: 2rem;
+    padding-inline: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: $logo-blue;
+    @media screen and (max-width:768px) {
+        padding-inline: 1rem;
+        height: fit-content;
+        align-items: flex-start;
+    }
+
+    .metricContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        /* .metricIcon{
+            color: $logo-blue;
+            filter: drop-shadow(0 0 5px darken($main-grey,5%));
+        }
+
+        .metricCount{
+            font-size: 2rem;
+            font-weight: 600;
+            color: black;
+            filter: drop-shadow(0 0 5px darken($main-grey,5%));
+            @media screen and (max-width:768px) {
+                font-size: 1rem;
+            }
+        } */
+        
+        p{
+            color: black;
+            font-size: 1rem;
+            text-align: center;
+            text-transform: capitalize;
+            margin: 0;
+            padding: 0;
+            @media screen and (max-width:768px) {
+                font-size: .7rem;
+            }
+        }
+    }
+}

@@ -1,14 +1,21 @@
-import React, { useEffect, useState } from "react";
+"use client";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import "./projectSamplesSection.scss";
 import ProjectSampleCard from "./projectSampleCard.jsx";
 import Swiper from "../swiper/swiper";
-import { translateText as t } from "../../../store/reducers/language.js";
-import projects from "../../../data/projects.json";
-import { useSelector } from "react-redux";
+import projects from "@/data/projects.json";
+import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
 
 function ProjectSamplesSection() {
     const [mobileView, setMobileView] = useState(false);
-    const lang = useSelector((state) => state.language.lang);
+    const [lang, setLang] = useState(null);
+    const t = useTranslations("Home");
+    const { locale } = useParams();
+
+    useLayoutEffect(() => {
+        setLang(locale);
+    });
     useEffect(() => {
         if (window.innerWidth < 768) {
             setMobileView(true);

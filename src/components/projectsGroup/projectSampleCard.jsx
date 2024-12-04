@@ -1,9 +1,11 @@
+"use client";
 import React, { useState, useEffect } from "react";
 import "./projectSamplesSection.scss";
-import { useNavigate } from "react-router-dom";
+import { useRouter, useParams } from "next/navigation";
 
 function ProjectSampleCard({ image1, image2, text, icon, product }) {
-    const navigate = useNavigate();
+    const router = useRouter();
+    const { locale } = useParams();
     const [mobile, setMobile] = useState(null);
     const [isSafari, setIsSafari] = useState(false);
     useEffect(() => {
@@ -18,7 +20,8 @@ function ProjectSampleCard({ image1, image2, text, icon, product }) {
             <div
                 className="imgContainer"
                 onClick={() => {
-                    !mobile && navigate("/product-details/" + product);
+                    !mobile &&
+                        router.push(locale + "/product-details/" + product);
                 }}
             >
                 <img className="img1" src={image1} loading="lazy" />
@@ -26,7 +29,8 @@ function ProjectSampleCard({ image1, image2, text, icon, product }) {
                     className="img2"
                     src={image2}
                     onClick={() => {
-                        mobile && navigate("/product-details/" + product);
+                        mobile &&
+                            router.push(locale + "/product-details/" + product);
                     }}
                     loading="lazy"
                 />

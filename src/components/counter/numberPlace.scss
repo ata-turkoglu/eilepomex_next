@@ -1,0 +1,24 @@
+@import "@/app/variables.scss";
+
+.placeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    scroll-behavior: smooth;
+    transition: all .2s ease;
+    
+    .placeNumber{
+        font-size: 2rem;
+        font-weight: 600;
+        color: black;
+        filter: drop-shadow(0 0 5px darken($main-grey,5%));
+        margin: 0;
+        padding: 0;
+
+        @media screen and (max-width:768px) {
+            font-size: 1.25rem;
+        }
+    }
+}
