@@ -1,0 +1,13 @@
+
+#swiper{
+    width: 100%;
+    height: fit-content;
+    display: inline-grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    user-select: none;
+    transition: all .3s ease;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    padding-block: 1rem;
+}

@@ -18,7 +18,17 @@
         "kvkk": "kvkk"
     },
     "Home": {
-        "title": "Landing Page"
+        "title": "Landing Page",
+        "naturalSolutionsInInsulation": "natural solutions in insulation",
+        "infoThermomex": "It is a cement-based, multi-purpose insulation material in plaster form that provides breathing, heat, sound and fire insulation on the surface owing to the natural lightweight aggregates with a porous structure in its mixture. It is applied instead of rough plaster on surfaces such as brick, aerated concrete and pumice block on the exterior and interior facades of buildings.",
+        "weCareAboutTheEnviromentWeLiveInAndYou": "we care about the enviroment we live in and you!",
+        "weContinueOurZeroWastePrincipleWithTheUnderstandingOfSustainableProductionInNature": "we continue our zero waste principle with the understanding of sustainable production in nature.",
+        "weUseRenewableEnergySources": "we use renewable energy sources.",
+        "infoPomexBlok": "Pumice, a natural material which has been frequently used in the construction industry in recent years, especially in heat and sound insulation, as a result of the advantages of its low density, is a crystallized, porous, spongy material that is resistant to physical and chemical factors.",
+        "projectsWhereOurProductsAreUsed": "projects where our products are used",
+        "selectLanguage": "Select Language",
+        "download": "Download",
+        "youCanDownloadOurDigitalCatalogHere": "You can download our digital catalog here"
     },
     "About": {
         "whoWeAre": "who we are",
@@ -74,5 +84,11 @@
         "storage": "storage",
         "pointsToTakeIntoConsideration": "points to take into consideration",
         "documents": "documents"
+    },
+    "Metrics": {
+        "projectsCompleted": "projects completed",
+        "productVariety": "product variety",
+        "dealership": "dealership",
+        "rawMaterialProduction": "raw material production"
     }
 }

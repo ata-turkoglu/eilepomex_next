@@ -30,13 +30,13 @@ function Products({ params: { locale, productKey } }) {
             document.getElementById("product-categories").style.visibility =
                 "hidden";
         }
-        console.log("locale", locale);
         setLang(locale);
     }, []);
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         handleCategoryItemClick(productKey);
         initiated.current = true;
+        handleGroupClick(productKey);
     }, [productKey]);
 
     // Category List Collapsing

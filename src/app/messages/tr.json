@@ -18,7 +18,17 @@
         "kvkk": " kişisel verilerin korunması"
     },
     "Home": {
-        "title": "Başlanfıç Sayfası"
+        "title": "Başlanfıç Sayfası",
+        "naturalSolutionsInInsulation": "yalıtımda doğal çözümler",
+        "infoThermomex": "Çimento esaslı, karışımında bulunan gözenekli yapıya sahip doğal hafif agregalar sayesinde uygulandığı yüzeyde nefes alan ısı-ses ve yangın yalıtımı sağlayan, sıva formunda çok amaçlı yalıtım malzemesidir. Yapıların dış ve iç cephelerinde tuğla-gaz beton-bims blok gibi yüzeyler üzerine kaba sıva yerine uygulanır.",
+        "weCareAboutTheEnviromentWeLiveInAndYou": "yaşadığımız çevreyi ve sizi önemsiyoruz!",
+        "weContinueOurZeroWastePrincipleWithTheUnderstandingOfSustainableProductionInNature": "Doğanın içinde sürdürülebilir üretim anlayışı ile sıfır atık çalışmalarımıza devam ediyoruz.",
+        "weUseRenewableEnergySources": "Yenilenebilir enerji kaynaklarını kullanıyoruz.",
+        "infoPomexBlok": "Son yıllarda inşaat sektöründe özellikle ısı ve ses yalıtımında, öz kütlesinin düşük olmasının sağladığı avantajların da bir sonucu olarak sıklıkla kullanılan, doğal bir malzeme olan bims, kristalize, gözenekli, süngerimsi, fiziksel ve kimyasal etkenlere karşı dayanıklı bir malzemedir.",
+        "projectsWhereOurProductsAreUsed": "ürünlerimizin kullanıldığı projeler",
+        "selectLanguage": "Dil Seçiniz",
+        "download": "İndir",
+        "youCanDownloadOurDigitalCatalogHere": "Dijital kataloğumuzu buradan indirebilirsiniz"
     },
     "About": {
         "whoWeAre": "biz kimiz",
@@ -74,5 +84,11 @@
         "storage": "Depolama",
         "pointsToTakeIntoConsideration": "dikkat edilmesi gereken noktalar",
         "documents": "belgeler"
+    },
+    "Metrics": {
+        "projectsCompleted": "proje tamamlandı",
+        "productVariety": "ürün çeşidi",
+        "dealership": "bayilik",
+        "rawMaterialProduction": "hammadde üretimi"
     }
 }

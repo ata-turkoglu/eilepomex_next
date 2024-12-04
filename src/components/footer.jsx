@@ -41,10 +41,10 @@ function Footer() {
                                 <h4 style={{ fontWeight: isSafari && "400" }}>
                                     {t("aboutus")}
                                 </h4>
-                                <a href="/about">
+                                <a href={locale + "/about"}>
                                     <p>{t("ourQualityPolicy")}</p>
                                 </a>
-                                <a href="/about">
+                                <a href={locale + "/about"}>
                                     <p>{t("missionVision")}</p>
                                 </a>
                             </div>
@@ -56,7 +56,7 @@ function Footer() {
                                 {productData.map((product) => (
                                     <a
                                         key={product.key}
-                                        href={`/products/${product.key}`}
+                                        href={`${locale}/products/${product.key}`}
                                     >
                                         <p>{product.name[lang]}</p>
                                     </a>
@@ -67,10 +67,10 @@ function Footer() {
                                 <h4 style={{ fontWeight: isSafari && "400" }}>
                                     {t("certificates")}
                                 </h4>
-                                <a href="/docs">
+                                <a href={"/" + locale + "/docs"}>
                                     <p>{t("companyCertificates")}</p>
                                 </a>
-                                <a href="/docs">
+                                <a href={"/" + locale + "/docs"}>
                                     <p>{t("productCertificates")}</p>
                                 </a>
                             </div>

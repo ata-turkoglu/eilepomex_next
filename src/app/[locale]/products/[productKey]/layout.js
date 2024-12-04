@@ -14,9 +14,13 @@ export function generateStaticParams() {
             productKey: item.key.toString(),
         });
         if (item.subGroups) {
-            list.push({ productKey: item.key + "-0" });
+            list.push({
+                productKey: item.key.toString() + "-0",
+            });
             item.subGroups.forEach((el) => {
-                list.push({ productKey: el.key.toString() });
+                list.push({
+                    productKey: el.key.toString(),
+                });
             });
         }
     });
