@@ -28,7 +28,9 @@
         "projectsWhereOurProductsAreUsed": "projects where our products are used",
         "selectLanguage": "Select Language",
         "download": "Download",
-        "youCanDownloadOurDigitalCatalogHere": "You can download our digital catalog here"
+        "youCanDownloadOurDigitalCatalogHere": "You can download our digital catalog here",
+        "ourGroupCompanies": "our group companies",
+        "ourBrands": "our brands"
     },
     "About": {
         "whoWeAre": "who we are",

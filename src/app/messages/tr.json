@@ -28,7 +28,9 @@
         "projectsWhereOurProductsAreUsed": "ürünlerimizin kullanıldığı projeler",
         "selectLanguage": "Dil Seçiniz",
         "download": "İndir",
-        "youCanDownloadOurDigitalCatalogHere": "Dijital kataloğumuzu buradan indirebilirsiniz"
+        "youCanDownloadOurDigitalCatalogHere": "Dijital kataloğumuzu buradan indirebilirsiniz",
+        "ourGroupCompanies": "Grup Şirketlerimiz",
+        "ourBrands": "markalarımız"
     },
     "About": {
         "whoWeAre": "biz kimiz",
