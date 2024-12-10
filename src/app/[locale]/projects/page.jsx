@@ -8,7 +8,7 @@ async function Projects({ params }) {
     const { locale } = await params;
     setRequestLocale(locale);
     return (
-        <div className="projects">
+        <main className="projects">
             <div className="projectsContainer">
                 {projects.map((item, index) => {
                     return (
@@ -20,7 +20,7 @@ async function Projects({ params }) {
                     );
                 })}
             </div>
-        </div>
+        </main>
     );
 }
 

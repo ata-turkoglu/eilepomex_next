@@ -30,7 +30,7 @@ function Docs() {
     };
 
     return (
-        <div className="docs">
+        <main className="docs">
             <div className="container">
                 <Accordion>
                     <Accordion.Item eventKey="0">
@@ -683,7 +683,7 @@ function Docs() {
                     </Accordion.Item>
                 </Accordion>
             </div>
-        </div>
+        </main>
     );
 }
 

@@ -122,7 +122,7 @@ function ProductDetails({ params: { locale, productId } }) {
     return (
         <>
             {product && (
-                <div className="productDetails">
+                <main className="productDetails">
                     <div className="headerContainer">
                         {mobileView && (
                             <div className="filter-icon">
@@ -261,7 +261,7 @@ function ProductDetails({ params: { locale, productId } }) {
                             </div>
                         </div>
                     </div>
-                </div>
+                </main>
             )}
         </>
     );

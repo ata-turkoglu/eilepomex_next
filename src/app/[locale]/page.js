@@ -3,6 +3,7 @@ import Metrics from "@/components/metrics";
 import Catalogs from "@/components/catalogs";
 import Info from "@/components/info";
 import Banner from "@/components/banner";
+import Brands from "@/components/brands";
 import ProjectSamplesSection from "@/components/projectsGroup/projectSamplesSection";
 import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
@@ -12,7 +13,7 @@ export default function Home({ params: { locale } }) {
     const t = useTranslations("Home");
 
     return (
-        <div id="home" className="home">
+        <main id="home" className="home">
             <Intro />
             <Metrics />
             <Catalogs />
@@ -34,8 +35,8 @@ export default function Home({ params: { locale } }) {
                 headerInside="true"
             />
             <ProjectSamplesSection />
-            {/* <Brands /> */}
+            <Brands />
             <div className="spacerH50"></div>
-        </div>
+        </main>
     );
 }

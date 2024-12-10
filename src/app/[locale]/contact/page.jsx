@@ -11,7 +11,7 @@ function Contact({ params: { locale } }) {
     const t = useTranslations("Contact");
 
     return (
-        <div className="contact">
+        <main className="contact">
             <div className="banner-area">
                 <h2>{t("contact")}</h2>
             </div>
@@ -84,7 +84,7 @@ function Contact({ params: { locale } }) {
                     <ContactForm />
                 </div>
             </div>
-        </div>
+        </main>
     );
 }
 

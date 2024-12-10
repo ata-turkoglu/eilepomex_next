@@ -1,6 +1,7 @@
 import productData from "@/data/products.json";
 import { routing } from "@/i18n/routing";
 import { getMessages, setRequestLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
 
 export const metadata = {
     title: "Create Next App",

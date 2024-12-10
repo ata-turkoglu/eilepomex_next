@@ -228,7 +228,7 @@ function Products({ params: { locale, productKey } }) {
     };
 
     return (
-        <div className="products">
+        <main className="products">
             <div id="product-categories" className="categories">
                 {productCategories}
             </div>
@@ -274,7 +274,7 @@ function Products({ params: { locale, productKey } }) {
                     })}
                 </div>
             </div>
-        </div>
+        </main>
     );
 }
 
