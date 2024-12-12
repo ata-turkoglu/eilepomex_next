@@ -7,16 +7,19 @@ import { Accordion } from "react-bootstrap";
 import { ChevronLeft } from "lucide-react";
 import "../../css/productDetails.scss";
 
-function ProductDetails({ params: { locale, productId } }) {
+function ProductDetails({ params: { locale, slug } }) {
     const [lang, setLang] = useState(null);
     const [product, setProduct] = useState(null);
     const [mobileView, setMobileView] = useState(false);
     const [isSafari, setIsSafari] = useState(false);
+    const [productId, setProductId] = useState(null);
 
     const router = useRouter();
     const t = useTranslations("ProductDetailPage");
 
     useLayoutEffect(() => {
+        const id = slug.split("-")[0];
+        setProductId(id);
         setLang(locale);
         setIsSafari(!!window.safari);
         if (window.innerWidth < 768) {

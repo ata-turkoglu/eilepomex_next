@@ -125,9 +125,19 @@ function Products({ params: { locale, productKey } }) {
         }
     };
 
-    const handleProductClick = (key, productId = false) => {
+    const setSlug = (id, name) => {
+        return (
+            id.toString() +
+            "-" +
+            name.toLocaleLowerCase(locale).split(" ").join("-")
+        );
+    };
+
+    const handleProductClick = (key, name, productId = false) => {
         if (productId || key.includes("-")) {
-            router.push("/" + locale + "/product-details/" + key);
+            router.push(
+                "/" + locale + "/product-details/" + setSlug(key, name)
+            );
         } else {
             handleCategoryItemClick(key, false);
             router.push("/" + locale + "/products/" + key);
@@ -266,8 +276,15 @@ function Products({ params: { locale, productKey } }) {
                                 }
                                 onClick={() =>
                                     item.id
-                                        ? handleProductClick(item.id, true)
-                                        : handleProductClick(item.key)
+                                        ? handleProductClick(
+                                              item.id,
+                                              item.name[lang],
+                                              true
+                                          )
+                                        : handleProductClick(
+                                              item.key,
+                                              item.name
+                                          )
                                 }
                             />
                         );

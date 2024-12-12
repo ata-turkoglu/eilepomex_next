@@ -3,10 +3,26 @@ import { routing } from "@/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
-export function generateStaticParams() {
-    return productList.map((item) => {
-        return { productId: item.id.toString() };
+export async function generateStaticParams({ params }) {
+    const { locale } = await params;
+    let list = [];
+
+    productList.forEach((item) => {
+        const langs = Object.keys(item.name);
+        langs.forEach((key) => {
+            list.push({
+                slug:
+                    item.id.toString() +
+                    "-" +
+                    item.name[key]
+                        .toLocaleLowerCase(locale)
+                        .split(" ")
+                        .join("-"),
+            });
+        });
     });
+
+    return list;
 }
 
 export async function generateMetadata({ params }) {
@@ -14,13 +30,14 @@ export async function generateMetadata({ params }) {
         return {
             title: item.name[params.locale],
             description: item.description[params.locale],
-            tags: "ataa",
         };
     });
 }
 
 export default async function ProductDetailsLayout({ children, params }) {
-    const { locale, productId } = await params;
+    const { locale, slug } = await params;
+
+    const productId = slug.split("-")[0];
 
     if (!routing.locales.includes(locale)) {
         notFound();
