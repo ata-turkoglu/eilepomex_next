@@ -1,21 +1,40 @@
 "use client";
 import React from "react";
 import "./info.scss";
-import { useEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import ProductList from "@/data/productList.json";
+import { slugify } from "@/utils/commonFuncs";
 
 function Info({
     image,
     header,
     text,
+    productId,
     to,
     bg,
     textColor,
     headerInside = false,
+    locale,
 }) {
     const router = useRouter();
     const [mobile, setMobile] = useState(null);
-    useEffect(() => {
+    const [productUrl, setProductUrl] = useState(null);
+    useLayoutEffect(() => {
+        if (!to) {
+            const found = ProductList.find((itm) => itm.id == productId);
+            const url =
+                locale +
+                "/product-details/" +
+                productId +
+                "-" +
+                slugify(found.name[locale]);
+            /* found.name[locale]
+                    .toLocaleLowerCase(findLocale("en"))
+                    .split(" ")
+                    .join("-"); */
+            setProductUrl(url);
+        }
         window.innerWidth < 768 ? setMobile(true) : setMobile(false);
     }, []);
     return (
@@ -29,7 +48,10 @@ function Info({
                     <h2 style={{ marginTop: "2rem" }}>{header}</h2>
                 )}
                 <div className="imgContainer">
-                    <img src={image} onClick={() => router.push(to)} />
+                    <img
+                        src={image}
+                        onClick={() => router.push(to ? to : productUrl)}
+                    />
                 </div>
                 <div className="textContainer">
                     <p>{text}</p>

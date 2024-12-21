@@ -1,19 +1,31 @@
 "use client";
 import React, { useLayoutEffect, useState } from "react";
 import "./projectCard.scss";
+import ProductList from "@/data/productList.json";
 //import { useNavigate } from "react-router-dom";
 //import { useSelector } from "react-redux";
 import { useRouter } from "next/navigation";
+import { slugify } from "@/utils/commonFuncs";
 
 function ProjectCard({ project, locale }) {
     //const navigate = useNavigate();
     //const lang = useSelector((state) => state.language.lang);
     const [isSafari, setIsSafari] = useState(false);
+    const [productSlug, setProductSlug] = useState(null);
 
     const router = useRouter();
 
     useLayoutEffect(() => {
         setIsSafari(!!window.safari);
+        const found = ProductList.find(
+            (itm) => itm.id.toString() == project.product
+        );
+        const slug = project.product + "-" + slugify(found.name[locale]);
+        /* found.name[locale]
+                .toLocaleLowerCase(findLocale("en"))
+                .split(" ")
+                .join("-"); */
+        setProductSlug(slug);
     }, []);
 
     return (
@@ -24,9 +36,7 @@ function ProjectCard({ project, locale }) {
                     className="img2"
                     src={project.image2}
                     onClick={() =>
-                        router.push(
-                            `/${locale}/product-details/${project.product}`
-                        )
+                        router.push(`/${locale}/product-details/${productSlug}`)
                     }
                     loading="lazy"
                 />
