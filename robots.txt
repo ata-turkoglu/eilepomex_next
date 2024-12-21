@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /tr/projects
+Disallow: /en/projects
+Disallow: /tr/products
+Disallow: /en/products
+Disallow: /tr/docs
+Disallow: /en/docs

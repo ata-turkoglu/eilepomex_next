@@ -21,8 +21,9 @@ export default function Home({ params: { locale } }) {
                 image="/assets/products/thermomex_isi_ve_yalitim_sivasi.png"
                 header={t("naturalSolutionsInInsulation")}
                 text={t("infoThermomex")}
-                to={locale + "/product-details/23"}
+                productId={23}
                 textColor="black"
+                locale={locale}
             />
             <Banner image="/assets/info/etiperview.jpg" />
             <Info

@@ -18,7 +18,7 @@ function Contact({ params: { locale } }) {
 
             <div className="content-area">
                 <div className="wrapper">
-                    <h2>{t("contactUs")}</h2>
+                    <h1>{t("contactUs")}</h1>
                     <p>{t("reachUs")}</p>
                 </div>
 

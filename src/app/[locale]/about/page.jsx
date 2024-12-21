@@ -30,7 +30,7 @@ function About({ params: { locale } }) {
             />
             <main className="about">
                 <div className="banner-area">
-                    <h2>{t("whoWeAre")} ?</h2>
+                    <h1>{t("whoWeAre")} ?</h1>
                 </div>
 
                 <div className="wrapper">

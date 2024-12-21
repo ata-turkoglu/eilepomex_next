@@ -7,6 +7,7 @@ import { ChevronDown, ChevronRight } from "lucide-react";
 import { useParams, useRouter } from "next/navigation";
 import { ListFilter } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { slugify } from "@/utils/commonFuncs";
 
 function Products({ params: { locale, productKey } }) {
     const [productCategories, setProductCategories] = useState([]);
@@ -127,9 +128,8 @@ function Products({ params: { locale, productKey } }) {
 
     const setSlug = (id, name) => {
         return (
-            id.toString() +
-            "-" +
-            name.toLocaleLowerCase(locale).split(" ").join("-")
+            id.toString() + "-" + slugify(name)
+            //name.toLocaleLowerCase(findLocale("en")).split(" ").join("-")
         );
     };
 
