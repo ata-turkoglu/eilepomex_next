@@ -3,13 +3,12 @@
 import "./intro.scss";
 import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
-//import { translateText as t } from "../../store/reducers/language";
-import { useRouter } from "next/navigation";
+import { useRouter, useParams } from "next/navigation";
 import langTexts from "@/data/langTexts";
 
 function Intro() {
     const [index, setIndex] = useState(0);
-
+    const { locale } = useParams();
     const router = useRouter();
 
     const handleSelect = (selectedIndex) => {
@@ -17,7 +16,7 @@ function Intro() {
     };
 
     const t = (text) => {
-        return langTexts["tr"][text] || text;
+        return langTexts[locale][text] || text;
     };
 
     return (

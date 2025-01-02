@@ -47,14 +47,7 @@ function Header() {
     }; */
 
     useLayoutEffect(() => {
-        const storagelLang = window.localStorage.getItem("lang");
-
-        if (storagelLang) {
-            setLang(storagelLang);
-        } else {
-            const browserLang = window.navigator.language.slice(0, 2);
-            setLang(browserLang);
-        }
+        setLang(locale);
     }, []);
 
     useEffect(() => {
