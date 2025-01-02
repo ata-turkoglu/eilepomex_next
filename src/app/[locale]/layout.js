@@ -66,11 +66,38 @@ export default async function LocaleLayout({ children, params }) {
                             width: "100%",
                             height: "100%",
                             overflow: "auto",
+                            position: "relative",
                         }}
                     >
                         <Header />
                         {children}
                         <Footer />
+                        <div
+                            style={{
+                                position: "fixed",
+                                bottom: "20px",
+                                right: "20px",
+                                zIndex: 50,
+                                width: "fit-content",
+                                height: "fit-content",
+                                cursor: "pointer",
+                            }}
+                        >
+                            <a
+                                href="https://wa.me/+905306414805"
+                                target="_blank"
+                                aria-label="Chat on WhatsApp"
+                            >
+                                <img
+                                    src="/assets/logos/whatsapp.png"
+                                    alt="Chat on WhatsApp"
+                                    width={40}
+                                    style={{
+                                        filter: "drop-shadow(0 0 8px grey)",
+                                    }}
+                                />
+                            </a>
+                        </div>
                     </div>
                 </NextIntlClientProvider>
             </body>
