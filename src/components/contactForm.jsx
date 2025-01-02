@@ -30,7 +30,7 @@ export default function ContactForm() {
         window.Email.send({
             Host: "smtp.elasticemail.com",
             Username: "info@eilepomex.com",
-            Password: import.meta.env.VITE_STMP_PASS,
+            Password: process.env.STMP_PASS,
             To: "info@eilepomex.com",
             From: "info@eilepomex.com",
             Subject: "Email from website",

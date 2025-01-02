@@ -119,7 +119,7 @@ function ProductDetails({ params: { locale, slug } }) {
     };
 
     const handleBack = () => {
-        router.push(-1);
+        router.back();
     };
 
     return (
