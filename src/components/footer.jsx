@@ -80,7 +80,7 @@ function Footer() {
                                     className="mb-4"
                                     style={{ fontWeight: isSafari && "400" }}
                                 >
-                                    Eile Pomex Yapı Kimyasalları
+                                    {t("eilePomexConstructionChemicals")}
                                 </h4>
                                 <p>Yeniköy Mah. Menderes-Orhanlı Yolu Sk.</p>
                                 <p>No: 179/26 Menderes/İzmir</p>
