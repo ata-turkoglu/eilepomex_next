@@ -5,3 +5,5 @@ Disallow: /tr/products
 Disallow: /en/products
 Disallow: /tr/docs
 Disallow: /en/docs
+
+Sitemap: https://eilepomex.com/sitemap.xml
