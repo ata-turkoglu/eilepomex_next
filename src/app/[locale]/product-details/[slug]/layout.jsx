@@ -9,18 +9,9 @@ export async function generateStaticParams({ params }) {
     let list = [];
 
     productList.forEach((item) => {
-        const langs = Object.keys(item.name);
-        langs.forEach((key) => {
-            list.push({
-                slug: item.id.toString() + "-" + slugify(item.name[key]),
-                /* slug:
-                    item.id.toString() +
-                    "-" +
-                    item.name[key]
-                        .toLocaleLowerCase(findLocale("en"))
-                        .split(" ")
-                        .join("-"), */
-            });
+        list.push({ slug: item.id.toString() });
+        list.push({
+            slug: item.id.toString() + "-" + slugify(item.name[locale]),
         });
     });
     return list;
@@ -29,14 +20,29 @@ export async function generateStaticParams({ params }) {
 export async function generateMetadata({ params }) {
     const { locale, slug } = await params;
 
-    const productId = slug.split("-")[0];
+    const slugList = slug.split("-");
+    const productId = slugList[0];
     const product = productList.find((item) => item.id == productId);
-    const keywords = product.description["tr"].split(" ");
-    return {
+    const keywords = product?.keywords?.[locale] || [];
+
+    const metaObj = {
         title: product.name[locale],
         description: product.description[locale],
         keywords,
     };
+
+    if (slugList.length == 1) {
+        const str = product.id.toString() + "-" + slugify(product.name[locale]);
+        metaObj.alternates = {
+            canonical: "https://wwww.eilepomex.com/product-details/" + str,
+        };
+        metaObj.robots = {
+            index: false,
+            folow: true,
+        };
+    }
+
+    return metaObj;
 }
 
 export default async function ProductDetailsLayout({ children, params }) {
