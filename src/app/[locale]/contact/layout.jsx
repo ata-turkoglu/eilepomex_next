@@ -7,13 +7,13 @@ export async function generateMetadata({ params }) {
     const { locale } = await params;
 
     return {
-        title: siteMetaData.docsPage.title[locale],
-        description: siteMetaData.docsPage.description[locale],
-        keywords: siteMetaData.docsPage.keywords[locale],
+        title: siteMetaData.contactPage.title[locale],
+        description: siteMetaData.contactPage.description[locale],
+        keywords: siteMetaData.contactPage.keywords[locale],
     };
 }
 
-export default async function DocsLayout({ children, params }) {
+export default async function ContactLayout({ children, params }) {
     const { locale } = await params;
     if (!routing.locales.includes(locale)) {
         notFound();

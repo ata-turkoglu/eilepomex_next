@@ -16,7 +16,7 @@ const play = Play({
 export const metadata = {
     metadataBase: new URL(siteMetaData.siteUrl),
     alternates: {
-        canonical: "/",
+        //canonical: "/",
         languages: {
             "tr-TR": "/tr",
             "en-US": "/en",
@@ -39,7 +39,7 @@ export const metadata = {
     robots: {
         index: true,
         folow: true,
-        noimageindex: true,
+        //noimageindex: true,
         "max-video-preview": -1,
         "max-image-preview": "large",
         "max-snippet": -1,

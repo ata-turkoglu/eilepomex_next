@@ -9,6 +9,16 @@ const play = Play({
 export const metadata = {
     title: "Pomex Blok",
     description: "Pomex Blok Bims Blok",
+    keywords: [
+        "bims",
+        "bims blok",
+        "hafif tuğla",
+        "sağlam",
+        "dayanıklı",
+        "hafif",
+        "yalıtım",
+        "yalıtım tuğla",
+    ],
 };
 
 export default async function BlokLayout({ children }) {
