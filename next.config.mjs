@@ -5,7 +5,6 @@ const nextConfig = {
     output: "export",
     async redirects() {
         return [
-            // Basic redirect
             {
                 source: "/",
                 destination: "/tr",

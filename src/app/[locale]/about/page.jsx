@@ -3,14 +3,6 @@ import "../css/aboutPage.scss";
 import { setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 
-export const metadata = {
-    title: "About | Hakkımızda",
-    robots: {
-        index: false,
-        follow: false,
-    },
-};
-
 function About({ params: { locale } }) {
     setRequestLocale(locale);
     const t = useTranslations("About");

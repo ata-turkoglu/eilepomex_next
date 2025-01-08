@@ -13,6 +13,10 @@
             "tr": "Gazbeton, alçı sıva, çimento-kireç karışımlı sıva gibi porozitesi yüksek yüzeyler için akrilik esaslı astar malzemesidir. ",
             "en": "It is an acrylic-based primer material for surfaces with high porosity such as aerated concrete, gypsum plaster, cement-lime mixed plaster."
         },
+        "keywords": {
+            "tr": ["gazbeton", "alçı", "sıva", "astar"],
+            "en": ["aerated", "concrete", "block", "plaster"]
+        },
         "areasOfUsage": {
             "tr": [
                 "İç ve dış mekanlarda; düşey ve yatay zemin uygulamalarında.",
@@ -109,6 +113,10 @@
             "tr": "Harçlarda ve betonlarda çekme dayanımı arttırıcı özelliğe sahip ve bunların kalitelerinde önemli oranda artış sağlayan polipropilen liflerdir. ",
             "en": "They are polypropylene fibers that have the ability to increase the tensile strength of mortars and concrete and provide a significant increase in their quality."
         },
+        "keywords": {
+            "tr": ["fiber", "harç", "çekme dayanımı", "polipropilen lif"],
+            "en": ["fiber", "tensile strength", "polypropylene fiber"]
+        },
         "areasOfUsage": {
             "tr": ["Her türlü betonlarda, şap, sıva ve tamir harçlarında "],
             "en": [
@@ -189,6 +197,10 @@
             "tr": "eile KA 300, beton dökümü yapıldıktan sonra ahşap, çelik ve playwood kalıpların kolay sökülmesinde ve düzgün yüzeyli beton elde edilmesinde kullanılan, kürlenme sıcaklıklarına dayanıklı, mineral yağlar ile formüle edilmiş kalıp ayırıcıdır. ",
             "en": "eile KA 300 is a mold release agent formulated with mineral oils, resistant to curing temperatures, used for easy dismantling of wooden, steel and playwood molds after concrete casting and to obtain concrete with a smooth surface."
         },
+        "keywords": {
+            "tr": ["kalıp ayırıcı"],
+            "en": ["dismantling of wooden"]
+        },
         "areasOfUsage": {
             "tr": ["Ahşap, plywood ve çelik kalıp sistemlerinde kullanılır. "],
             "en": ["It is used in wood, plywood and steel formwork systems."]
@@ -268,8 +280,12 @@
             "en": "Waterproofing Additive for Cement Based Mortars and Plasters"
         },
         "description": {
-            "tr": "Çimento esaslı harcın su geçirimsizlik ve aderans özelliklerini iyileştiren akrilik reçine emülsiyonudur. ",
+            "tr": "Çimento esaslı harcın su geçirimsizlik ve aderans özelliklerini iyileştiren akrilik reçine emülsiyonudur.",
             "en": "It is an acrylic resin emulsion that improves the water impermeability and adherence properties of cement-based mortar."
+        },
+        "keywords": {
+            "tr": ["su yalıtım", "akrilik reçine"],
+            "en": ["water insulation", "acrylic resin"]
         },
         "areasOfUsage": {
             "tr": [
