@@ -49,7 +49,7 @@ function Brands() {
                 <div className="images">
                     <div className="imgContainer">
                         <a
-                            href="https://www.pomzaexport.com/product/perlit"
+                            href="https://www.pomzaexport.com/product/7/"
                             target="_blank"
                         >
                             <img src="/assets/logos/etiper-logo-white.png" />
@@ -57,23 +57,33 @@ function Brands() {
                     </div>
                     <div className="imgContainer">
                         <a
-                            href="https://www.pomzaexport.com/product/kuvars"
+                            href="https://www.pomzaexport.com/product/1/"
                             target="_blank"
                         >
                             <img src="/assets/logos/sardesquartz-logo-white.png" />
                         </a>
                     </div>
                     <div className="imgContainer">
-                        <img src="/assets/logos/emerex-logo-white.png" />
+                        <a
+                            href="https://www.pomzaexport.com/product/9/"
+                            target="_blank"
+                        >
+                            <img src="/assets/logos/emerex-logo-white.png" />
+                        </a>
                     </div>
                 </div>
                 <div className="images">
                     <div className="imgContainer">
-                        <img src="/assets/logos/pomexblok-logo-white.png" />
+                        <a
+                            href="https://www.eilepomex.com/pomexblok/"
+                            target="_blank"
+                        >
+                            <img src="/assets/logos/pomexblok-logo-white.png" />
+                        </a>
                     </div>
                     <div className="imgContainer">
                         <a
-                            href="https://www.pomzaexport.com/product/garnet"
+                            href="https://www.pomzaexport.com/product/4/"
                             target="_blank"
                         >
                             <img src="/assets/logos/pomexgarnet-logo-white.png" />
@@ -81,7 +91,7 @@ function Brands() {
                     </div>
                     <div className="imgContainer">
                         <a
-                            href="https://www.pomzaexport.com/product/hazir-beton"
+                            href="https://www.pomzaexport.com/product/10/"
                             target="_blank"
                         >
                             <img src="/assets/logos/pomexbeton-logo-white.png" />

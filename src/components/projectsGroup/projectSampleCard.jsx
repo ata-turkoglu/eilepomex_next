@@ -15,11 +15,7 @@ function ProjectSampleCard({ image1, image2, text, icon, product }) {
     useLayoutEffect(() => {
         const found = ProjectList.find((itm) => itm.id == product);
         const url =
-            locale +
-            "/product-details/" +
-            product +
-            "-" +
-            slugify(found.name[locale]);
+            "product-details/" + product + "-" + slugify(found.name[locale]);
 
         setProductUrl(url);
     }, []);

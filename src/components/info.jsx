@@ -24,8 +24,7 @@ function Info({
         if (!to) {
             const found = ProductList.find((itm) => itm.id == productId);
             const url =
-                locale +
-                "/product-details/" +
+                "product-details/" +
                 productId +
                 "-" +
                 slugify(found.name[locale]);

@@ -32,7 +32,8 @@ export async function generateMetadata({ params }) {
     };
 
     if (slugList.length == 1) {
-        const str = product.id.toString() + "-" + slugify(product.name[locale]);
+        const str =
+            product.id.toString() + "-" + slugify(product.name[locale]) + "/";
         metaObj.alternates = {
             canonical: "https://wwww.eilepomex.com/product-details/" + str,
         };
