@@ -540,7 +540,7 @@
         "id": 7,
         "key": "2-1-1",
         "name": { "tr": "POMEX DERZ DOLGU", "en": "POMEX JOINT" },
-        "img": "/assets/products/fuga1-6mm.png",
+        "img": "/assets/products/pomex_fuga.png",
         "appImage": "/assets/appImage/fuga.png",
         "info": {
             "tr": "Çimento Esaslı Derz Dolgu Malzemesi, (1-6 mm)",
@@ -625,7 +625,7 @@
         "id": 8,
         "key": "2-1-2",
         "name": { "tr": "POMEX FLEX FUGA", "en": "POMEX FLEX JOINT" },
-        "img": "/assets/products/pomex_fuga.png",
+        "img": "/assets/products/pomex_flex_fuga.png",
         "appImage": "/assets/appImage/flex_fuga.png",
         "info": {
             "tr": "Çimento Esaslı Esnek Derz Dolgu Malzemesi, (1-6 mm) ",
