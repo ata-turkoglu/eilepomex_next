@@ -19,24 +19,36 @@ function Brands() {
                 <div className="images">
                     <div className="imgContainer">
                         <a href="https://www.pomzaexport.com/" target="_blank">
-                            <img src="/assets/logos/pomzaexport-logo-white.png" />
+                            <img
+                                src="/assets/logos/pomzaexport-logo-white.png"
+                                loading="lazy"
+                            />
                         </a>
                     </div>
                     <div className="imgContainer">
                         <a href="https://www.eilepomex.com/" target="_blank">
-                            <img src="/assets/logos/eilepomex-logo-white.png" />
+                            <img
+                                src="/assets/logos/eilepomex-logo-white.png"
+                                loading="lazy"
+                            />
                         </a>
                     </div>
                 </div>
                 <div className="images">
                     <div className="imgContainer">
                         <a href="http://www.persanyapi.com.tr/" target="_blank">
-                            <img src="/assets/logos/persan-logo-white.png" />
+                            <img
+                                src="/assets/logos/persan-logo-white.png"
+                                loading="lazy"
+                            />
                         </a>
                     </div>
                     <div className="imgContainer">
                         <a href="http://www.erper.com.tr/" target="_blank">
-                            <img src="/assets/logos/erper-logo-white.png" />
+                            <img
+                                src="/assets/logos/erper-logo-white.png"
+                                loading="lazy"
+                            />
                         </a>
                     </div>
                 </div>
@@ -52,7 +64,10 @@ function Brands() {
                             href="https://www.pomzaexport.com/product/7/"
                             target="_blank"
                         >
-                            <img src="/assets/logos/etiper-logo-white.png" />
+                            <img
+                                src="/assets/logos/etiper-logo-white.png"
+                                loading="lazy"
+                            />
                         </a>
                     </div>
                     <div className="imgContainer">
@@ -60,7 +75,10 @@ function Brands() {
                             href="https://www.pomzaexport.com/product/1/"
                             target="_blank"
                         >
-                            <img src="/assets/logos/sardesquartz-logo-white.png" />
+                            <img
+                                src="/assets/logos/sardesquartz-logo-white.png"
+                                loading="lazy"
+                            />
                         </a>
                     </div>
                     <div className="imgContainer">
@@ -68,7 +86,10 @@ function Brands() {
                             href="https://www.pomzaexport.com/product/9/"
                             target="_blank"
                         >
-                            <img src="/assets/logos/emerex-logo-white.png" />
+                            <img
+                                src="/assets/logos/emerex-logo-white.png"
+                                loading="lazy"
+                            />
                         </a>
                     </div>
                 </div>
@@ -78,7 +99,10 @@ function Brands() {
                             href="https://www.eilepomex.com/pomexblok/"
                             target="_blank"
                         >
-                            <img src="/assets/logos/pomexblok-logo-white.png" />
+                            <img
+                                src="/assets/logos/pomexblok-logo-white.png"
+                                loading="lazy"
+                            />
                         </a>
                     </div>
                     <div className="imgContainer">
@@ -86,7 +110,10 @@ function Brands() {
                             href="https://www.pomzaexport.com/product/4/"
                             target="_blank"
                         >
-                            <img src="/assets/logos/pomexgarnet-logo-white.png" />
+                            <img
+                                src="/assets/logos/pomexgarnet-logo-white.png"
+                                loading="lazy"
+                            />
                         </a>
                     </div>
                     <div className="imgContainer">
@@ -94,7 +121,10 @@ function Brands() {
                             href="https://www.pomzaexport.com/product/10/"
                             target="_blank"
                         >
-                            <img src="/assets/logos/pomexbeton-logo-white.png" />
+                            <img
+                                src="/assets/logos/pomexbeton-logo-white.png"
+                                loading="lazy"
+                            />
                         </a>
                     </div>
                 </div>

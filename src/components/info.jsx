@@ -49,6 +49,7 @@ function Info({
                 <div className="imgContainer">
                     <img
                         src={image}
+                        loading="lazy"
                         onClick={() => router.push(to ? to : productUrl)}
                     />
                 </div>

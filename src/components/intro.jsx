@@ -26,6 +26,7 @@ function Intro() {
                     <div className="imgContainer">
                         <img
                             className="d-block w-100"
+                            loading="lazy"
                             src="/assets/introCarousel/tile-adhesive.jpeg"
                         />
                     </div>
@@ -38,6 +39,7 @@ function Intro() {
                     <div className="imgContainer">
                         <img
                             className="d-block w-100"
+                            loading="lazy"
                             src="/assets/introCarousel/s2.jpg"
                         />
                     </div>
@@ -50,6 +52,7 @@ function Intro() {
                     <div className="imgContainer">
                         <img
                             className="d-block w-100"
+                            loading="lazy"
                             src="/assets/introCarousel/joint-grout.jpeg"
                         />
                     </div>
@@ -58,6 +61,7 @@ function Intro() {
                     <div className="imgContainer">
                         <img
                             className="d-block w-100"
+                            loading="lazy"
                             src="/assets/introCarousel/thermal-plaster.jpeg"
                         />
                     </div>
@@ -66,6 +70,7 @@ function Intro() {
                     <div className="imgContainer">
                         <img
                             className="d-block w-100"
+                            loading="lazy"
                             src="/assets/introCarousel/waterproofing.jpeg"
                         />
                     </div>
@@ -74,6 +79,7 @@ function Intro() {
                     <div className="imgContainer">
                         <img
                             className="d-block w-100"
+                            loading="lazy"
                             src="/assets/introCarousel/met-zzk.jpg"
                         />
                     </div>
@@ -82,6 +88,7 @@ function Intro() {
                     <div className="imgContainer">
                         <img
                             className="d-block w-100"
+                            loading="lazy"
                             src="/assets/introCarousel/th-60.jpg"
                         />
                     </div>
@@ -90,6 +97,7 @@ function Intro() {
                     <div className="imgContainer">
                         <img
                             className="d-block w-100"
+                            loading="lazy"
                             src="/assets/introCarousel/bims.jpg"
                         />
                         <span
