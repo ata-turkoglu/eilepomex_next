@@ -3,6 +3,8 @@
 import React, { useEffect, useState, useLayoutEffect } from "react";
 import "./header.scss";
 import productsJSON from "@/data/products.json";
+import productList from "@/data/productList.json";
+import { slugify } from "@/utils/commonFuncs";
 //import langTexts from "@/data/langTexts";
 import {
     Instagram,
@@ -168,8 +170,21 @@ function Header() {
         setLangState(language);
         window.localStorage.setItem("lang", language);
 
-        const path = pathname.split("/").splice(2).join("/");
-        router.push("/" + language + "/" + path);
+        const pathList = window.location.pathname.split("/").splice(2);
+        const index = pathList.indexOf("product-details");
+        if (index >= 0) {
+            const product = productList.find(
+                (item) => item.id == pathList[index + 1].split("-")[0]
+            );
+            const slug =
+                product.id.toString() + "-" + slugify(product.name[language]);
+            pathList[index + 1] = slug;
+            const path = pathList.join("/");
+            router.push("/" + language + "/" + path);
+        } else {
+            const path = pathList.join("/");
+            router.prefetch("/" + language + "/" + path);
+        }
     };
 
     return (
