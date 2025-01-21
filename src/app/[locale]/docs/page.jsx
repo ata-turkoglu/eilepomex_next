@@ -44,7 +44,7 @@ function Docs() {
                                     <div className="buttons">
                                         <a
                                             className="button"
-                                            href="assets/docs/firma_belgesi.pdf"
+                                            href="/assets/docs/firma_belgesi.pdf"
                                             target="_blank"
                                             onClick={(e) => handleClick(e)}
                                         >

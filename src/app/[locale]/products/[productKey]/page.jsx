@@ -17,10 +17,8 @@ function Products({ params: { locale, productKey } }) {
     const [selectedSubGroup, setSelectedSubGroup] = useState(null);
     const [header, setHeader] = useState(null);
     const [mobileView, setMobileView] = useState(false);
-    const [lang, setLang] = useState(null);
 
     const router = useRouter();
-    //let { productKey, locale } = useParams();
     const initiated = useRef(false);
 
     const t = useTranslations("ProductsPage");
@@ -31,11 +29,10 @@ function Products({ params: { locale, productKey } }) {
             document.getElementById("product-categories").style.visibility =
                 "hidden";
         }
-        setLang(locale);
     }, []);
 
     useLayoutEffect(() => {
-        handleCategoryItemClick(productKey);
+        setData(productKey);
         initiated.current = true;
         handleGroupClick(productKey);
     }, [productKey]);
@@ -64,8 +61,8 @@ function Products({ params: { locale, productKey } }) {
         setSelectedGroups(list);
     };
 
-    // Category List Clicking
-    const handleCategoryItemClick = (key, fromCategory = true) => {
+    //setData
+    const setData = (key, fromCategory = true) => {
         const keyList = key.split("-");
         const len = keyList.length;
         if (len == 1) {
@@ -76,7 +73,7 @@ function Products({ params: { locale, productKey } }) {
                 }
                 setHeader(t("products"));
                 setProducts(productData);
-                router.push("/" + locale + "/products/" + key);
+                //router.push("/" + locale + "/products/" + key);
             } else {
                 const group = productData.find((group) => group.key == key);
                 if (group.subGroups) {
@@ -87,17 +84,17 @@ function Products({ params: { locale, productKey } }) {
                             acc.push(...curr.items);
                             return acc;
                         }, []);
-                        setHeader(group.name[lang]);
+                        setHeader(group.name[locale]);
                         setProducts(items);
-                        router.push("/" + locale + "/products/" + key);
+                        //router.push("/" + locale + "/products/" + key);
                     }
                 } else {
                     if (mobileView) {
                         handleShowCategory();
                     }
-                    setHeader(group.name[lang]);
+                    setHeader(group.name[locale]);
                     setProducts(group.items);
-                    router.push("/" + locale + "/products/" + key);
+                    //router.push("/" + locale + "/products/" + key);
                 }
             }
         } else if (len == 2) {
@@ -114,13 +111,52 @@ function Products({ params: { locale, productKey } }) {
                     acc.push(...curr.items);
                     return acc;
                 }, []);
-                setHeader(group.name[lang]);
+                setHeader(group.name[locale]);
                 setProducts(items);
-                router.push("/" + locale + "/products/" + key);
+                //router.push("/" + locale + "/products/" + key);
             } else {
                 const subGroup = group.subGroups.find((sub) => sub.key == key);
-                setHeader(subGroup.name[lang]);
+                setHeader(subGroup.name[locale]);
                 setProducts(subGroup.items);
+                //router.push("/" + locale + "/products/" + key);
+            }
+        }
+    };
+
+    // Category List Clicking
+    const handleCategoryItemClick = (key, fromCategory = true) => {
+        const keyList = key.split("-");
+        const len = keyList.length;
+        if (len == 1) {
+            // Ana Gruplar
+            if (keyList[0] == 0) {
+                if (mobileView) {
+                    handleShowCategory();
+                }
+                router.push("/" + locale + "/products/" + key);
+            } else {
+                const group = productData.find((group) => group.key == key);
+                if (group.subGroups) {
+                    if (initiated.current && fromCategory) {
+                        handleGroupClick(key);
+                    } else {
+                        router.push("/" + locale + "/products/" + key);
+                    }
+                } else {
+                    if (mobileView) {
+                        handleShowCategory();
+                    }
+                    router.push("/" + locale + "/products/" + key);
+                }
+            }
+        } else if (len == 2) {
+            if (mobileView) {
+                handleShowCategory();
+            }
+            const subGroupKey = keyList[1];
+            if (subGroupKey == 0) {
+                router.push("/" + locale + "/products/" + key);
+            } else {
                 router.push("/" + locale + "/products/" + key);
             }
         }
@@ -164,7 +200,7 @@ function Products({ params: { locale, productKey } }) {
                                     selectedGroup == group.key && "bg-slide"
                                 } */
                             >
-                                {group.name[lang]}{" "}
+                                {group.name[locale]}{" "}
                                 {group.subGroups &&
                                     (selectedGroups.includes(group.key) ? (
                                         <ChevronDown size={14} />
@@ -201,7 +237,7 @@ function Products({ params: { locale, productKey } }) {
                                                     )
                                                 }
                                             >
-                                                {sub.name[lang]}
+                                                {sub.name[locale]}
                                             </li>
                                         );
                                     })}
@@ -268,7 +304,7 @@ function Products({ params: { locale, productKey } }) {
                                     item.img ||
                                     "/assets/products/eile_GROUT_50C.png"
                                 }
-                                text={item.name[lang]}
+                                text={item.name[locale]}
                                 rowList={
                                     mobileView &&
                                     (header == "ürünler" ||
@@ -278,7 +314,7 @@ function Products({ params: { locale, productKey } }) {
                                     item.id
                                         ? handleProductClick(
                                               item.id,
-                                              item.name[lang],
+                                              item.name[locale],
                                               true
                                           )
                                         : handleProductClick(
