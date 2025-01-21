@@ -616,7 +616,7 @@
             "tse": "/assets/docs/TSE_POMEX_DERZ_DOLGU.pdf",
             "tds": {
                 "tr": "/assets/docs/tds/tr/pomex_fuga.doc",
-                "en": "/assets/docs/tds/en/pomex_derz_dolgu.docx"
+                "en": "/assets/docs/tds/en/Pomex_Fuga_ing.docx"
             }
         }
     },
@@ -871,6 +871,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 1O kat istifle depolanmalıdır.",
             "en": "Best stored in cool and dry place in unopened package with a maximum 10-fold stacking."
+        },
+        "docs": {
+            "tds": {
+                "tr": "/assets/docs/tds/tr/pomex_rustik_fuga.doc",
+                "en": "/assets/docs/tds/en/Pomex_Rustik_Joint_Sealant_ing.docx"
+            }
         }
     },
 
@@ -1981,7 +1987,11 @@
         },
         "docs": {
             "tse": "/assets/docs/TSE_THERMOMEX-KALIN_SIVA-INCE_SIVA.pdf",
-            "ce": "/assets/docs/ce_pomex_thermomex.pdf"
+            "ce": "/assets/docs/ce_pomex_thermomex.pdf",
+            "tds": {
+                "tr": "/assets/docs/tds/tr/pomex_thermomex_siva.doc",
+                "en": "/assets/docs/tds/en/POMEX_Thermomex_Plaster_ing.docx"
+            }
         }
     },
 
@@ -2341,7 +2351,11 @@
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
         },
         "docs": {
-            "ce": "/assets/docs/ce_ak8_50c_60c_th60_th70_watbon.pdf"
+            "ce": "/assets/docs/ce_ak8_50c_60c_th60_th70_watbon.pdf",
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_grout_60_c.doc",
+                "en": "/assets/docs/tds/en/Eile_GROUT_60_C_ing.docx"
+            }
         }
     },
 
@@ -2422,6 +2436,10 @@
         "storage": {
             "tr": "Açılmamış orijinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging, in a cool and dry environment, stacked in maximum 10 layers."
+        },
+        "tds": {
+            "tr": "/assets/docs/tds/tr/eile_grout_100_C.doc",
+            "en": "/assets/docs/tds/en/Eile_GROUT_100_C_ing.docx"
         }
     },
 
@@ -2498,6 +2516,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
+        },
+        "docs": {
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_sns_804.doc",
+                "en": "/assets/docs/tds/en/sns_804_SON.docx"
+            }
         }
     },
 
@@ -2671,7 +2695,11 @@
         },
         "docs": {
             "tse": "/assets/docs/TSE_EILE_TH_70.pdf",
-            "ce": "/assets/docs/ce_ak8_50c_60c_th60_th70_watbon.pdf"
+            "ce": "/assets/docs/ce_ak8_50c_60c_th60_th70_watbon.pdf",
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_th_70.doc",
+                "en": "/assets/docs/tds/en/Eile_TH_70_ing.docx"
+            }
         }
     },
 
@@ -4665,6 +4693,12 @@
         "storage": {
             "tr": "Açılmamış orijinal ambalajında ​​+5 °C - +30 °C arasında saklayınız. Direkt güneş ışığından uzak tutunuz.",
             "en": "Store in its original unopened package between temperatures ​​+5 °C - +30 °C. Keep away from direct sunlight. "
+        },
+        "docs": {
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_elastomer.doc",
+                "en": "/assets/docs/tds/en/Eile_ELASTOMER_ing.docx"
+            }
         }
     },
 
@@ -4752,6 +4786,12 @@
         "storage": {
             "tr": "Açılmamış orijinal ambalajında ​​+5 °C - +30 °C arasında saklayınız. Direkt güneş ışığından uzak tutunuz.",
             "en": "Store in its original unopened package between temperatures ​​+5 °C - +30 °C. Keep away from direct sunlight. "
+        },
+        "docs": {
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_elastomer_texture.doc",
+                "en": "/assets/docs/tds/en/Eile_ELASTOMER_TEXTURE_ing.doc"
+            }
         }
     },
 
@@ -4852,7 +4892,11 @@
             "en": "Store in its original unopened package between temperatures ​​+5 °C - +30 °C. Keep away from direct sunlight. "
         },
         "docs": {
-            "tse": "/assets/docs/TSE_EILE_LIKIT_AKRILIK.pdf"
+            "tse": "/assets/docs/TSE_EILE_LIKIT_AKRILIK.pdf",
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_likit_akrilik.doc",
+                "en": "/assets/docs/tds/en/Eile_LIQUID_ACRYLIC_ing.doc"
+            }
         }
     },
 
@@ -4931,6 +4975,12 @@
         "storage": {
             "tr": "Açılmamış orijinal kovalarında, 5°C ile 25°C arasında, kuru ortamlarda depolanmalıdır. Açılan kovalardaki malzeme derhal kullanılmalıdır. ",
             "en": "It should be stored in its original unopened buckets, in dry environments between 5°C and 25°C. Material in opened buckets should be used immediately."
+        },
+        "docs": {
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_pur_1kb.doc",
+                "en": "/assets/docs/tds/en/Eile_PUR_1KB_ing.doc"
+            }
         }
     },
 
@@ -5251,7 +5301,11 @@
             "en": "it should be stored in its original unopened package between + 5 °C -+30 °C temperature. Protect the product from direct sunlight."
         },
         "docs": {
-            "tse": "/assets/docs/ce_bitucim_per_bey_rap.pdf"
+            "tse": "/assets/docs/ce_bitucim_per_bey_rap.pdf",
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_bitucim_elastik.doc",
+                "en": "/assets/docs/tds/en/Eile_BITUCIM_FLEXIBLE_ing.pdf"
+            }
         }
     },
 
@@ -5351,6 +5405,12 @@
         "storage": {
             "tr": "Açılmamış orijinal ambalajında ​​+5 °C - +30 °C arasında saklayınız. Direkt güneş ışığından uzak tutunuz.",
             "en": "Store in its original unopened package between temperatures ​​+5 °C - +30 °C. Keep away from direct sunlight. "
+        },
+        "docs": {
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_met_zzk_40.doc",
+                "en": "/assets/docs/tds/en/Eile_MET_ZZK_40_ing.doc"
+            }
         }
     },
 
@@ -5452,7 +5512,7 @@
         },
         "description": {
             "tr": "Çimento ve akrilik reçine esaslı, çift bileşenli, su geçirimsizlik katkıları içeren, tam elastik özellikte su yalıtım malzemesi",
-            "en": "A cement and acrylic resin based, two ­component, flexible waterproofing material with and waterproofing admixtures."
+            "en": "A two-component waterproofing material with cement and acrylic resin base, containing waterproofing additives, and exhibiting elastic property."
         },
         "areasOfUsage": {
             "tr": [
@@ -5462,10 +5522,11 @@
                 "İç ve dış mekanlarda düşey ve yatay uygulamalarda suya maruz kaldığı yönde uygulanır."
             ],
             "en": [
-                "Far insulation of beneath ceramics in wet areas such as bathroom, kitchen, balcony and toilet",
-                "in terraces [provided that its top will be covered)",
-                "in swimming pools,",
-                "in indoor and outdoor places, it is applied on the direction it is exposed to water in vertical and horizontal applications."
+                "Under ceramic tiles in wet areas such as bathrooms, kitchens, balconies, and toilets",
+                "On terraces (with the precondition of covering)",
+                "In swimming pools",
+                "In water tanks",
+                "Both indoors and outdoors, applied in horizontal and vertical directions from where water comes"
             ]
         },
         "featuresOfProduct": {
@@ -5474,11 +5535,11 @@
         },
         "beforeApplication": {
             "tr": "Uygulama yüzeyi sağlam, taşıyıcı ve temiz olmalıdır. Aderansı azaltan yağ, gres, pas, boya, parafin ve kür bileşiği kalıntıları temizlenmelidir. Su sızıntısı olan yerler WATERBOND ile doldurulmalıdır. Köşe ve kenarlar Eile TH 70 ürünü ile pahlanmalıdır. Uygulama öncesinde yüzey suya doyurulmalıdır. Uygulamaya başlamadan önce zeminde serbest su kalmamasına dikkat edilmelidir. Uygulama zemininin yeterince ıslatılmadığı durumlarda, uygulama yapılan yüzeyin hızlı kuruduğu gözlenir.",
-            "en": "The application surface should be solid, bearing and clean. Any oil, grease, rust, paint, paraffin and curing compound residue which reduce adherence should be removed. The places with water leakage should be filled with WATERBOND. The corners and the edges should be chamfered with the product eile TH 70. The surface on which application will be carried aut should be primed. The surface should be saturated with water befare the application. Any free water should be removed from the floor befare the application. in case, the application floor is not wet enough, the application surface may dry quickly. in these cases, 1 kg of water is added to the mixture just far the first layer of the application."
+            "en": "The application surface must be durable, dust-free, load-bearing, and clean. Any substances like oil, grease, rust, paint, paraffin, and curing residue that could weaken adhesion should be removed. Areas with water leakage should be filled with WATERBOND. Corners and edges should be filled with TH 70 product. The surface should be saturated with water before application. Ensure there is no free water remaining on the surface before starting the application. If the surface is not adequately wetted, rapid drying may occur during application."
         },
         "mixing": {
             "tr": "10 kg’ lik B bileşen (sıvı) temiz karışım kovasına alınarak, üzerine 20 kg’ lık A bileşen (toz) azar azar ilave edilir. 4-5 dakika homojen görünüm sağlanana kadar düşük devirli bir karıştırıcı ile karıştırılır. Karışım 3-5 dakika dinlendirilir ardından 30 saniye süre iletekrar karıştırılır. Uygulamaya hazır kıvama gelir.",
-            "en": "Pour the 10kg component B [liquid) in a clean mixing bucket, and then add 20kg of component A [powder] little by little. it is mixed with a low speed mixer far 4 - 5 minutes until obtaining a homogenous mixture. The mixture waits far 3-5 minutes and mixed again far 30 seconds. it is now ready far application."
+            "en": "10 kg of component B (liquid) is poured into a clean mixing bucket, then 20 kg of component A (powder) is slowly added. It is mixed with a low-speed mixer until a homogeneous appearance is achieved, typically for 4-5 minutes. The mixture is allowed to rest for 3-5 minutes, then mixed again for 30 seconds. It is now ready for application."
         },
         "mixture": {
             "tr": " A bileşen: 20 kg B bileşen: 10 kg",
@@ -5486,7 +5547,7 @@
         },
         "application": {
             "tr": "Fırça ile uygulanır. Uygulama 2 veya 3 kat halinde yapılmalıdır. Her kattaki fırça uygulama yönü bir önceki uygulamaya dik doğrultuda olmalıdır.",
-            "en": "Apply the mixture with a brush. Apply 2 or 3 layers. in each layer, the direction of the brush application should be perpendicular to the direction of the previous application. "
+            "en": "It is applied with a brush. The application should be done in 2 or 3 coats. The brush application direction in each layer should be perpendicular to the previous application."
         },
         "pointsToTakeIntoConsideration": {
             "tr": [
@@ -5500,13 +5561,14 @@
                 "Su depolarının, su ile doldurulmasında en az 7 gün beklenmelidir."
             ],
             "en": [
-                "Do not apply to surfaces which is frozen, melting or under the risk of frost.",
-                "The applied surface should be protected against frost and extreme wind far 3 days.",
-                "Do not add any fareign substance in any way. ",
-                "The surfaces with incomplete curing should not be exposed to water.",
-                "The surface and the ambient temperature should be between +5 °C and +30 °C during the application.",
-                "Wait far 3 days befare covering the terrace applications.",
-                "The mixture should be consumed in 90 minutes."
+                "It should not be applied to frozen, thawing, or surfaces at risk of freezing.",
+                "The applied surface should be protected from freezing and excessive wind for 3 days.",
+                "No foreign material should be added to the mixture.",
+                "Surfaces that have not completed curing should not be exposed to water.",
+                "The ambient temperature for application should be between +5°C and +30°C.",
+                "For terrace applications, a wait of 3 days is required before covering.",
+                "The mixture should be used within 90 minutes.",
+                "Water tanks should be filled with water at least 7 days after the application in water tanks"
             ]
         },
         "package": {
@@ -5515,17 +5577,21 @@
         },
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5 °C 'in üstünde depolanmalıdır. B bileşeni (sıvı) dondan korunmalıdır.",
-            "en": "it should be stored in cool and dry placed in its original unopened package and above + 5 °C. The component B [liquid) should be protected from frost."
+            "en": "It should be stored in cool and dry placed in its original unopened package and above + 5 °C. The component B (liquid) should be protected from frost."
         },
         "docs": {
-            "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf"
+            "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf",
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_a_seal.doc",
+                "en": "/assets/docs/tds/en/Eile_A_Seal_ing.pdf"
+            }
         }
     },
 
     {
         "id": 65,
         "key": "6-4-2",
-        "name": { "tr": "eile KAPİLER", "en": "eile KAPİLER" },
+        "name": { "tr": "eile KAPİLER", "en": "eile KAPILER" },
         "img": "/assets/products/eile_kapiler.png",
         "appImage": "/assets/appImage/kapiler.png",
         "info": {
@@ -5612,14 +5678,18 @@
             "en": "Store in cool and dry place in its unopened original package with a maximum 10-fald stacking. "
         },
         "docs": {
-            "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf"
+            "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf",
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_kapiler.doc",
+                "en": "/assets/docs/tds/en/Eile_Kapiler_ing.docx"
+            }
         }
     },
 
     {
         "id": 66,
         "key": "6-4-3",
-        "name": { "tr": "eile KAPİLER 2K", "en": "eile KAPİLER 2K" },
+        "name": { "tr": "eile KAPİLER 2K", "en": "eile KAPILER 2K" },
         "img": "/assets/products/kapiler_2k.png",
         "appImage": "/assets/appImage/kapiler_2k_app.png",
         "info": {
@@ -5799,7 +5869,11 @@
             "en": " it should be stored in its original unopened package and between + 5 °C- + 30 0C temperatures. The product should be protected from direct sunlight and frost."
         },
         "docs": {
-            "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf"
+            "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf",
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_max_seal.doc",
+                "en": "/assets/docs/tds/en/Eile_Max_Seal_ing.docx"
+            }
         }
     },
 
@@ -5808,7 +5882,7 @@
         "key": "6-4-5",
         "name": {
             "tr": "eile MAX SEAL ELASTİK",
-            "en": "eile MAX SEAL ELASTİK"
+            "en": "eile MAX SEAL ELASTIC"
         },
         "img": "/assets/products/eile_max_seal_elastic.png",
         "appImage": "/assets/appImage/max-seal-elastic.png",
@@ -5902,7 +5976,11 @@
             "en": "it should be stored in its original unopened package and between + 5°C - +30°C temperatures. The product should be protected from direct sunlight."
         },
         "docs": {
-            "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf"
+            "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf",
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_max_seal_elastik.doc",
+                "en": "/assets/docs/tds/en/Eile_Max_Seal_Elastic_ing.docx"
+            }
         }
     },
 
@@ -5997,6 +6075,12 @@
         "storage": {
             "tr": "Açılmamış orijinal ambalajında ​​+5 °C - +30 °C sıcaklık aralığında depolanmalıdır.Ürün direkt güneş ışığından ve dondan korunmalıdır.",
             "en": "It should be stored in its unopened original packaging at a temperature between 5 °C - 30 °C. The product should be protected from direct sunlight and frost."
+        },
+        "docs": {
+            "tds": {
+                "tr": "/assets/docs/tds/tr/pomex_2_k.doc",
+                "en": "/assets/docs/tds/en/POMEX_2K_EN_ing.doc"
+            }
         }
     },
 
@@ -6077,6 +6161,12 @@
         "storage": {
             "tr": " Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından ve dondan korunmalıdır.",
             "en": "It should be stored in its unopened original packaging at temperatures between +5°C - +35°C. The product should be protected from direct sunlight and frost."
+        },
+        "docs": {
+            "tds": {
+                "tr": "/assets/docs/tds/tr/pomex_2_k_elastik.doc",
+                "en": "/assets/docs/tds/en/POMEX_2K_ELASTIK_EN_ing.doc"
+            }
         }
     },
 
@@ -6247,6 +6337,12 @@
         "storage": {
             "tr": "Açılmamış orijinal ambalajında ​​+5 °C - +30 °C sıcaklık aralığında depolanmalıdır. Ürün direkt güneş ışığından ve dondan korunmalıdır.",
             "en": "It should be stored in its unopened original packaging at a temperature between +5 °C - +30 °C. The product should be protected from direct sunlight and frost."
+        },
+        "docs": {
+            "tds": {
+                "tr": "/assets/docs/tds/tr/pomex_t_seal.doc",
+                "en": "/assets/docs/tds/en/POMEX_T_SEAL_ing.doc"
+            }
         }
     },
 
@@ -6587,7 +6683,7 @@
     {
         "id": 77,
         "key": "6-6-1",
-        "name": { "tr": "eile POLİÜREA 500", "en": "eile POLİÜREA 500" },
+        "name": { "tr": "eile POLİÜREA 500", "en": "eile POLIUREA 500" },
         "img": "/assets/products/poliurea_hp.png",
         "appImage": "/assets/appImage/poliurea_500_app.png",
         "info": {
@@ -6675,7 +6771,7 @@
     {
         "id": 78,
         "key": "6-6-2",
-        "name": { "tr": "eile POLİÜREA HP", "en": "eile POLİÜREA HP" },
+        "name": { "tr": "eile POLİÜREA HP", "en": "eile POLIUREA HP" },
         "img": "/assets/products/poliurea_hp.png",
         "appImage": "/assets/appImage/poliurea_hp_app.png",
         "info": {
@@ -7241,6 +7337,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
+        },
+        "docs": {
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_syp_1000.doc",
+                "en": "/assets/docs/tds/en/Eile_SYP_1000_ing.docx"
+            }
         }
     },
 
@@ -7345,6 +7447,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
+        },
+        "docs": {
+            "tds": {
+                "tr": "/assets/docs/tds/tr/pomex_flex_yapistiricisi.doc",
+                "en": "/assets/docs/tds/en/Pomex_Flex_Adhesive_ing.docx"
+            }
         }
     },
 
@@ -7523,7 +7631,11 @@
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
         },
         "docs": {
-            "tse": "/assets/docs/TSE_POMEX_GRANIT_YAPISTIRICISI.pdf"
+            "tse": "/assets/docs/TSE_POMEX_GRANIT_YAPISTIRICISI.pdf",
+            "tds": {
+                "tr": "/assets/docs/tds/tr/pomex_granit_yapistiricisi.doc",
+                "en": "/assets/docs/tds/en/Pomex_Granite_Adhesive_ing.docx"
+            }
         }
     },
 
@@ -7723,7 +7835,11 @@
         },
         "docs": {
             "tse": "/assets/docs/TSE_POMEX_SERAMIK_YAPISTIRICISI.pdf",
-            "ce": "/assets/docs/ce_pomex_seramik_belgesi.pdf"
+            "ce": "/assets/docs/ce_pomex_seramik_belgesi.pdf",
+            "tds": {
+                "tr": "/assets/docs/tds/tr/pomex_hizli_donan_seramik_yapistiricisi.doc",
+                "en": "/assets/docs/tds/en/POMEX_Rapid_Hard_Ceramic_Adhesive_ing.docx"
+            }
         }
     },
 
@@ -8334,7 +8450,11 @@
         },
         "docs": {
             "tse": "/assets/docs/TSE_EILE_LEVEL.pdf",
-            "ce": "/assets/docs/ce_level.pdf"
+            "ce": "/assets/docs/ce_level.pdf",
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_level.doc",
+                "en": "/assets/docs/tds/en/Eile_Level_ing.docx"
+            }
         }
     },
 
@@ -8479,6 +8599,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "It should be stored in its original package in a cool and dry environment with a maximum 10-fold stacking."
+        },
+        "docs": {
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_level_15.doc",
+                "en": "/assets/docs/tds/en/Eile_Level_ing.docx"
+            }
         }
     },
 
@@ -10541,6 +10667,108 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
+        }
+    },
+
+    {
+        "id": 124,
+        "key": "6-6-3",
+        "name": { "tr": "eile DOUBLE POLİÜREA", "en": "eile DOUBLE POLIUREA" },
+        "img": "/assets/products/poliurea_hp.png",
+        "appImage": "/assets/products/poliurea_hp.png",
+        "info": {
+            "tr": "Genisletilebilir, %100 Saf, Polyurea Esasli, Su Yaltim ve Kaplama Malzemesi",
+            "en": "Expandable, 100% Pure, Polyurea-Based Waterproofing and Coating Material"
+        },
+        "description": {
+            "tr": "Kendi hacminin 4-5 katına ulaşabilen özel püskürtme makinesi ile uygulanabilen sıcak poliüre sistemidir. Kusursuz bir suyalıtımı, ısı yalıtımı, koruma ve sızdırmazlık sağlamak için geliştirilmiş özel bir üründür. Pürüzlü (boşluk, çıkıntı) yüzeylerdeki yükseklik farklarını doldurarak düzgün bir yüzey sağlar. Beton, ahşap, asfalt, kumaş ve saç gibi yüzeyler için idealdir. Astar gerekmez. İki bileşenli, solvent içermeyen, UV ışınlarına dayanıklı, %100 saf bir üründür. Reaksiyon sonucunda uygulanan yüzeyde mekanik ve kimyasal dayanim özelligine sahip bir membran oluşur. Bu özellikleri sayesinde her türlü yüzeyde su yalıtımı ve kaplama amaçlı rahatlıkla kullanilabilir",
+            "en": "This is a hot polyurea system that can be applied using a special spray machine, expanding up to 4-5 times its original volume. It is a specially developed product for perfect waterproofing, thermal insulation, protection, and sealing. It provides a smooth surface by filling height differences on rough (voids, protrusions) surfaces. Ideal for surfaces such as concrete, wood, asphalt, fabric, and sheet metal. No primer is needed. It is a two-component, solvent-free, UV-resistant, 100% pure product. A membrane with mechanical and chemical durability properties forms on the applied surface as a result of the reaction. Due to these properties, it can be easily used for waterproofing and coating purposes on all types of surfaces."
+        },
+        "areasOfUsage": {
+            "tr": [
+                "Egimli çatılar, teraslar, balkonlar ve çıkıntılar",
+                "İstinat duvarları,temel ve perde betonu",
+                "Şok emme kapasitesinin gerekli olduğu yerler",
+                "Pürüzlü yüzeylerde veya her türlü kavisli alanda kullanilabilir",
+                "Gemi güverteleri ve denizcilik tesislerindeki kaplamalar",
+                "Beton, ahşap, asfalt, kumaş ve saç gibi yüzeyler için idealdir"
+            ],
+            "en": [
+                "Sloped roofs, terraces, balconies, and protrusions",
+                "Retaining walls, foundation, and curtain concrete",
+                "Areas where shock absorption is necessary",
+                "Can be used on rough or any curved surfaces",
+                "Decks of ships and marine facility coatings",
+                "Ideal for surfaces like concrete, wood, asphalt, fabric, and sheet metal"
+            ]
+        },
+        "featuresOfProduct": {
+            "tr": [
+                "Hızlı tepki verme ve hizmete hızlı dönüş süresi",
+                "Sorunsuz kaplama",
+                "%100 katı, VOC içermez, solvent içermez",
+                "Pürüzlü (boşluk, çıkıntı) yüzeylerdeki yükseklik farklarını doldurarak düzgün bir yüzey sağlar",
+                "Kendi hacminin 4-5 katina ulaşır",
+                "İstenilen kalinlikta uygulama imkani",
+                "Yatay ve dikey yüzeylerde kullanilabilir",
+                "Su buharı geçirgenliği",
+                "Hava koşullarına karşı mükemmel direnç"
+            ],
+            "en": [
+                "Rapid response and quick service return time",
+                "Seamless coating",
+                "100% solid, contains no VOCs, solvent-free",
+                "Provides a smooth surface by filling height differences on rough (voids, protrusions) surfaces",
+                "Expands up to 4-5 times its original volume",
+                "Allows application at desired thickness",
+                "Usable on horizontal and vertical surfaces",
+                "Water vapor permeability",
+                "Excellent resistance to weather conditions"
+            ]
+        },
+        "beforeApplication": {
+            "tr": "Yüzey sağlam ve yeterli mukavemette olmalıdır. Beton kalitesi düşük şap üzerine uygulama yapılmamalıdır. Alt tabaka için minimum basınç dayanımı 25 MPa, minimum yapışma dayanımı ise 1,5 MPa olmalıdır. Taze beton üzerine uygulamadan önce betonun kuruması için en az 28 gün beklenmelidir. Yüzey ve ortam sıcaklığı en az 5 °C, en fazla 35 °C olmalıdır. Havadaki nem miktarı en fazla %85 olmalıdır. Yüzeyde oluşabilecek yoğuşmaya dikkat edilmelidir. Sabah erken saatlerde uygulanmamalıdır. Donmuş, eriyen yüzeylerde veya 6-8 saat içerisinde yağmur beklenen yüzeylerde uygulama yapılmamalıdır. Uygulama yüzeyi temiz ve kuru olmalı, yapışmayı engelleyecek unsurlar yüzeyden uzaklaştırılmalıdır. Gerektiğinde beton yüzeyindeki zayıf beton kaldırılmalıdır. üzeydeki dilatasyonlar uygun poliüretan esaslı dolgu malzemesi ve dilatasyon bandı ile yalıtılmalıdır. Metal yüzey kaplamalarında korozif bölgelere yönelik standartlara uygun zımpara ve polisaj yapılmalıdır.",
+            "en": "The surface must be solid and sufficiently strong. Application should not be done on low-quality screed concrete. The minimum compressive strength for the substrate should be 25 MPa, and the minimum adhesion strength should be 1.5 MPa. Concrete should be allowed to cure for at least 28 days before application on fresh concrete. Surface and ambient temperature should be between 5 °C and 35 °C. The humidity in the air should not exceed 85%. Be cautious of possible condensation on the surface. Application should not be done early in the morning. Application should not be done on frozen, thawing surfaces, or surfaces where rain is expected within 6-8 hours. The application surface should be clean and dry, and elements that could hinder adhesion should be removed. If necessary, weak concrete on the surface should be removed. Expansion joints on the surface should be insulated with suitable polyurethane-based filling material and expansion joint tape. For metal surface coatings, sanding and polishing should be done according to standards for corrosive areas."
+        },
+        "mixing": {
+            "tr": "Uygulamaya başlamadan önce B bileşeni (amin reçinesi) varil içerisinde homojen bir renk elde edilinceye kadar en az 30 dakika karıştırılmalıdır. Uygulama sırasında karıştırma işlemine devam edilmelidir. Uygulama öncesinde A ve B bileşenlerinin sıcaklığının 25-30 °C aralığında olması önemlidir. Bileşenler hiçbir şekilde seyreltilmemelidir. Renk stabilitesi isteniyorsa alifatik son kat uygulanır. Son kat uygulaması olarak alifatik poliüretan boya, alifatik poliüre sistemi veya poliaspartik poliüre sistemi tercih edilebilir. Ana kat uygulamasından sonra 0 – 12 saat içerisinde son kat uygulaması yapılmalıdır.",
+            "en": "The mixing ratio should be continuously monitored by checking the machine pressure bar to ensure it is correct. For color stability, an aliphatic topcoat should be applied. Aliphatic polyurethane paint, aliphatic polyurea system, or polyaspartic polyurea system can be used for the topcoat. The topcoat application should be completed within 0 – 12 hours after the main coat application."
+        },
+        "mixture": {
+            "tr": "A / B Ağırlıkça 112 / 100",
+            "en": "A / B by weight 112 / 100"
+        },
+        "application": {
+            "tr": "Uygulamaya başlamadan önce B bileşeni (amin reçinesi) varil içerisinde homojen bir renk elde edilinceye kadar en az 30 dakika karıştırılmalıdır. Uygulama sırasında karıştırma işlemine devam edilmelidir. Uygulama öncesinde A ve B bileşenlerinin sıcaklığının 25-30 °C aralığında olması önemlidir. Bileşenler hiçbir şekilde seyreltilmemelidir. Püskürtme makinesi ayarları: Poliüre, yüksek basınç ve sıcaklıkta çalışan püskürtme makinesi ile zeminlere uygulanır. Uygulama sırasında makine ayarları sürekli kontrol edilmelidir. arametreler Veriler Bir Bileşen (MDI Prepolimer) Sıcaklığı 65 °C, B Bileşeni (Amin Reçine) Sıcaklık 60 °C, Hortum Sıcaklığı 60 °C, Makine Basıncı 140-160 bar. Tüm hazırlıklar bittikten sonra polyurea yüzeye minimum 2 mm kalınlığında 2 kat püskürtülerek uygulanır. Karışım oranı Makine basınç bar saatlerine bakılarak karışım oranının doğru olup olmadığı sürekli kontrol edilmelidir.",
+            "en": "Before starting application, Component B (amine resin) should be mixed in the barrel for at least 30 minutes until a homogeneous color is achieved. Mixing should continue during application. The temperature of Components A and B should be between 25-30 °C before application. Components should not be diluted in any way. Polyurea is applied to surfaces using a spray machine that operates at high pressure and temperature. Machine settings should be continuously monitored during application. Component (MDI Prepolymer) Temperature: 65 °C, Component B (Amine Resin) Temperature: 60 °C, Hose Temperature: 60 °C, Machine Pressure: 140-160 bar. After all preparations are complete, apply the polyurea to the surface in a minimum thickness of 2 mm, using two coats. The mixing ratio should be continuously monitored by checking the machine pressure bar to ensure it is correct."
+        },
+        "pointsToTakeIntoConsideration": {
+            "tr": [
+                "Eile DOUBLE POLİÜREA ürününe başka malzeme kesinlikle ilave edilmemelidir.",
+                "Açılmış ambalajlar, tamamen bitirilmeli ve yarım bırakılmamalıdır.",
+                "Herhangi bir inceltici ile inceltmeyiniz.",
+                "UV’ ye devamlı açık kalacak yerlerde üzeri, alifatik esaslı poliüretan son kat ile kaplanmalıdır."
+            ],
+            "en": [
+                "Do not add any other materials to POLYUREA 500.",
+                "Opened packages should be completely used and not left unfinished.",
+                "Do not dilute the material with any thinners.",
+                "For areas continuously exposed to UV, the surface should be covered with an aliphatic polyurethane topcoat."
+            ]
+        },
+        "package": {
+            "tr": "225 kg (A – MDI Pre Polimer), 200 kg (B - Amine Resin)",
+            "en": "225 kg (A – MDI Prepolymer), 200 kg (B – Amine Resin)"
+        },
+        "storage": {
+            "tr": "Polyurea bileşenleri neme duyarlıdır. Bu nedenle orijinal, açılmamış ve hasar görmemiş ambalajında, +10 °C ile +30 °C arasında depolanmalıdır. Ürünler kuru ve direkt güneş ışığı almayan yerlerde saklanmalıdır.",
+            "en": "Polyurea components are sensitive to moisture. Therefore, they should be stored in their original, unopened, and undamaged packaging between +10 °C and +30 °C. Products should be kept in dry places away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "tr": "/assets/docs/tds/tr/eile_double_poliurea.doc",
+                "en": "/assets/docs/tds/en/Eile_DOUBLE_POLIUREA_ing.pdf"
+            }
         }
     }
 ]

@@ -10,6 +10,10 @@ export default {
     linkedin: "https://www.linkedin.com/company/eilepomex",
     instagram: "https://www.instagram.com/eilepomex",
     facebokk: "https://www.facebook.com/eilepomex",
+    keywords: {
+        tr: ["yapı kimyasallarında lider üretici"],
+        en: [],
+    },
     productsPage: {
         title: {
             tr: "Ürünler",

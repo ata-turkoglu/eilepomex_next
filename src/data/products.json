@@ -6847,6 +6847,104 @@
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda + 5 ° C -+25° C aralığında direkt güneş ışığından uzak yerlerde depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging, in a cool and dry environment between + 5 ° C - + 25 ° C, away from direct sunlight."
                         }
+                    },
+                    {
+                        "id": 124,
+                        "key": "6-6-3",
+                        "name": {
+                            "tr": "eile DOUBLE POLİÜREA",
+                            "en": "eile DOUBLE POLIUREA"
+                        },
+                        "img": "/assets/products/poliurea_hp.png",
+                        "appImage": "/assets/products/poliurea_hp.png",
+                        "info": {
+                            "tr": "Genisletilebilir, %100 Saf, Polyurea Esasli, Su Yaltim ve Kaplama Malzemesi",
+                            "en": "Expandable, 100% Pure, Polyurea-Based Waterproofing and Coating Material"
+                        },
+                        "description": {
+                            "tr": "Kendi hacminin 4-5 katına ulaşabilen özel püskürtme makinesi ile uygulanabilen sıcak poliüre sistemidir. Kusursuz bir suyalıtımı, ısı yalıtımı, koruma ve sızdırmazlık sağlamak için geliştirilmiş özel bir üründür. Pürüzlü (boşluk, çıkıntı) yüzeylerdeki yükseklik farklarını doldurarak düzgün bir yüzey sağlar. Beton, ahşap, asfalt, kumaş ve saç gibi yüzeyler için idealdir. Astar gerekmez. İki bileşenli, solvent içermeyen, UV ışınlarına dayanıklı, %100 saf bir üründür. Reaksiyon sonucunda uygulanan yüzeyde mekanik ve kimyasal dayanim özelligine sahip bir membran oluşur. Bu özellikleri sayesinde her türlü yüzeyde su yalıtımı ve kaplama amaçlı rahatlıkla kullanilabilir",
+                            "en": "This is a hot polyurea system that can be applied using a special spray machine, expanding up to 4-5 times its original volume. It is a specially developed product for perfect waterproofing, thermal insulation, protection, and sealing. It provides a smooth surface by filling height differences on rough (voids, protrusions) surfaces. Ideal for surfaces such as concrete, wood, asphalt, fabric, and sheet metal. No primer is needed. It is a two-component, solvent-free, UV-resistant, 100% pure product. A membrane with mechanical and chemical durability properties forms on the applied surface as a result of the reaction. Due to these properties, it can be easily used for waterproofing and coating purposes on all types of surfaces."
+                        },
+                        "areasOfUsage": {
+                            "tr": [
+                                "Egimli çatılar, teraslar, balkonlar ve çıkıntılar",
+                                "İstinat duvarları,temel ve perde betonu",
+                                "Şok emme kapasitesinin gerekli olduğu yerler",
+                                "Pürüzlü yüzeylerde veya her türlü kavisli alanda kullanilabilir",
+                                "Gemi güverteleri ve denizcilik tesislerindeki kaplamalar",
+                                "Beton, ahşap, asfalt, kumaş ve saç gibi yüzeyler için idealdir"
+                            ],
+                            "en": [
+                                "Sloped roofs, terraces, balconies, and protrusions",
+                                "Retaining walls, foundation, and curtain concrete",
+                                "Areas where shock absorption is necessary",
+                                "Can be used on rough or any curved surfaces",
+                                "Decks of ships and marine facility coatings",
+                                "Ideal for surfaces like concrete, wood, asphalt, fabric, and sheet metal"
+                            ]
+                        },
+                        "featuresOfProduct": {
+                            "tr": [
+                                "Hızlı tepki verme ve hizmete hızlı dönüş süresi",
+                                "Sorunsuz kaplama",
+                                "%100 katı, VOC içermez, solvent içermez",
+                                "Pürüzlü (boşluk, çıkıntı) yüzeylerdeki yükseklik farklarını doldurarak düzgün bir yüzey sağlar",
+                                "Kendi hacminin 4-5 katina ulaşır",
+                                "İstenilen kalinlikta uygulama imkani",
+                                "Yatay ve dikey yüzeylerde kullanilabilir",
+                                "Su buharı geçirgenliği",
+                                "Hava koşullarına karşı mükemmel direnç"
+                            ],
+                            "en": [
+                                "Rapid response and quick service return time",
+                                "Seamless coating",
+                                "100% solid, contains no VOCs, solvent-free",
+                                "Provides a smooth surface by filling height differences on rough (voids, protrusions) surfaces",
+                                "Expands up to 4-5 times its original volume",
+                                "Allows application at desired thickness",
+                                "Usable on horizontal and vertical surfaces",
+                                "Water vapor permeability",
+                                "Excellent resistance to weather conditions"
+                            ]
+                        },
+                        "beforeApplication": {
+                            "tr": "Yüzey sağlam ve yeterli mukavemette olmalıdır. Beton kalitesi düşük şap üzerine uygulama yapılmamalıdır. Alt tabaka için minimum basınç dayanımı 25 MPa, minimum yapışma dayanımı ise 1,5 MPa olmalıdır. Taze beton üzerine uygulamadan önce betonun kuruması için en az 28 gün beklenmelidir. Yüzey ve ortam sıcaklığı en az 5 °C, en fazla 35 °C olmalıdır. Havadaki nem miktarı en fazla %85 olmalıdır. Yüzeyde oluşabilecek yoğuşmaya dikkat edilmelidir. Sabah erken saatlerde uygulanmamalıdır. Donmuş, eriyen yüzeylerde veya 6-8 saat içerisinde yağmur beklenen yüzeylerde uygulama yapılmamalıdır. Uygulama yüzeyi temiz ve kuru olmalı, yapışmayı engelleyecek unsurlar yüzeyden uzaklaştırılmalıdır. Gerektiğinde beton yüzeyindeki zayıf beton kaldırılmalıdır. üzeydeki dilatasyonlar uygun poliüretan esaslı dolgu malzemesi ve dilatasyon bandı ile yalıtılmalıdır. Metal yüzey kaplamalarında korozif bölgelere yönelik standartlara uygun zımpara ve polisaj yapılmalıdır.",
+                            "en": "The surface must be solid and sufficiently strong. Application should not be done on low-quality screed concrete. The minimum compressive strength for the substrate should be 25 MPa, and the minimum adhesion strength should be 1.5 MPa. Concrete should be allowed to cure for at least 28 days before application on fresh concrete. Surface and ambient temperature should be between 5 °C and 35 °C. The humidity in the air should not exceed 85%. Be cautious of possible condensation on the surface. Application should not be done early in the morning. Application should not be done on frozen, thawing surfaces, or surfaces where rain is expected within 6-8 hours. The application surface should be clean and dry, and elements that could hinder adhesion should be removed. If necessary, weak concrete on the surface should be removed. Expansion joints on the surface should be insulated with suitable polyurethane-based filling material and expansion joint tape. For metal surface coatings, sanding and polishing should be done according to standards for corrosive areas."
+                        },
+                        "mixing": {
+                            "tr": "Uygulamaya başlamadan önce B bileşeni (amin reçinesi) varil içerisinde homojen bir renk elde edilinceye kadar en az 30 dakika karıştırılmalıdır. Uygulama sırasında karıştırma işlemine devam edilmelidir. Uygulama öncesinde A ve B bileşenlerinin sıcaklığının 25-30 °C aralığında olması önemlidir. Bileşenler hiçbir şekilde seyreltilmemelidir. Renk stabilitesi isteniyorsa alifatik son kat uygulanır. Son kat uygulaması olarak alifatik poliüretan boya, alifatik poliüre sistemi veya poliaspartik poliüre sistemi tercih edilebilir. Ana kat uygulamasından sonra 0 – 12 saat içerisinde son kat uygulaması yapılmalıdır.",
+                            "en": "The mixing ratio should be continuously monitored by checking the machine pressure bar to ensure it is correct. For color stability, an aliphatic topcoat should be applied. Aliphatic polyurethane paint, aliphatic polyurea system, or polyaspartic polyurea system can be used for the topcoat. The topcoat application should be completed within 0 – 12 hours after the main coat application."
+                        },
+                        "mixture": {
+                            "tr": "A / B Ağırlıkça 112 / 100",
+                            "en": "A / B by weight 112 / 100"
+                        },
+                        "application": {
+                            "tr": "Uygulamaya başlamadan önce B bileşeni (amin reçinesi) varil içerisinde homojen bir renk elde edilinceye kadar en az 30 dakika karıştırılmalıdır. Uygulama sırasında karıştırma işlemine devam edilmelidir. Uygulama öncesinde A ve B bileşenlerinin sıcaklığının 25-30 °C aralığında olması önemlidir. Bileşenler hiçbir şekilde seyreltilmemelidir. Püskürtme makinesi ayarları: Poliüre, yüksek basınç ve sıcaklıkta çalışan püskürtme makinesi ile zeminlere uygulanır. Uygulama sırasında makine ayarları sürekli kontrol edilmelidir. arametreler Veriler Bir Bileşen (MDI Prepolimer) Sıcaklığı 65 °C, B Bileşeni (Amin Reçine) Sıcaklık 60 °C, Hortum Sıcaklığı 60 °C, Makine Basıncı 140-160 bar. Tüm hazırlıklar bittikten sonra polyurea yüzeye minimum 2 mm kalınlığında 2 kat püskürtülerek uygulanır. Karışım oranı Makine basınç bar saatlerine bakılarak karışım oranının doğru olup olmadığı sürekli kontrol edilmelidir.",
+                            "en": "Before starting application, Component B (amine resin) should be mixed in the barrel for at least 30 minutes until a homogeneous color is achieved. Mixing should continue during application. The temperature of Components A and B should be between 25-30 °C before application. Components should not be diluted in any way. Polyurea is applied to surfaces using a spray machine that operates at high pressure and temperature. Machine settings should be continuously monitored during application. Component (MDI Prepolymer) Temperature: 65 °C, Component B (Amine Resin) Temperature: 60 °C, Hose Temperature: 60 °C, Machine Pressure: 140-160 bar. After all preparations are complete, apply the polyurea to the surface in a minimum thickness of 2 mm, using two coats. The mixing ratio should be continuously monitored by checking the machine pressure bar to ensure it is correct."
+                        },
+                        "pointsToTakeIntoConsideration": {
+                            "tr": [
+                                "Eile DOUBLE POLİÜREA ürününe başka malzeme kesinlikle ilave edilmemelidir.",
+                                "Açılmış ambalajlar, tamamen bitirilmeli ve yarım bırakılmamalıdır.",
+                                "Herhangi bir inceltici ile inceltmeyiniz.",
+                                "UV’ ye devamlı açık kalacak yerlerde üzeri, alifatik esaslı poliüretan son kat ile kaplanmalıdır."
+                            ],
+                            "en": [
+                                "Do not add any other materials to POLYUREA 500.",
+                                "Opened packages should be completely used and not left unfinished.",
+                                "Do not dilute the material with any thinners.",
+                                "For areas continuously exposed to UV, the surface should be covered with an aliphatic polyurethane topcoat."
+                            ]
+                        },
+                        "package": {
+                            "tr": "225 kg (A – MDI Pre Polimer), 200 kg (B - Amine Resin)",
+                            "en": "225 kg (A – MDI Prepolymer), 200 kg (B – Amine Resin)"
+                        },
+                        "storage": {
+                            "tr": "Polyurea bileşenleri neme duyarlıdır. Bu nedenle orijinal, açılmamış ve hasar görmemiş ambalajında, +10 °C ile +30 °C arasında depolanmalıdır. Ürünler kuru ve direkt güneş ışığı almayan yerlerde saklanmalıdır.",
+                            "en": "Polyurea components are sensitive to moisture. Therefore, they should be stored in their original, unopened, and undamaged packaging between +10 °C and +30 °C. Products should be kept in dry places away from direct sunlight."
+                        }
                     }
                 ]
             },
@@ -10730,17 +10828,11 @@
                             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
                             "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
                         }
-                    }
-                ]
-            },
+                    },
 
-            {
-                "key": "8-5",
-                "name": { "tr": "Kür Malzemeleri", "en": "Curing Materials" },
-                "items": [
                     {
                         "id": 123,
-                        "key": "8-5-1",
+                        "key": "8-5-4",
                         "name": {
                             "tr": "eile SILIKA 100",
                             "en": "eile SILIKA 100"

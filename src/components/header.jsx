@@ -170,7 +170,8 @@ function Header() {
         setLangState(language);
         window.localStorage.setItem("lang", language);
 
-        const pathList = window.location.pathname.split("/").splice(2);
+        const realPath = pathname.split("/").splice(2).join("/");
+        const pathList = pathname.split("/").splice(2);
         const index = pathList.indexOf("product-details");
         if (index >= 0) {
             const product = productList.find(
@@ -182,8 +183,7 @@ function Header() {
             const path = pathList.join("/");
             router.push("/" + language + "/" + path);
         } else {
-            const path = pathList.join("/");
-            router.prefetch("/" + language + "/" + path);
+            router.push("/" + language + "/" + realPath);
         }
     };
 
