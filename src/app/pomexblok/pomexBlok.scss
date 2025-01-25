@@ -92,7 +92,17 @@
         padding-inline: 1rem;
         color: $logo-blue;
         filter: drop-shadow(0 0 5px rgb(169, 169, 169));
-        width: 100%;
+        margin-inline: auto;
+        text-align: start;
+        color: #2d2d50;
+        width: 50%;
+        ul {
+            padding-left: 15px;
+          }
+
+        @media screen and (max-width:768px){
+            width: 100%;
+        }
     }
     
 

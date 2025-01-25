@@ -454,6 +454,7 @@
         color: $main-blue;
         text-decoration: none;
         filter: drop-shadow(0 0 3px darken($main-grey, 10%));
+        text-transform: uppercase;
         text-transform: capitalize;
     }
     .nav-item::after {
