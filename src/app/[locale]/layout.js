@@ -13,38 +13,42 @@ const play = Play({
     subsets: ["latin"],
 });
 
-export const metadata = {
-    metadataBase: new URL(siteMetaData.siteUrl),
-    alternates: {
-        //canonical: "/",
-        languages: {
-            "tr-TR": "/tr",
-            "en-US": "/en",
+export async function generateMetadata({ params }) {
+    const { locale } = await params;
+
+    return {
+        metadataBase: new URL(siteMetaData.siteUrl),
+        alternates: {
+            //canonical: "/",
+            languages: {
+                "tr-TR": "/tr",
+                "en-US": "/en",
+            },
         },
-    },
-    title: {
-        template: `%s | ${siteMetaData.title}`,
-        default: siteMetaData.title,
-    },
-    description: siteMetaData.description,
-    openGraph: {
-        title: siteMetaData.title,
-        description: siteMetaData.description,
-        url: siteMetaData.siteUrl,
-        siteName: siteMetaData.title,
-        images: [siteMetaData.socialBanner],
-        locale: "tr",
-        type: "website",
-    },
-    robots: {
-        index: true,
-        folow: true,
-        //noimageindex: true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1,
-    },
-};
+        title: {
+            template: `%s | ${siteMetaData.title}`,
+            default: siteMetaData.title,
+        },
+        description: siteMetaData.description[locale],
+        openGraph: {
+            title: siteMetaData.title,
+            description: siteMetaData.description,
+            url: siteMetaData.siteUrl,
+            siteName: siteMetaData.title,
+            images: [siteMetaData.socialBanner],
+            locale: "tr",
+            type: "website",
+        },
+        robots: {
+            index: true,
+            folow: true,
+            //noimageindex: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    };
+}
 
 export function generateStaticParams() {
     return routing.locales.map((locale) => ({ locale }));

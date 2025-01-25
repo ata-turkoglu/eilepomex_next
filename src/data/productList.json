@@ -542,6 +542,22 @@
         "name": { "tr": "POMEX DERZ DOLGU", "en": "POMEX JOINT" },
         "img": "/assets/products/pomex_fuga.png",
         "appImage": "/assets/appImage/fuga.png",
+        "keywords": {
+            "tr": [
+                "derz dolgusu",
+                "fayans derz dolgusu",
+                "seramik derz dolgusu",
+                "elastik derz dolgusu",
+                "renkli derz dolguları"
+            ],
+            "en": [
+                "joint filler",
+                "tile grout",
+                "ceramic grout",
+                "elastic joint filler",
+                "colored grouts"
+            ]
+        },
         "info": {
             "tr": "Çimento Esaslı Derz Dolgu Malzemesi, (1-6 mm)",
             "en": "Cement Based Grout Sealant, (1-6 mm)"
@@ -627,6 +643,22 @@
         "name": { "tr": "POMEX FLEX FUGA", "en": "POMEX FLEX JOINT" },
         "img": "/assets/products/pomex_flex_fuga.png",
         "appImage": "/assets/appImage/flex_fuga.png",
+        "keywords": {
+            "tr": [
+                "derz dolgusu",
+                "fayans derz dolgusu",
+                "seramik derz dolgusu",
+                "elastik derz dolgusu",
+                "renkli derz dolguları"
+            ],
+            "en": [
+                "joint filler",
+                "tile grout",
+                "ceramic grout",
+                "elastic joint filler",
+                "colored grouts"
+            ]
+        },
         "info": {
             "tr": "Çimento Esaslı Esnek Derz Dolgu Malzemesi, (1-6 mm) ",
             "en": "Cement Based Flexible Grout Sealant, (1-6 mm)"
@@ -715,6 +747,22 @@
         "name": { "tr": "POMEX HAVUZ FUGA", "en": "POMEX POOL JOINT SEALANT" },
         "img": "/assets/products/eilegenel.png",
         "appImage": "/assets/appImage/havuz_fuga.png",
+        "keywords": {
+            "tr": [
+                "derz dolgusu",
+                "fayans derz dolgusu",
+                "seramik derz dolgusu",
+                "elastik derz dolgusu",
+                "renkli derz dolguları"
+            ],
+            "en": [
+                "joint filler",
+                "tile grout",
+                "ceramic grout",
+                "elastic joint filler",
+                "colored grouts"
+            ]
+        },
         "info": {
             "tr": "Çimento Esaslı Havuz Kimyasallarına Dayanıklı, Antibakteriyel Esnek Derz Dolgu Malzemesi",
             "en": "Cement Based, Antibacterial Flexible Grout Sealant Resistant to Pool Chemicals"
@@ -800,6 +848,22 @@
         },
         "img": "/assets/products/eilegenel.png",
         "appImage": "/assets/appImage/rustik_fuga.png",
+        "keywords": {
+            "tr": [
+                "derz dolgusu",
+                "fayans derz dolgusu",
+                "seramik derz dolgusu",
+                "elastik derz dolgusu",
+                "renkli derz dolguları"
+            ],
+            "en": [
+                "joint filler",
+                "tile grout",
+                "ceramic grout",
+                "elastic joint filler",
+                "colored grouts"
+            ]
+        },
         "info": {
             "tr": "Çimento Esaslı Esnek Yüksek Performanslı ,Derz Dolgu Malzemesi (6-20 mm)",
             "en": "Cement Based, Flexible, High Performance Grout Sealant, (6-20 mm)"
@@ -886,6 +950,22 @@
         "name": { "tr": "eile EPX 630", "en": "eile EPX 630" },
         "img": "/assets/products/epx_630.png",
         "appImage": "/assets/appImage/epx_630.png",
+        "keywords": {
+            "tr": [
+                "derz dolgusu",
+                "fayans derz dolgusu",
+                "seramik derz dolgusu",
+                "elastik derz dolgusu",
+                "renkli derz dolguları"
+            ],
+            "en": [
+                "joint filler",
+                "tile grout",
+                "ceramic grout",
+                "elastic joint filler",
+                "colored grouts"
+            ]
+        },
         "info": {
             "tr": "Epoksi Esaslı Yapıştırıcı, Derz Dolgu Malzemesi",
             "en": "Epoxy Based Adhesive, Joint Filler"
@@ -973,6 +1053,22 @@
         },
         "img": "/assets/products/poliuretan_mastik.png",
         "appImage": "/assets/appImage/mastik.png",
+        "keywords": {
+            "tr": [
+                "derz dolgusu",
+                "fayans derz dolgusu",
+                "seramik derz dolgusu",
+                "elastik derz dolgusu",
+                "renkli derz dolguları"
+            ],
+            "en": [
+                "joint filler",
+                "tile grout",
+                "ceramic grout",
+                "elastic joint filler",
+                "colored grouts"
+            ]
+        },
         "info": {
             "tr": "Poliüretan Esaslı Tek Bileşenli, Esnek Yapıştırıcı ",
             "en": "Polyurethane Based Single Component, Flexible Adhesive"
@@ -1052,6 +1148,22 @@
         },
         "img": "/assets/products/eile_genel_teneke.png",
         "appImage": "/assets/appImage/poli_mastik_100.jpg",
+        "keywords": {
+            "tr": [
+                "derz dolgusu",
+                "fayans derz dolgusu",
+                "seramik derz dolgusu",
+                "elastik derz dolgusu",
+                "renkli derz dolguları"
+            ],
+            "en": [
+                "joint filler",
+                "tile grout",
+                "ceramic grout",
+                "elastic joint filler",
+                "colored grouts"
+            ]
+        },
         "info": {
             "tr": "",
             "en": ""
@@ -1141,6 +1253,22 @@
         },
         "img": "/assets/products/eile_genel_teneke.png",
         "appImage": "/assets/appImage/poli_mastik_200.jpg",
+        "keywords": {
+            "tr": [
+                "derz dolgusu",
+                "fayans derz dolgusu",
+                "seramik derz dolgusu",
+                "elastik derz dolgusu",
+                "renkli derz dolguları"
+            ],
+            "en": [
+                "joint filler",
+                "tile grout",
+                "ceramic grout",
+                "elastic joint filler",
+                "colored grouts"
+            ]
+        },
         "info": {
             "tr": "",
             "en": ""
@@ -1231,6 +1359,22 @@
         "name": { "tr": "eile PSM 700", "en": "eile PSM 700" },
         "img": "/assets/products/eile_genel_teneke.png",
         "appImage": "/assets/appImage/psm_700.jpg",
+        "keywords": {
+            "tr": [
+                "derz dolgusu",
+                "fayans derz dolgusu",
+                "seramik derz dolgusu",
+                "elastik derz dolgusu",
+                "renkli derz dolguları"
+            ],
+            "en": [
+                "joint filler",
+                "tile grout",
+                "ceramic grout",
+                "elastic joint filler",
+                "colored grouts"
+            ]
+        },
         "info": {
             "tr": "Polisülfit Esaslı, Yüksek Performanslı Derz Dolgu Mastiği",
             "en": "Polysulfide Based, High Performance Joint Sealant"
@@ -1902,6 +2046,46 @@
         },
         "img": "/assets/products/thermomex_isi_ve_yalitim_sivasi.png",
         "appImage": "/assets/appImage/siva.png",
+        "keywords": {
+            "tr": [
+                "perlit sıva",
+                "perlit katkılı sıva",
+                "izolasyon sıvası",
+                "ısı yalıtımlı sıva",
+                "ses yalıtımlı sıva",
+                "yangın dayanımlı sıva",
+                "çevre dostu sıva",
+                "enerji tasarrufu sağlayan sıva",
+                "izolasyon malzemesi sıva",
+                "perlit bazlı yalıtım sıvası",
+                "hafif yapı malzemesi sıva",
+                "ısı, ses ve yangın izolasyonu için sıva",
+                "en iyi yangın yalıtım sıvası",
+                "ses yalıtımını artıran sıva çeşitleri",
+                "perlit sıva avantajları",
+                "izolasyon sıvası nerede kullanılır",
+                "enerji verimliliği sağlayan sıva"
+            ],
+            "en": [
+                "perlite plaster",
+                "perlite added plaster",
+                "insulation plaster",
+                "heat insulating plaster",
+                "soundproofing plaster",
+                "fire resistant plaster",
+                "environmentally friendly plaster",
+                "energy saving plaster",
+                "insulation material plaster",
+                "perlite based insulation plaster",
+                "lightweight building material plaster",
+                "plaster for heat, sound and fire insulation",
+                "best fire insulation plaster",
+                "plaster types that increase sound insulation",
+                "perlite plaster advantages",
+                "where is insulation plaster used",
+                "energy efficient plaster"
+            ]
+        },
         "info": {
             "tr": "Isı Ses ve Yangın Yalıtım Sıvası",
             "en": "Thermal, Sound and Fire Insulating Mortar"
@@ -2001,6 +2185,46 @@
         "name": { "tr": "POMEX THERMOMEX ŞAP", "en": "POMEX THERMOMEX SCREED" },
         "img": "/assets/products/thermomex_sap.png",
         "appImage": "/assets/appImage/sap.png",
+        "keywords": {
+            "tr": [
+                "perlit sıva",
+                "perlit katkılı sıva",
+                "izolasyon sıvası",
+                "ısı yalıtımlı sıva",
+                "ses yalıtımlı sıva",
+                "yangın dayanımlı sıva",
+                "çevre dostu sıva",
+                "enerji tasarrufu sağlayan sıva",
+                "izolasyon malzemesi sıva",
+                "perlit bazlı yalıtım sıvası",
+                "hafif yapı malzemesi sıva",
+                "ısı, ses ve yangın izolasyonu için sıva",
+                "en iyi yangın yalıtım sıvası",
+                "ses yalıtımını artıran sıva çeşitleri",
+                "perlit sıva avantajları",
+                "izolasyon sıvası nerede kullanılır",
+                "enerji verimliliği sağlayan sıva"
+            ],
+            "en": [
+                "perlite plaster",
+                "perlite added plaster",
+                "insulation plaster",
+                "heat insulating plaster",
+                "soundproofing plaster",
+                "fire resistant plaster",
+                "environmentally friendly plaster",
+                "energy saving plaster",
+                "insulation material plaster",
+                "perlite based insulation plaster",
+                "lightweight building material plaster",
+                "plaster for heat, sound and fire insulation",
+                "best fire insulation plaster",
+                "plaster types that increase sound insulation",
+                "perlite plaster advantages",
+                "where is insulation plaster used",
+                "energy efficient plaster"
+            ]
+        },
         "info": {
             "tr": "Isı, Ses ve Yangın Yalıtımlı Şap",
             "en": "Thermal, Sound and Fire Insulated Screed"
@@ -2094,6 +2318,22 @@
         "name": { "tr": "eile A-K8", "en": "eile A-K8" },
         "img": "/assets/products/eile_AK8.png",
         "appImage": "/assets/appImage/ak8.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Yüzeysel Onarımlar için Beton Tamir Harcı",
             "en": "Repair Mortar for Superficial Repairs"
@@ -2180,6 +2420,22 @@
         "name": { "tr": "eile GROUT 50 C", "en": "eile GROUT 50 C" },
         "img": "/assets/products/eile_GROUT_50C.png",
         "appImage": "/assets/appImage/50C.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Çimento Esaslı Grout Harcı",
             "en": "Cement Based Grout Mortar"
@@ -2272,6 +2528,22 @@
         "key": "4-1-3",
         "name": { "tr": "eile GROUT 60 C", "en": "eile GROUT 60 C" },
         "img": "/assets/products/eile_GROUT_60C.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Erken Yüksek Mukavemete Sahip Grout Harcı",
             "en": "Early High Strength Grout Mortar"
@@ -2365,6 +2637,22 @@
         "name": { "tr": "eile GROUT 100 C", "en": "eile GROUT 100 C" },
         "img": "/assets/products/eile_grout_1000.png",
         "appImage": "/assets/appImage/grout100.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Yüksek Mukavemete Sahip Grout Harcı",
             "en": "High Strength Grout Mortar"
@@ -2449,6 +2737,22 @@
         "name": { "tr": "eile SNS 804", "en": "eile SNS 804" },
         "img": "/assets/products/eile_SNS_804.png",
         "appImage": "/assets/appImage/sns804.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Aderans Arttırıcı ve Korozyon Önleyici Harç",
             "en": "Adherence Enhancing and Anti-Corrosion Mortar"
@@ -2531,6 +2835,22 @@
         "name": { "tr": "eile TH 60", "en": "eile TH 60" },
         "img": "/assets/products/eile_TH_60_ince_tamir_harci.png",
         "appImage": "/assets/appImage/th60.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Çimento Esaslı Yüzey Düzeltme Ve Tamir Harcı",
             "en": "Cement Based Surface Leveling and Repair Mortar"
@@ -2619,6 +2939,22 @@
         "name": { "tr": "eile TH 70", "en": "eile TH 70" },
         "img": "/assets/products/eile_TH_70.png",
         "appImage": "/assets/appImage/th70.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Çimento Esaslı Elyaf Donatılı Tiksotropik Yapısal Tamir Harcı",
             "en": "Cement Based Fiber Reinforced Thixotropic Structural Repair Mortar"
@@ -2709,6 +3045,22 @@
         "name": { "tr": "eile EPX 50", "en": "eile EPX 50" },
         "img": "/assets/products/epx_50.png",
         "appImage": "/assets/appImage/epx_50.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Epoksi Esaslı, İki Bileşenli, Tiksotropik, Ankraj, Montaj ve Yapıştırma Harcı",
             "en": "Epoxy Based, Two-Component, Thixotropic Anchorage and Mounting Epoxy Repair Resin"
@@ -2795,6 +3147,22 @@
         "name": { "tr": "eile EPX 100", "en": "eile EPX 100" },
         "img": "/assets/products/epx_100.png",
         "appImage": "/assets/appImage/epx_100.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Epoksi Esaslı İki Bileşenli, Tiksotropik Tamir, Ankraj ve Yapıştırma Harcı",
             "en": "Epoxy Based, Two-Component, Thixotropic Repair, Anchorage and Adhesive Mortar"
@@ -2898,6 +3266,22 @@
         "name": { "tr": "eile EPX 120", "en": "eile EPX 120" },
         "img": "/assets/products/teneke_epx_120.png",
         "appImage": "/assets/appImage/epx_120.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Epoksi Esaslı, Yüksek Dayanımlı, Düşük Viskoziteli Enjeksiyon Reçinesi",
             "en": "Epoxy Based, High Strength, Low Viscosity Grout Resin"
@@ -2972,6 +3356,22 @@
         "name": { "tr": "eile EPX 240 G", "en": "eile EPX 240 G" },
         "img": "/assets/products/epx_240.png",
         "appImage": "/assets/appImage/epx_240.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Üç Bileşenli Epoksi Grout Harcı",
             "en": "Three-Component Epoxy Grout Mortar "
@@ -3065,6 +3465,22 @@
         "name": { "tr": "eile EPX 300", "en": "eile EPX 300" },
         "img": "/assets/products/epx_300.png",
         "appImage": "/assets/appImage/epx_300.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "İki Bileşenli, Aderans Artırıcı ve Korozyon önleyici Epoksi Reçine Esaslı Harç",
             "en": "Two-Component, Adherence Augmenter and Corrosion Preventing Epoxy Resin Based Mortar"
@@ -3149,6 +3565,22 @@
         "name": { "tr": "eile CARBOFRP", "en": "eile CARBOFRP" },
         "img": "/assets/products/carbo_frp.png",
         "appImage": "/assets/appImage/carbofrp.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Yapısal Güçlendirme İçin Karbon Lifli Plakalar",
             "en": "Carbon Fiber Plates for Structural Reinforcement"
@@ -3233,6 +3665,22 @@
         "name": { "tr": "eile CARBON MESH 170", "en": "eile CARBON MESH 170" },
         "img": "/assets/products/mesh_170.png",
         "appImage": "/assets/appImage/mesh_170_app.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Karbon Fiber Mesh",
             "en": "Carbon Fiber Mesh"
@@ -3303,6 +3751,22 @@
         "name": { "tr": "eile CARBOSHIELD", "en": "eile CARBOSHIELD" },
         "img": "/assets/products/carboshild.jpg",
         "appImage": "/assets/appImage/carboshield.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Karbon Lifli Dokuma",
             "en": "Carbon Fiber Fabric"
@@ -3385,6 +3849,22 @@
         "name": { "tr": "eile EPX 33", "en": "eile EPX 33" },
         "img": "/assets/products/teneke_epx_33.png",
         "appImage": "/assets/appImage/epx33.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Karbon Lifli Dokuma İçin Geliştirilmiş Epoksi Yapıştırıcı",
             "en": "Epoxy Adhesive Designed for Carbon Fibre Fabric"
@@ -3461,6 +3941,22 @@
         "name": { "tr": "eile EPOX", "en": "eile EPOX" },
         "img": "/assets/products/epox.png",
         "appImage": "/assets/appImage/epox.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Epoksi Akrilat Esaslı Tiksotropik Ankraj ve Montaj Harcı (Kimyasal Dübel)",
             "en": "Epoxy Acrylate Based Thixotropic Anchorage and Mounting Mortar (Chemical Anchor)"
@@ -3552,6 +4048,22 @@
         "name": { "tr": "eile ROTFIX", "en": "eile ROTFIX" },
         "img": "/assets/products/rotfix.png",
         "appImage": "/assets/appImage/rotfix.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Polyester Esaslı Tiksotropik Montaj Malzemesi (Kimyasal Dübel)",
             "en": "Polyester Based Thixotropic Mounting Material (Chemical Anchor)"
@@ -3640,6 +4152,42 @@
         "name": { "tr": "eile HORASAN HARCI", "en": "eile HORASAN MORTAR" },
         "img": "/assets/products/eile_horasan_harci.png",
         "appImage": "/assets/appImage/horasan.png",
+        "keywords": {
+            "tr": [
+                "horasan harcı",
+                "horasan sıvası",
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri",
+                "restorasyon harcı",
+                "tarihi yapılar için harç",
+                "suya dayanıklı horasan harcı",
+                "taş yapılar için horasan sıvası",
+                "zemin dolgusu horasan harcı",
+                "horasan harcı nedir ve nasıl yapılır",
+                "tarihi yapıların onarımı için en iyi harç",
+                "horasan harcı fiyatları"
+            ],
+            "en": [
+                "khorasan mortar",
+                "khorasan plaster",
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials",
+                "restoration mortar",
+                "mortar for historical buildings",
+                "water resistant khorasan mortar",
+                "khorasan plaster for stone structures",
+                "ground filler khorasan mortar",
+                "what is khorasan mortar and how is it made",
+                "best mortar for repairing historical buildings",
+                "khorasan mortar prices"
+            ]
+        },
         "info": {
             "tr": "Tarihi Yapılar İçin Hidrolik Kireç Esaslı, Tamir Ve Sıva Malzemesi",
             "en": "Hydraulic Lime Based, Repair and Plaster Material for Historical Buildings"
@@ -3716,6 +4264,22 @@
         "name": { "tr": "eile LIME INJECTION", "en": "eile LIME INJECTION" },
         "img": "/assets/products/lime_injection.png",
         "appImage": "/assets/appImage/lime_injection.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Kagir Yapılar için Enjeksiyon Malzemesi",
             "en": "Injection Material for Masonry Structures"
@@ -3792,6 +4356,22 @@
         "name": { "tr": "eile HRS 10", "en": "eile HRS 10" },
         "img": "/assets/products/eile_HRS_10.png",
         "appImage": "/assets/appImage/hrs10app.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Tarihi Yapılar İçin Hidrolik Kireç",
             "en": "Hydraulic Lime for Historical Buildings"
@@ -3870,6 +4450,22 @@
         "name": { "tr": "eile SEAL SB", "en": "eile SEAL SB" },
         "img": "/assets/products/seal_sb.png",
         "appImage": "/assets/appImage/seal_sb_app.png",
+        "keywords": {
+            "tr": [
+                "yapı onarım malzemeleri",
+                "beton tamiri",
+                "güçlendirme sistemleri",
+                "yapı güçlendirme",
+                "inşaat tamir malzemeleri"
+            ],
+            "en": [
+                "building repair materials",
+                "concrete repair",
+                "reinforcement systems",
+                "structural reinforcement",
+                "construction repair materials"
+            ]
+        },
         "info": {
             "tr": "Dispersiyon Esaslı Sıvı Halde Uygulanan Su Geçirimsizlik Ürünü",
             "en": "Dispersion Based Liquid Waterproofing Product"
@@ -3950,6 +4546,22 @@
         "name": { "tr": "eile GBS 5000", "en": "eile GBS 5000" },
         "img": "/assets/products/eile_GBS_5000.png",
         "appImage": "/assets/appImage/gbs_5000.png",
+        "keywords": {
+            "tr": [
+                "sıva çeşitleri",
+                "suya dayanıklı sıva",
+                "ısı yalıtımlı sıva",
+                "dekoratif sıva",
+                "iç cephe sıva"
+            ],
+            "en": [
+                "plaster types",
+                "water resistant plaster",
+                "heat insulating plaster",
+                "decorative plaster",
+                "interior plaster"
+            ]
+        },
         "info": {
             "tr": "Lif Takviyeli Çatlamayan ince Sıva ",
             "en": "Fiber Reinforced Non-Cracking Thin Plaster"
@@ -4034,6 +4646,22 @@
         },
         "img": "/assets/products/pomex_burut_beton_sivasi.png",
         "appImage": "/assets/appImage/burut_beton_siva.jpg",
+        "keywords": {
+            "tr": [
+                "sıva çeşitleri",
+                "suya dayanıklı sıva",
+                "ısı yalıtımlı sıva",
+                "dekoratif sıva",
+                "iç cephe sıva"
+            ],
+            "en": [
+                "plaster types",
+                "water resistant plaster",
+                "heat insulating plaster",
+                "decorative plaster",
+                "interior plaster"
+            ]
+        },
         "info": {
             "tr": "Çimento Esaslı Brüt Beton Yüzeyler İçin Sıva Harcı",
             "en": "Cement Based Plaster Mortar for Exposed Concrete Surfaces"
@@ -4117,6 +4745,22 @@
         "name": { "tr": "POMEX DOLGU MACUNU", "en": "POMEX SEALANT" },
         "img": "/assets/products/dolgu_macunu.png",
         "appImage": "/assets/appImage/dolgu_macunu.jpg",
+        "keywords": {
+            "tr": [
+                "sıva çeşitleri",
+                "suya dayanıklı sıva",
+                "ısı yalıtımlı sıva",
+                "dekoratif sıva",
+                "iç cephe sıva"
+            ],
+            "en": [
+                "plaster types",
+                "water resistant plaster",
+                "heat insulating plaster",
+                "decorative plaster",
+                "interior plaster"
+            ]
+        },
         "info": {
             "tr": "Çimento esaslı Polimer Katkılı Dolgu Harcı",
             "en": "Cement based Polymer Additive Filling Mortar"
@@ -4200,6 +4844,22 @@
         "name": { "tr": "POMEX İNCE SIVA", "en": "POMEX THIN PLASTER" },
         "img": "/assets/products/pomex_ince_siva.png",
         "appImage": "/assets/appImage/ince_siva.png",
+        "keywords": {
+            "tr": [
+                "sıva çeşitleri",
+                "suya dayanıklı sıva",
+                "ısı yalıtımlı sıva",
+                "dekoratif sıva",
+                "iç cephe sıva"
+            ],
+            "en": [
+                "plaster types",
+                "water resistant plaster",
+                "heat insulating plaster",
+                "decorative plaster",
+                "interior plaster"
+            ]
+        },
         "info": {
             "tr": "Polimer Takviyeli Çimento Esaslı ince Sıva ",
             "en": "Polymer Reinforced Cement Based Thin Plaster"
@@ -4282,6 +4942,22 @@
         "name": { "tr": "POMEX KALIN SIVA", "en": "POMEX THICK PLASTER" },
         "img": "/assets/products/pomex_kalin_siva.png",
         "appImage": "/assets/appImage/kalin_siva.png",
+        "keywords": {
+            "tr": [
+                "sıva çeşitleri",
+                "suya dayanıklı sıva",
+                "ısı yalıtımlı sıva",
+                "dekoratif sıva",
+                "iç cephe sıva"
+            ],
+            "en": [
+                "plaster types",
+                "water resistant plaster",
+                "heat insulating plaster",
+                "decorative plaster",
+                "interior plaster"
+            ]
+        },
         "info": {
             "tr": "Çimento Esaslı Polimer Katkılı Ekonomik Kalın Sıva",
             "en": "Cement Based Polymer Added Economical Thick Plaster"
@@ -4377,6 +5053,22 @@
         },
         "img": "/assets/products/pomex_makina_sivasi.png",
         "appImage": "/assets/appImage/makine.png",
+        "keywords": {
+            "tr": [
+                "sıva çeşitleri",
+                "suya dayanıklı sıva",
+                "ısı yalıtımlı sıva",
+                "dekoratif sıva",
+                "iç cephe sıva"
+            ],
+            "en": [
+                "plaster types",
+                "water resistant plaster",
+                "heat insulating plaster",
+                "decorative plaster",
+                "interior plaster"
+            ]
+        },
         "info": {
             "tr": "Çimento Esaslı, Polimer Katkılı İnce makine sıvası",
             "en": "Cement Based, Polymer Additive Machine FINE Plaster"
@@ -4460,6 +5152,22 @@
         },
         "img": "/assets/products/pomex_makina_sivasi.png",
         "appImage": "/assets/appImage/makine.png",
+        "keywords": {
+            "tr": [
+                "sıva çeşitleri",
+                "suya dayanıklı sıva",
+                "ısı yalıtımlı sıva",
+                "dekoratif sıva",
+                "iç cephe sıva"
+            ],
+            "en": [
+                "plaster types",
+                "water resistant plaster",
+                "heat insulating plaster",
+                "decorative plaster",
+                "interior plaster"
+            ]
+        },
         "info": {
             "tr": " Çimento Esaslı Polimer Katkılı, Ekonomik Makine Kalın Sıva ",
             "en": "Cement Based Polymer Added, Economical Machine Thick Plaster"
@@ -4540,6 +5248,22 @@
         "name": { "tr": "POMEX SATEN SIVA", "en": "POMEX SATIN PLASTER" },
         "img": "/assets/products/eilegenel.png",
         "appImage": "/assets/appImage/saten_siva.jpg",
+        "keywords": {
+            "tr": [
+                "sıva çeşitleri",
+                "suya dayanıklı sıva",
+                "ısı yalıtımlı sıva",
+                "dekoratif sıva",
+                "iç cephe sıva"
+            ],
+            "en": [
+                "plaster types",
+                "water resistant plaster",
+                "heat insulating plaster",
+                "decorative plaster",
+                "interior plaster"
+            ]
+        },
         "info": {
             "tr": "Polimer Takviyeli Çimento Esaslı Saten Sıva (beyaz)",
             "en": "Polymer-Reinforced Cement-Based Satin Plaster (white)"
@@ -8113,6 +8837,22 @@
         "name": { "tr": "eile Top 110 S", "en": "eile Top 110 S" },
         "img": "/assets/products/eile_TOP_110S.png",
         "appImage": "/assets/appImage/top110.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Endüstriyel Zeminler İçin Kuvars Agregalı,Yüzey Sertleştirici",
             "en": "Quartz Aggregate, Surface Hardener for Industrial Floors"
@@ -8200,6 +8940,22 @@
         "name": { "tr": "eile 125 KK", "en": "eile 125 KK" },
         "img": "/assets/products/pomex_125_KK.png",
         "appImage": "/assets/appImage/125_kk_app.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Endüstriyel Zeminler için Korund ve Mineral Agrega İçeren Yüzey Sertleştirici ",
             "en": "Surface Hardener Containing Corundum and Mineral Aggregate for Industrial Floors"
@@ -8286,6 +9042,22 @@
         "name": { "tr": "eile KORUND 120 F", "en": "eile KORUND 120 F" },
         "img": "/assets/products/eile_korunt_120F.png",
         "appImage": "/assets/appImage/korund_120F.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Endüstriyel Zeminler İçin Korund Agregalı,Yüzey Sertleştirici",
             "en": "Corundum Aggregate Surface Hardener for Industrial Floors"
@@ -8372,6 +9144,22 @@
         "name": { "tr": "eile LEVEL", "en": "eile LEVEL" },
         "img": "/assets/products/eile_level.png",
         "appImage": "/assets/appImage/level.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Çimento Esaslı Kendiliğinden Yayılan Tesviye Şapı",
             "en": "Cement Based Self Leveling Leveling Screed"
@@ -8464,6 +9252,22 @@
         "name": { "tr": "eile LEVEL 10", "en": "eile LEVEL 10" },
         "img": "/assets/products/eile_level.png",
         "appImage": "/assets/appImage/level10.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Çimento Esaslı Kendiliğinden Yayılan Tesviye Şapı",
             "en": "Cement Based Self Leveling Screed"
@@ -8533,6 +9337,22 @@
         "name": { "tr": "eile LEVEL 15", "en": "eile LEVEL 15" },
         "img": "/assets/products/eile_level.png",
         "appImage": "/assets/appImage/level15.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Kalsiyum Sülfat Esaslı Kendiliğinden Yayılan Tesviye Şapı",
             "en": "Calcium Sulphate Based Self Propagating Leveling Screed"
@@ -8617,6 +9437,22 @@
         },
         "img": "/assets/products/pomex_yuzey_sertlestirici.png",
         "appImage": "/assets/appImage/yuzeysert.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Endüstriyel Zeminler İçin Kuvars-Silis Agregalı,Yüzey Sertleştirici",
             "en": "Quartz-Silica Aggregate Surface Hardener for Industrial Floors"
@@ -8701,6 +9537,22 @@
         "name": { "tr": "eile EPX 018", "en": "eile EPX 018" },
         "img": "/assets/products/epx_018.png",
         "appImage": "/assets/appImage/epx_018.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "",
             "en": ""
@@ -8812,6 +9664,22 @@
         "key": "8-2-2",
         "name": { "tr": "eile EPX 400 P", "en": "eile EPX 400 P" },
         "img": "/assets/products/teneke_bos.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "İki Bileşenli, Epoksi Esaslı, Tekstürlü Yüzey Kaplama",
             "en": "Two Component, Epoxy Based, Textured Surface Coating"
@@ -8894,6 +9762,22 @@
         "name": { "tr": "eile EPX 550", "en": "eile EPX 550" },
         "img": "/assets/products/epx550.png",
         "appImage": "/assets/appImage/epx_550.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "İki Bileşenli Solventsiz Self Leveling Epoksi,Kaplama Malzemesi",
             "en": "Two Component Solvent-Free Self Leveling Epoxy Coating Material"
@@ -8976,6 +9860,22 @@
         "name": { "tr": "eile EPX 550 - boya", "en": "eile EPX 550 - boya" },
         "img": "/assets/products/epx550.png",
         "appImage": "/assets/appImage/epx_550.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "İki Bileşenli Solventsiz Self Leveling Epoksi,Kaplama Malzemesi",
             "en": "Two Component Solvent-Free Self Leveling Epoxy Coating Material"
@@ -9058,6 +9958,22 @@
         "name": { "tr": "eile EPX 730", "en": "eile EPX 730" },
         "img": "/assets/products/teneke_bos.png",
         "appImage": "/assets/appImage/epx_730.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Solventli Yarı Mat Epoksi Boya",
             "en": "Solvent Semi-Matte Epoxy Paint"
@@ -9132,6 +10048,22 @@
         "name": { "tr": "eile EPX 830", "en": "eile EPX 830" },
         "img": "/assets/products/teneke_bos.png",
         "appImage": "/assets/appImage/epx_830.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Epoksi Son Kat Boya",
             "en": "Epoksi Son Kat Boya"
@@ -9206,6 +10138,22 @@
         "name": { "tr": "eile EPX 1001", "en": "eile EPX 1001" },
         "img": "/assets/products/teneke_bos.png",
         "appImage": "/assets/appImage/epx1001.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "",
             "en": ""
@@ -9278,6 +10226,22 @@
         "name": { "tr": "eile PU CONCRETE 3K", "en": "eile PU CONCRETE 3K" },
         "img": "/assets/products/pu_concrete_3k.png",
         "appImage": "/assets/appImage/pu_concrete_3k.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Üç Bileşenli, Yüksek Performanslı Poliüretan Beton Kaplaması",
             "en": "Üç Bileşenli, Yüksek Performanslı Poliüretan Beton Kaplaması"
@@ -9364,6 +10328,22 @@
         "name": { "tr": "eile PUR 053", "en": "eile PUR 053" },
         "img": "/assets/products/pur_053.png",
         "appImage": "/assets/appImage/pur_053.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "iki bileşenli solvent içermeyen kendiliğinden yayılan poliüretan kaplama malzemesi",
             "en": "two-component solvent-free self-leveling polyurethane coating material"
@@ -9452,6 +10432,22 @@
         "name": { "tr": "eile PUR 060", "en": "eile PUR 060" },
         "img": "/assets/products/eile_genel_teneke.png",
         "appImage": "/assets/appImage/pur_060.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "İki Bileşenli Poliüretasn Esaslı UV dayanımlı Son Kat Boyadır.",
             "en": "İki Bileşenli Poliüretasn Esaslı UV dayanımlı Son Kat Boyadır."
@@ -9534,6 +10530,22 @@
         "name": { "tr": "eile PUR 750", "en": "eile PUR 750" },
         "img": "/assets/products/eile_genel_teneke.png",
         "appImage": "/assets/appImage/pur_750.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "",
             "en": ""
@@ -9606,6 +10618,22 @@
         "name": { "tr": "eile SEALGARD", "en": "eile SEALGARD" },
         "img": "/assets/products/eile_genel_teneke.png",
         "appImage": "/assets/appImage/sealgard.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Beton Yüzeyler İçin Koruyucu Kaplama",
             "en": "Beton Yüzeyler İçin Koruyucu Kaplama"
@@ -9685,6 +10713,22 @@
         },
         "img": "/assets/products/eile_genel_teneke.png",
         "appImage": "/assets/appImage/stone_carpet.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Polimer Esaslı Taş Bağlayıcı",
             "en": "Polimer Esaslı Taş Bağlayıcı"
@@ -9755,6 +10799,22 @@
         "name": { "tr": "eile EPX 021", "en": "eile EPX 021" },
         "img": "/assets/products/epx_021.png",
         "appImage": "/assets/appImage/epx_021.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Nemli Yüzeyler için Epoksi Astar",
             "en": "Nemli Yüzeyler için Epoksi Astar"
@@ -9833,6 +10893,22 @@
         "name": { "tr": "eile EPX 110", "en": "eile EPX 110" },
         "img": "/assets/products/epx_110.png",
         "appImage": "/assets/appImage/epx_110.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Emici Yüzeyler İçin Emprenye Astar",
             "en": "Impregnated Primer for Absorbent Surfaces"
@@ -9914,6 +10990,22 @@
         "key": "8-3-3",
         "name": { "tr": "eile EPX 225", "en": "eile EPX 225" },
         "img": "/assets/products/epx_225.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "İki Bileşenli Düşük Vizkoziteli,Epoksi Astar Malzemesi",
             "en": "Two Component, Low Viscosity, Epoxy Primer Material"
@@ -9998,6 +11090,22 @@
         "name": { "tr": "eile EPX 260", "en": "eile EPX 260" },
         "img": "/assets/products/teneke_bos.png",
         "appImage": "/assets/appImage/epx_260.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Çok Amaçlı Epoksı Astar",
             "en": "Multi-Purpose Epoxy Primer"
@@ -10082,6 +11190,22 @@
         "name": { "tr": "eile EPS 280 FL", "en": "eile EPS 280 FL" },
         "img": "/assets/products/eile_genel_teneke.png",
         "appImage": "/assets/appImage/eps_280_fl.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Epoksi Esaslı Solventsiz Dolgulu Astar",
             "en": "Epoksi Esaslı Solventsiz Dolgulu Astar"
@@ -10154,6 +11278,22 @@
         "name": { "tr": "eile PUR 710", "en": "eile PUR 710" },
         "img": "/assets/products/teneke_pur_710.png",
         "appImage": "/assets/appImage/pur_710.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Tek Bileşenli Poliüretan Astar Malzemesi",
             "en": "Single Component Polyurethane, Primer Material"
@@ -10246,6 +11386,22 @@
         "name": { "tr": "eile PUR 712 2 K", "en": "eile PUR 712 2 K" },
         "img": "/assets/products/eile_genel_teneke.png",
         "appImage": "/assets/appImage/pur_712_2k.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "İki Bileşenli Poliüretan Astar Malzemesi",
             "en": "İki Bileşenli Poliüretan Astar Malzemesi"
@@ -10320,6 +11476,22 @@
         "name": { "tr": "eile CURING 105", "en": "eile CURING 105" },
         "img": "/assets/products/eile_curing105.png",
         "appImage": "/assets/appImage/curing_105.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Beton Yüzeyler İçin Akrilik Emülsiyon Esaslı, Kür Malzemesi",
             "en": "Acrylic Emulsion Based Curing Material for Concrete Surfaces"
@@ -10414,6 +11586,22 @@
         "name": { "tr": "eile CURING AST", "en": "eile CURING AST" },
         "img": "/assets/products/eile_curing_AST.png",
         "appImage": "/assets/appImage/curing_ast.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Beton Yüzeyler İçin Reçine Esaslı, Kür ve Cila Malzemesi",
             "en": "Resin Based, Curing and Polishing Material for Concrete Surfaces"
@@ -10504,6 +11692,22 @@
         "name": { "tr": "eile PARKÜR", "en": "eile PARKÜR" },
         "img": "/assets/products/eile_parkur.png",
         "appImage": "/assets/appImage/parkur.png",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "Beton Yüzeyler İçin Parafin Emülsiyon Esaslı, Kür Malzemesi ",
             "en": "Paraffin Emulsion Based Curing Material for Concrete Surfaces"
@@ -10598,6 +11802,22 @@
         "name": { "tr": "eile SILIKA 100", "en": "eile SILIKA 100" },
         "img": "/assets/products/genel_bidon.png",
         "appImage": "/assets/appImage/silika_100.jpg",
+        "keywords": {
+            "tr": [
+                "zemin kaplama",
+                "epoksi zemin",
+                "self leveling zemin kaplama",
+                "beton zemin kaplama",
+                "dekoratif zemin sistemleri"
+            ],
+            "en": [
+                "floor covering",
+                "Epoxy floor",
+                "self leveling floor covering",
+                "concrete floor covering",
+                "decorative floor systems"
+            ]
+        },
         "info": {
             "tr": "",
             "en": ""
