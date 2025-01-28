@@ -141,7 +141,11 @@ function ProductDetails({ params: { locale, slug } }) {
                     <div className="firstPart">
                         <div className="leftPart">
                             <div className="imgContainer">
-                                <img src={product.img || img} loading="lazy" />
+                                <img
+                                    src={product.img || img}
+                                    loading="lazy"
+                                    alt={product.name[locale]}
+                                />
                             </div>
                             <div className="tags">
                                 {renderInfo(product.info[lang])}

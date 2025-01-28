@@ -12,6 +12,12 @@ export const metadata = {
     keywords: [
         "bims",
         "bims blok",
+        "blok",
+        "Bimsblok",
+        "blokbims",
+        "bims fiyatları",
+        "bims ölçüleri",
+        "bims nedir",
         "hafif tuğla",
         "sağlam",
         "dayanıklı",

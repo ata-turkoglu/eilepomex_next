@@ -25,17 +25,34 @@ export async function generateMetadata({ params }) {
     const product = productList.find((item) => item.id == productId);
     const keywords = product?.keywords?.[locale] || [];
 
+    const str =
+        product.id.toString() + "-" + slugify(product.name[locale]) + "/";
+
     const metaObj = {
         title: product.name[locale],
         description: product.description[locale],
         keywords,
+        openGraph: {
+            title: product.name[locale],
+            description: product.description[locale],
+            url:
+                "https://www.eilepomex.com/" +
+                locale +
+                "/product-details/" +
+                str,
+            images: [product.img],
+            locale,
+            type: "website",
+        },
     };
 
     if (slugList.length == 1) {
-        const str =
-            product.id.toString() + "-" + slugify(product.name[locale]) + "/";
         metaObj.alternates = {
-            canonical: "https://wwww.eilepomex.com/product-details/" + str,
+            canonical:
+                "https://www.eilepomex.com/" +
+                locale +
+                "/product-details/" +
+                str,
         };
         metaObj.robots = {
             index: false,

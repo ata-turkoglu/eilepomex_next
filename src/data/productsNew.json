@@ -8968,7 +8968,6 @@
                         }
                     },
 
-                    //eile EPX 730
                     {
                         "key": "8-2-5",
                         "name": "eile EPX 730",
@@ -9187,10 +9186,9 @@
                         }
                     },
 
-                    //eile PU CONCRETE 3K
                     {
                         "key": "8-2-8",
-                        "name": "eile PU CONCRETE 3K",
+                        "name": "eile PUR CONCRETE 3K",
                         "img": "/assets/products/teneke_bos.png",
                         "info": {
                             "tr": "Solventli Epoksi Son Kat Boya",

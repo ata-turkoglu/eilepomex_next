@@ -1,0 +1,15 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /tr/projects
+Disallow: /en/projects
+Disallow: /tr/products
+Disallow: /en/products
+Disallow: /tr/docs
+Disallow: /en/docs
+
+# Host
+Host: https://eilepomex.com/
+
+# Sitemaps
+Sitemap: https://eilepomex.com/sitemap.xml
