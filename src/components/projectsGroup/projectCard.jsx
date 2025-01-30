@@ -12,6 +12,7 @@ function ProjectCard({ project, locale }) {
     //const lang = useSelector((state) => state.language.lang);
     const [isSafari, setIsSafari] = useState(false);
     const [productSlug, setProductSlug] = useState(null);
+    const [product, setProduct] = useState(null);
 
     const router = useRouter();
 
@@ -20,6 +21,7 @@ function ProjectCard({ project, locale }) {
         const found = ProductList.find(
             (itm) => itm.id.toString() == project.product
         );
+        setProduct(found);
         const slug = project.product + "-" + slugify(found.name[locale]);
         /* found.name[locale]
                 .toLocaleLowerCase(findLocale("en"))
@@ -29,25 +31,37 @@ function ProjectCard({ project, locale }) {
     }, []);
 
     return (
-        <div className="projectCard">
-            <div className="imgContainer">
-                <img className="img1" src={project.image1} loading="lazy" />
-                <img
-                    className="img2"
-                    src={project.image2}
-                    onClick={() =>
-                        router.push(`/${locale}/product-details/${productSlug}`)
-                    }
-                    loading="lazy"
-                />
-            </div>
-            <div className="textContainer">
-                <h5 style={{ fontWeight: isSafari && "400" }}>
-                    {project.name[locale]}
-                </h5>
-                {/* <p>{project.description}</p> */}
-            </div>
-        </div>
+        <>
+            {product && (
+                <div className="projectCard">
+                    <div className="imgContainer">
+                        <img
+                            className="img1"
+                            src={project.image1}
+                            loading="lazy"
+                            alt={product.name[locale]}
+                        />
+                        <img
+                            className="img2"
+                            src={project.image2}
+                            onClick={() =>
+                                router.push(
+                                    `/${locale}/product-details/${productSlug}`
+                                )
+                            }
+                            loading="lazy"
+                            alt={product.name[locale]}
+                        />
+                    </div>
+                    <div className="textContainer">
+                        <h5 style={{ fontWeight: isSafari && "400" }}>
+                            {project.name[locale]}
+                        </h5>
+                        {/* <p>{project.description}</p> */}
+                    </div>
+                </div>
+            )}
+        </>
     );
 }
 

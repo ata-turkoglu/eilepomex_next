@@ -21,8 +21,33 @@ export async function generateMetadata() {
             description: siteMetaData.description["tr"],
             url: siteMetaData.siteUrl,
             siteName: siteMetaData.title,
-            images: [siteMetaData.socialBanner],
-            locale: "tr",
+            images: [
+                {
+                    url: "https://eilepomex.com/assets/logos/eile.png",
+                    height: "86",
+                    width: "86",
+                    alt: "eile pomex",
+                },
+                {
+                    url: "https://eilepomex.com/assets/logos/eilepomex-round.png",
+                    height: "110",
+                    width: "300",
+                    alt: "eile pomex",
+                },
+                {
+                    url: "https://eilepomex.com/assets/logos/eile-logo-tr.png",
+                    height: "112",
+                    width: "300",
+                    alt: "eile pomex tr",
+                },
+                {
+                    url: "https://eilepomex.com/assets/logos/eile-logo-en.png",
+                    height: "112",
+                    width: "300",
+                    alt: "eile pomex en",
+                },
+            ],
+            locale: "tr_TR",
             type: "website",
         },
         robots: {

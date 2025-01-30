@@ -24,6 +24,10 @@ export default function Home({ params: { locale } }) {
                 productId={23}
                 textColor="black"
                 locale={locale}
+                productName={{
+                    tr: "POMEX THERMOMEX SIVA",
+                    en: "POMEX THERMOMEX PLASTER",
+                }}
             />
             <Banner image="/assets/info/etiperview.jpg" />
             <Info
@@ -34,6 +38,11 @@ export default function Home({ params: { locale } }) {
                 bg="/assets/pomexblok/cure-room.jpg"
                 textColor="white"
                 headerInside="true"
+                locale={locale}
+                productName={{
+                    en: "POMEX BLOK",
+                    tr: "POMEX BLOK",
+                }}
             />
             <ProjectSamplesSection />
             <Brands />

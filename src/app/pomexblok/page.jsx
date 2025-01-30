@@ -8,7 +8,10 @@ function PomexBlokPage() {
         <main className="pomex_blok_page">
             <div className="videoIntro">
                 <div className="logoContainer">
-                    <img src="/assets/logos/pomexblok-logo-white.png" />
+                    <img
+                        src="/assets/logos/pomexblok-logo-white.png"
+                        alt="pomex blok"
+                    />
                 </div>
                 <video autoPlay={true} muted loop={true}>
                     <source

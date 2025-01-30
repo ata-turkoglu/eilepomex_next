@@ -18,7 +18,7 @@ function ProductCard({ image, text, onClick, rowList }) {
                         : "productCard-imgContainer"
                 }
             >
-                <img src={image} loading="lazy" />
+                <img src={image} loading="lazy" alt={text} />
             </div>
             <div
                 className={

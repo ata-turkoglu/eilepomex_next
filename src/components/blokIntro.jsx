@@ -29,6 +29,7 @@ function BlokIntro() {
                         <img
                             className="d-block w-100 brightness70"
                             src="/assets/pomexblok/blok-stok.jpg"
+                            alt="pomex blok"
                         />
                     </div>
                     <div className="carousel-caption d-none d-md-block">
@@ -49,6 +50,7 @@ function BlokIntro() {
                         <img
                             className="d-block w-100 brightness70"
                             src="/assets/pomexblok/cure-room.jpg"
+                            alt="pomex blok"
                         />
                     </div>
                     <div className="carousel-caption d-none d-md-block">
@@ -69,6 +71,7 @@ function BlokIntro() {
                         <img
                             className="d-block w-100 brightness70"
                             src="/assets/pomexblok/blokKonveyor.jpg"
+                            alt="pomex blok"
                         />
                     </div>
                     <div className="carousel-caption d-none d-md-block">
@@ -88,6 +91,7 @@ function BlokIntro() {
                         <img
                             className="d-block w-100 brightness70"
                             src="/assets/pomexblok/yeni-tesis.jpg"
+                            alt="pomex blok"
                         />
                     </div>
                     <div className="carousel-caption d-none d-md-block">

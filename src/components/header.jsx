@@ -109,7 +109,10 @@ function Header() {
                     );
                 })}
                 <Link className="pomexblok-link" href="/pomexblok">
-                    <img src="/assets/logos/pomexblok-logo.png"></img>
+                    <img
+                        src="/assets/logos/pomexblok-logo.png"
+                        alt="pomex blok"
+                    ></img>
                 </Link>
             </div>
         );
@@ -218,6 +221,7 @@ function Header() {
                                     ? "/assets/logos/eilepomex-round.png"
                                     : getLogo(lang)
                             }
+                            alt="eile pomex"
                         />
                     </Link>
                     <div
@@ -249,6 +253,7 @@ function Header() {
                                 <a
                                     href="https://tr.linkedin.com/company/eile-pomex-yap%C4%B1-kimyasallar%C4%B1"
                                     target="_blank"
+                                    aria-label="eile pomex linkedin page"
                                 >
                                     <Linkedin
                                         color="rgb(1,90,170)"
@@ -264,6 +269,7 @@ function Header() {
                                 <a
                                     href="https://www.instagram.com/eilepomex/"
                                     target="_blank"
+                                    aria-label="eile pomex instagram page"
                                 >
                                     <Instagram
                                         color="rgb(1,90,170)"
@@ -278,6 +284,7 @@ function Header() {
                                 <a
                                     href="https://www.facebook.com/eilepomex"
                                     target="_blank"
+                                    aria-label="eile pomex facebook page"
                                 >
                                     <Facebook
                                         color="rgb(1,90,170)"
@@ -408,6 +415,7 @@ function Header() {
                                         size="sm"
                                         as="span"
                                         className="langToggle"
+                                        aria-label="language"
                                     >
                                         {lang}
                                     </Dropdown.Toggle>
@@ -439,6 +447,7 @@ function Header() {
                         <a
                             href="https://tr.linkedin.com/company/eile-pomex-yap%C4%B1-kimyasallar%C4%B1"
                             target="_blank"
+                            aria-label="eile pomex linkedin page"
                         >
                             <Linkedin
                                 color="rgb(1,90,170)"
@@ -453,6 +462,7 @@ function Header() {
                         <a
                             href="https://www.instagram.com/eilepomex/"
                             target="_blank"
+                            aria-label="eile pomex instagram page"
                         >
                             <Instagram
                                 color="rgb(1,90,170)"
@@ -466,6 +476,7 @@ function Header() {
                         <a
                             href="https://www.facebook.com/eilepomex"
                             target="_blank"
+                            aria-label="eile pomex facebook page"
                         >
                             <Facebook
                                 color="rgb(1,90,170)"
@@ -546,6 +557,7 @@ function Header() {
                                 size="lg"
                                 as="span"
                                 className="langToggle"
+                                aria-label="language"
                             >
                                 {lang}
                             </Dropdown.Toggle>

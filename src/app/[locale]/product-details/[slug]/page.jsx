@@ -90,6 +90,7 @@ function ProductDetails({ params: { locale, slug } }) {
                                 textTransform: "uppercase",
                                 color: "black",
                             }}
+                            aria-label={product.name[locale] + " document"}
                         >
                             {key}
                         </a>
@@ -105,6 +106,7 @@ function ProductDetails({ params: { locale, slug } }) {
                                 textTransform: "uppercase",
                                 color: "black",
                             }}
+                            aria-label={product.name[locale] + "document"}
                         >
                             {key}
                         </a>
@@ -173,6 +175,10 @@ function ProductDetails({ params: { locale, slug } }) {
                                         <img
                                             src={product.appImage}
                                             loading="lazy"
+                                            alt={
+                                                product.name[locale] +
+                                                " uygulama"
+                                            }
                                         />
                                     </div>
                                 )}

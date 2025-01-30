@@ -35,7 +35,7 @@ function Banner({ image }) {
 
     return (
         <div id="banner" className="banner">
-            <img src={image} loading="lazy" />
+            <img src={image} loading="lazy" alt="eile pomex fabrika" />
             {showText || mobileView ? (
                 <div className="banner-content slide-right">
                     <h3 className={mobileView ? "mb-3" : "mb-4"}>

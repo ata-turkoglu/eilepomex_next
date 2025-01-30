@@ -12,6 +12,7 @@ export default {
     facebokk: "https://www.facebook.com/eilepomex",
     keywords: {
         tr: [
+            "Yapı Kimyasalları",
             "yapı kimyasallarında lider üretici",
             "çevre dostu yapı malzemeleri",
             "sürdürülebilir yapı malzemeleri",
@@ -28,6 +29,7 @@ export default {
             "pomeks",
         ],
         en: [
+            "Construction Chemicals",
             "leading manufacturer of construction chemicals",
             "environmentally friendly building materials",
             "sustainable building materials",

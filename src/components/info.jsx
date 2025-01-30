@@ -16,6 +16,7 @@ function Info({
     textColor,
     headerInside = false,
     locale,
+    productName,
 }) {
     const router = useRouter();
     const [mobile, setMobile] = useState(null);
@@ -51,6 +52,7 @@ function Info({
                         src={image}
                         loading="lazy"
                         onClick={() => router.push(to ? to : productUrl)}
+                        alt={productName[locale]}
                     />
                 </div>
                 <div className="textContainer">
@@ -58,7 +60,7 @@ function Info({
                 </div>
                 {bg && (
                     <div className="content-bg">
-                        <img src={bg} />
+                        <img src={bg} alt={productName[locale]} />
                     </div>
                 )}
             </div>

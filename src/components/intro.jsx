@@ -28,6 +28,7 @@ function Intro() {
                             className="d-block w-100"
                             loading="lazy"
                             src="/assets/introCarousel/tile-adhesive.jpeg"
+                            alt="tile adhesive"
                         />
                     </div>
                     <div className="carousel-caption d-none d-md-block">
@@ -41,6 +42,7 @@ function Intro() {
                             className="d-block w-100"
                             loading="lazy"
                             src="/assets/introCarousel/s2.jpg"
+                            alt="eile pur 012 022 042"
                         />
                     </div>
                     <div className="carousel-caption d-none d-md-block">
@@ -54,6 +56,7 @@ function Intro() {
                             className="d-block w-100"
                             loading="lazy"
                             src="/assets/introCarousel/joint-grout.jpeg"
+                            alt="joint-grout"
                         />
                     </div>
                 </Carousel.Item>
@@ -63,6 +66,7 @@ function Intro() {
                             className="d-block w-100"
                             loading="lazy"
                             src="/assets/introCarousel/thermal-plaster.jpeg"
+                            alt="thermal plaster"
                         />
                     </div>
                 </Carousel.Item>
@@ -72,6 +76,7 @@ function Intro() {
                             className="d-block w-100"
                             loading="lazy"
                             src="/assets/introCarousel/waterproofing.jpeg"
+                            alt="waterproofing"
                         />
                     </div>
                 </Carousel.Item>
@@ -81,6 +86,7 @@ function Intro() {
                             className="d-block w-100"
                             loading="lazy"
                             src="/assets/introCarousel/met-zzk.jpg"
+                            alt="eile met zzk"
                         />
                     </div>
                 </Carousel.Item>
@@ -90,6 +96,7 @@ function Intro() {
                             className="d-block w-100"
                             loading="lazy"
                             src="/assets/introCarousel/th-60.jpg"
+                            alt="eile th 60"
                         />
                     </div>
                 </Carousel.Item>
@@ -99,6 +106,7 @@ function Intro() {
                             className="d-block w-100"
                             loading="lazy"
                             src="/assets/introCarousel/bims.jpg"
+                            alt="pomex plok"
                         />
                         <span
                             className="detailButton"
