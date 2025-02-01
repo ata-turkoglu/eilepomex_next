@@ -1,8 +1,8 @@
 export default {
     title: "Eile Pomex",
     description: {
-        tr: "Eile Pomex Yapı Kimyasalları",
-        en: "Eile Pomex Construction Chemicals",
+        tr: "Eile Pomex Yapı Kimyasalları, yenilikçi, sürdürülebilir, yüksek performanslı inşaat malzemeleri üretir. Depreme, yangına dayanıklı, ısı-ses yalıtımlı çözümler sunar.",
+        en: "Eile Pomex Construction Chemicals produces innovative, sustainable, and high-performance building materials. It offers durable, fire-resistant, and thermal-acoustic insulation solutions.",
     },
     headerTitle: "Eile Pomex",
     theme: "system",
