@@ -423,11 +423,13 @@ function Header() {
                                     <Dropdown.Menu>
                                         <Dropdown.Item
                                             onClick={() => changeLanguage("tr")}
+                                            aria-label="türkçe"
                                         >
                                             tr
                                         </Dropdown.Item>
                                         <Dropdown.Item
                                             onClick={() => changeLanguage("en")}
+                                            aria-label="english"
                                         >
                                             en
                                         </Dropdown.Item>
@@ -566,12 +568,14 @@ function Header() {
                                 <Dropdown.Item
                                     className="langItem"
                                     onClick={() => changeLanguage("tr")}
+                                    aria-label="türkçe"
                                 >
                                     tr
                                 </Dropdown.Item>
                                 <Dropdown.Item
                                     className="langItem"
                                     onClick={() => changeLanguage("en")}
+                                    aria-label="english"
                                 >
                                     en
                                 </Dropdown.Item>

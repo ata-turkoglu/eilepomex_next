@@ -1,11 +1,14 @@
 export default {
     title: "Eile Pomex",
-    description: { tr: "Yapı Kimyasalları", en: "Construction Chemicals" },
+    description: {
+        tr: "Eile Pomex Yapı Kimyasalları",
+        en: "Eile Pomex Construction Chemicals",
+    },
     headerTitle: "Eile Pomex",
     theme: "system",
     siteUrl: "https://www.eilepomex.com/",
-    siteLogo: "/assets/logos/eile.png",
-    socialBanner: "/assets/logos/eilepomex-round.png",
+    siteLogo: "https://www.eilepomex.com/assets/logos/eile.png",
+    socialBanner: "https://www.eilepomex.com/assets/logos/eilepomex-round.png",
     email: "info@eilepomex.com",
     linkedin: "https://www.linkedin.com/company/eilepomex",
     instagram: "https://www.instagram.com/eilepomex",

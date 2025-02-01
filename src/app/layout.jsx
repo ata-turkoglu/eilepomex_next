@@ -3,51 +3,51 @@ import siteMetaData from "@/lib/siteMetaData";
 export async function generateMetadata() {
     return {
         metadataBase: new URL(siteMetaData.siteUrl),
+        canonical: "https://www.eilepomex.com/tr",
         alternates: {
-            //canonical: "/",
             languages: {
                 "tr-TR": "/tr",
                 "en-US": "/en",
             },
         },
         title: {
-            template: `%s | ${siteMetaData.title}`,
+            template: `%s Yapı Kimyasalları`,
             default: siteMetaData.title,
         },
-        keywords: siteMetaData.keywords["tr"],
-        description: siteMetaData.description["tr"],
+        keywords: siteMetaData.keywords.tr,
+        description: siteMetaData.description.tr,
         openGraph: {
             title: siteMetaData.title,
-            description: siteMetaData.description["tr"],
+            description: siteMetaData.description.tr,
             url: siteMetaData.siteUrl,
             siteName: siteMetaData.title,
             images: [
                 {
-                    url: "https://eilepomex.com/assets/logos/eile.png",
+                    url: "https://www.eilepomex.com/assets/logos/eile.png",
                     height: "86",
                     width: "86",
                     alt: "eile pomex",
                 },
                 {
-                    url: "https://eilepomex.com/assets/logos/eilepomex-round.png",
+                    url: "https://www.eilepomex.com/assets/logos/eilepomex-round.png",
                     height: "110",
                     width: "300",
                     alt: "eile pomex",
                 },
                 {
-                    url: "https://eilepomex.com/assets/logos/eile-logo-tr.png",
+                    url: "https://www.eilepomex.com/assets/logos/eile-logo-tr.png",
                     height: "112",
                     width: "300",
                     alt: "eile pomex tr",
                 },
                 {
-                    url: "https://eilepomex.com/assets/logos/eile-logo-en.png",
+                    url: "https://www.eilepomex.com/assets/logos/eile-logo-en.png",
                     height: "112",
                     width: "300",
                     alt: "eile pomex en",
                 },
             ],
-            locale: "tr_TR",
+            //locale: "tr_TR",
             type: "website",
         },
         robots: {

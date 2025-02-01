@@ -12,8 +12,17 @@ export default function Home({ params: { locale } }) {
     setRequestLocale(locale);
     const t = useTranslations("Home");
 
+    const getHeader = (locale) => {
+        if (locale == "tr") {
+            return "Eile Pomex Yapı Kimyasalları";
+        } else {
+            return "Eile Pomex Construction Chemicals";
+        }
+    };
+
     return (
         <main id="home" className="home">
+            <h1 style={{ display: "none" }}>{getHeader(locale)}</h1>
             <Intro />
             <Metrics />
             <Catalogs />

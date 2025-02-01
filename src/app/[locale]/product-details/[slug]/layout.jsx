@@ -40,7 +40,12 @@ export async function generateMetadata({ params }) {
                 locale +
                 "/product-details/" +
                 str,
-            images: [product.img],
+            images: [
+                {
+                    url: "https://www.eilepomex.com" + product.img,
+                    alt: product.name[locale],
+                },
+            ],
             locale,
             type: "website",
         },

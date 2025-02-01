@@ -17,26 +17,46 @@ export async function generateMetadata({ params }) {
     const { locale } = await params;
 
     return {
-        metadataBase: new URL(siteMetaData.siteUrl),
-        alternates: {
-            //canonical: "/",
-            languages: {
-                "tr-TR": "/tr",
-                "en-US": "/en",
-            },
-        },
         title: {
-            template: `%s | ${siteMetaData.title}`,
-            default: siteMetaData.title,
+            template:
+                locale == "tr"
+                    ? `%s Yapı Kimyasalları`
+                    : `%s Construction Chemicals`,
         },
         description: siteMetaData.description[locale],
+        keywords: siteMetaData.keywords[locale],
         openGraph: {
             title: siteMetaData.title,
-            description: siteMetaData.description,
-            url: siteMetaData.siteUrl,
+            description: siteMetaData.description[locale],
+            url: siteMetaData.siteUrl + locale + "/",
             siteName: siteMetaData.title,
-            images: [siteMetaData.socialBanner],
-            locale: "tr",
+            images: [
+                {
+                    url: "https://www.eilepomex.com/assets/logos/eile.png",
+                    height: "86",
+                    width: "86",
+                    alt: "eile pomex",
+                },
+                {
+                    url: "https://www.eilepomex.com/assets/logos/eilepomex-round.png",
+                    height: "110",
+                    width: "300",
+                    alt: "eile pomex",
+                },
+                {
+                    url: "https://www.eilepomex.com/assets/logos/eile-logo-tr.png",
+                    height: "112",
+                    width: "300",
+                    alt: "eile pomex tr",
+                },
+                {
+                    url: "https://www.eilepomex.com/assets/logos/eile-logo-en.png",
+                    height: "112",
+                    width: "300",
+                    alt: "eile pomex en",
+                },
+            ],
+            locale,
             type: "website",
         },
         robots: {

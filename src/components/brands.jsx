@@ -14,7 +14,7 @@ function Brands() {
         <div className="brands">
             <div className="content">
                 <div className="headerContainer">
-                    <h1 color="white">{t("ourGroupCompanies")}</h1>
+                    <h2 color="white">{t("ourGroupCompanies")}</h2>
                 </div>
                 <div className="images">
                     <div className="imgContainer">
@@ -76,7 +76,7 @@ function Brands() {
             {!mobile && <div className="content-border"></div>}
             <div className="content">
                 <div className="headerContainer">
-                    <h1 color="white">{t("ourBrands")}</h1>
+                    <h2 color="white">{t("ourBrands")}</h2>
                 </div>
                 <div className="images">
                     <div className="imgContainer">
