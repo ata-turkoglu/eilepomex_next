@@ -11,7 +11,6 @@ export async function generateMetadata() {
             },
         },
         title: {
-            template: `%s Yapı Kimyasalları`,
             default: siteMetaData.title,
         },
         keywords: siteMetaData.keywords.tr,

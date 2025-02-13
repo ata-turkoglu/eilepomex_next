@@ -25,7 +25,6 @@ function Header() {
     const [products, setProducts] = useState([]);
     const [hoverProducts, setHoverProducts] = useState(false);
     const [mobileNav, setMobileNav] = useState(false);
-    const [langState, setLangState] = useState("");
     const [activeTab, setActiveTab] = useState("");
     const [isSafari, setIsSafari] = useState(false);
     const [lang, setLang] = useState(null);
@@ -170,7 +169,6 @@ function Header() {
 
     const changeLanguage = (language) => {
         setLang(language);
-        setLangState(language);
         window.localStorage.setItem("lang", language);
 
         const realPath = pathname.split("/").splice(2).join("/");
@@ -394,7 +392,6 @@ function Header() {
                                 >
                                     <span>{t("contact")}</span>
                                 </Link>
-                                {langState}
                             </div>
                             <div
                                 className="searchContainer"

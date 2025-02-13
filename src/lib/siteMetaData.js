@@ -84,4 +84,15 @@ export default {
         },
         keywords: { tr: [], en: [] },
     },
+    projectsPage: {
+        title: {
+            tr: "Projeler",
+            en: "Projects",
+        },
+        description: {
+            tr: "Eile Pomex Projeler",
+            en: "Eile Pomex Projects",
+        },
+        keywords: { tr: [], en: [] },
+    },
 };

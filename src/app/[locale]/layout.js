@@ -18,10 +18,10 @@ export async function generateMetadata({ params }) {
 
     return {
         title: {
-            template:
+            default:
                 locale == "tr"
-                    ? `%s Yapı Kimyasalları`
-                    : `%s Construction Chemicals`,
+                    ? "Eile Pomex Yapı Kimyasalları"
+                    : "Eile Pomex Construction Chemicals",
         },
         description: siteMetaData.description[locale],
         keywords: siteMetaData.keywords[locale],
