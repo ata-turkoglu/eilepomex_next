@@ -1,0 +1,52 @@
+.productSearch {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 200px;
+    height: fit-content;
+    background-color: white;
+    box-shadow: 0 5px 5px -3px rgb(150, 150, 150);
+    border-radius: 0 0 0 5px;
+    padding: 0;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        min-width: 100%;
+        border-radius: 0 0 0 0;
+    }
+
+    input {
+        width: 100%;
+        border: none;
+        outline: none;
+        text-transform: capitalize;
+        padding-block: 0.3rem;
+        margin-inline: 0.5rem;
+        font-size: 0.8rem;
+
+        @media screen and (max-width: 768px) {
+            font-size: 1rem;
+        }
+    }
+
+    ul {
+        height: fit-content;
+        max-height: 10rem;
+        overflow: auto;
+        padding-left: 0.5rem;
+        margin-bottom: 0;
+
+        li {
+            font-size: 0.8rem;
+            list-style: none;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            padding-block: 0.5rem;
+
+            @media screen and (max-width: 768px) {
+                font-size: 1rem;
+            }
+        }
+    }
+}

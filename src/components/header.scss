@@ -47,7 +47,7 @@
         height: 100%;
         display: flex;
         align-items: center;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
         img {
             height: 80%;
             width: auto;
@@ -124,7 +124,7 @@
                     background-color: rgb(245, 245, 245);
                     /* border-bottom: 4px solid rgb(0,91,168); */
                 }
-                .active-nav{
+                .active-nav {
                     color: darken($logo-green, 5%);
                 }
             }
@@ -154,6 +154,14 @@
                 padding-block: 1rem;
                 justify-self: flex-end;
             }
+        }
+    }
+
+    #mobile-menu {
+        display: none;
+        @media screen and (max-width: 768px) {
+            display: flex;
+            align-items: center;
         }
     }
 
@@ -397,21 +405,21 @@
             padding-left: 0.5rem;
         }
 
-        .pomexblok-link{
+        .pomexblok-link {
             height: 25px;
             width: 60px;
             display: flex;
             cursor: pointer;
             margin-top: 1rem;
-            img{
+            img {
                 width: fit-content;
                 height: 100%;
                 object-fit: contain;
-                transition: .2s ease;
+                transition: 0.2s ease;
             }
 
-            img:hover{
-                padding-left: .5rem;
+            img:hover {
+                padding-left: 0.5rem;
             }
         }
     }

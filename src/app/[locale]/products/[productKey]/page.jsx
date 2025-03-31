@@ -163,10 +163,7 @@ function Products({ params: { locale, productKey } }) {
     };
 
     const setSlug = (id, name) => {
-        return (
-            id.toString() + "-" + slugify(name)
-            //name.toLocaleLowerCase(findLocale("en")).split(" ").join("-")
-        );
+        return id.toString() + "-" + slugify(name);
     };
 
     const handleProductClick = (key, name, productId = false) => {

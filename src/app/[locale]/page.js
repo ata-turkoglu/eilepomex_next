@@ -7,6 +7,7 @@ import Brands from "@/components/brands";
 import ProjectSamplesSection from "@/components/projectsGroup/projectSamplesSection";
 import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
+import siteMetaData from "@/lib/siteMetaData";
 
 export default function Home({ params: { locale } }) {
     setRequestLocale(locale);
@@ -23,6 +24,9 @@ export default function Home({ params: { locale } }) {
     return (
         <main id="home" className="home">
             <h1 style={{ display: "none" }}>{getHeader(locale)}</h1>
+            <p style={{ display: "none" }}>
+                {siteMetaData.description[locale]}
+            </p>
             <Intro />
             <Metrics />
             <Catalogs />

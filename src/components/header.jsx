@@ -13,12 +13,14 @@ import {
     Phone,
     MapPin,
     Search,
+    SearchX,
 } from "lucide-react";
 import Dropdown from "react-bootstrap/Dropdown";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Link from "next/link";
 import { useParams, usePathname, useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
+import ProductSearch from "./productSearch";
 
 function Header() {
     const [narrowHeader, setNarrowHeader] = useState(false);
@@ -28,6 +30,7 @@ function Header() {
     const [activeTab, setActiveTab] = useState("");
     const [isSafari, setIsSafari] = useState(false);
     const [lang, setLang] = useState(null);
+    const [searchState, setSearchState] = useState(false);
 
     const route = usePathname();
     const router = useRouter();
@@ -397,16 +400,30 @@ function Header() {
                                 className="searchContainer"
                                 style={{
                                     alignItems: narrowHeader ? "center" : "",
+                                    position: "relative",
                                 }}
                             >
-                                <Search
-                                    color="rgb(16,16,89)"
-                                    style={{
-                                        cursor: "pointer",
-                                        marginRight: "10px",
-                                    }}
-                                    size={24}
-                                />
+                                {searchState ? (
+                                    <SearchX
+                                        color="rgb(16,16,89)"
+                                        style={{
+                                            cursor: "pointer",
+                                            marginRight: "10px",
+                                        }}
+                                        size={24}
+                                        onClick={() => setSearchState(false)}
+                                    />
+                                ) : (
+                                    <Search
+                                        color="rgb(16,16,89)"
+                                        style={{
+                                            cursor: "pointer",
+                                            marginRight: "10px",
+                                        }}
+                                        size={24}
+                                        onClick={() => setSearchState(true)}
+                                    />
+                                )}
                                 <Dropdown className="langText">
                                     <Dropdown.Toggle
                                         size="sm"
@@ -432,6 +449,7 @@ function Header() {
                                         </Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
+                                <ProductSearch searchState={searchState} />
                             </div>
                         </div>
                     </div>
@@ -489,8 +507,46 @@ function Header() {
                     </div>
 
                     {/* mobile view hamburger menu */}
-                    <div id="menu-btn" onClick={menuChange}>
-                        <div className="menu-btn-burger"></div>
+                    <div id="mobile-menu">
+                        {!mobileNav && (
+                            <div
+                                style={{
+                                    position: "relative",
+                                    marginRight: "10px",
+                                }}
+                            >
+                                {searchState ? (
+                                    <SearchX
+                                        color="rgb(1, 90, 170)"
+                                        style={{
+                                            cursor: "pointer",
+                                            marginRight: "10px",
+                                        }}
+                                        size={24}
+                                        onClick={() => setSearchState(false)}
+                                    />
+                                ) : (
+                                    <Search
+                                        color="rgb(1, 90, 170)"
+                                        style={{
+                                            cursor: "pointer",
+                                            marginRight: "10px",
+                                        }}
+                                        size={24}
+                                        onClick={() => setSearchState(true)}
+                                    />
+                                )}
+                            </div>
+                        )}
+                        <div id="menu-btn" onClick={menuChange}>
+                            <div className="menu-btn-burger"></div>
+                        </div>
+                        {!mobileNav && (
+                            <ProductSearch
+                                searchState={searchState}
+                                style={{ top: "110%" }}
+                            />
+                        )}
                     </div>
 
                     {/* product categories */}
