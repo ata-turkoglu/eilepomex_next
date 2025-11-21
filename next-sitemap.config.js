@@ -10,32 +10,39 @@ module.exports = {
     generateIndexSitemap: false,
     generateRobotsTxt: true,
     exclude: [
+        "/tr/products",
         "/tr/products/*",
+        "/en/products",
         "/en/products/*",
-        "/tr/projects/",
-        "/en/projects/",
-        "/tr/docs/",
-        "/en/docs/",
+        "/tr/projects",
+        "/tr/projects/*",
+        "/en/projects",
+        "/en/projects/*",
+        "/tr/docs",
+        "/tr/docs/*",
+        "/en/docs",
+        "/en/docs/*",
         "/tr/product-details/[0-9]*/",
         "/en/product-details/[0-9]*/",
     ],
     transform: async (config, path) => {
         const withBase = (targetPath) => {
             if (targetPath.startsWith("http")) return targetPath;
-            const normalizedBase = config.siteUrl.replace(/\/$/, "");
-            const normalizedPath = targetPath.startsWith("/")
+            const base = config.siteUrl.replace(/\/$/, "");
+            const normalized = targetPath.startsWith("/")
                 ? targetPath
                 : `/${targetPath}`;
-            return normalizedBase + normalizedPath;
+            return base + normalized;
         };
 
         const locale = getLocaleFromPath(path);
-        const alternates =
-            locale === "tr" || locale === "en"
-                ? buildAlternateRefs(withBase, path, locale)
-                : undefined;
+        const alternates = buildAlternateRefs(path, locale, withBase);
 
-        if (path == "/" || path == "/tr" || path == "/en") {
+        if (path == "/") {
+            // Redirects to /tr, so we skip listing root to avoid 301 in sitemap
+            return null;
+        }
+        if (path == "/tr" || path == "/en") {
             return {
                 loc: withBase(path),
                 changefreq: config.changefreq,
@@ -45,7 +52,7 @@ module.exports = {
                     : undefined,
                 images: [
                     {
-                        loc: withBase("/assets/logos/eilepomex-round.png"),
+                        loc: toUrl(withBase("/assets/logos/eilepomex-round.png")),
                     },
                 ],
                 alternateRefs: alternates,
@@ -61,7 +68,7 @@ module.exports = {
                     : undefined,
                 images: [
                     {
-                        loc: withBase("/assets/logos/pomexblok-logo.png"),
+                        loc: toUrl(withBase("/assets/logos/pomexblok-logo.png")),
                     },
                 ],
                 alternateRefs: alternates,
@@ -72,15 +79,17 @@ module.exports = {
                 // Skip numeric-only product detail URLs to avoid duplicate entries
                 return null;
             }
-            const imgUrl = getProductImage(path);
+            const productLoc = normalizeProductPath(path, locale);
+            const imgUrl = getProductImage(productLoc || path);
+            const imageLoc = imgUrl ? toUrl(withBase(imgUrl)) : undefined;
             return {
-                loc: withBase(path),
+                loc: withBase(productLoc || path),
                 changefreq: config.changefreq,
                 priority: 0.9,
                 lastmod: config.autoLastmod
                     ? new Date().toISOString()
                     : undefined,
-                images: [{ loc: withBase(imgUrl) }],
+                images: imageLoc ? [{ loc: imageLoc }] : [],
                 alternateRefs: alternates,
             };
         }
@@ -116,10 +125,9 @@ const checkProductDetail = (path) => {
 };
 
 const getLocaleFromPath = (path) => {
-    const segments = path.split("/").filter(Boolean);
+    const segments = normalizePath(path).split("/").filter(Boolean);
     const first = segments[0];
     if (first === "tr" || first === "en") return first;
-    if (segments.length === 0) return undefined;
     return undefined;
 };
 
@@ -136,21 +144,107 @@ const getLastPathSegment = (path) => {
 const getProductImage = (path) => {
     const last = getLastPathSegment(path);
     const id = last.split("-")[0];
-    return productList.find((itm) => itm.id == id).img.slice(1);
+    const product = productList.find((itm) => itm.id == id);
+    if (!product || !product.img) return undefined;
+    const imgPath = product.img.startsWith("/")
+        ? product.img.slice(1)
+        : product.img;
+    return imgPath;
 };
 
-const buildAlternateRefs = (withBase, path, currentLocale) => {
-    const otherLocale = currentLocale === "tr" ? "en" : "tr";
-    const swapLocale = (targetLocale) =>
-        path.replace(/^\/(tr|en)/, `/${targetLocale}`);
+const buildAlternateRefs = (path, locale, withBase) => {
+    const pathname = normalizePath(path);
+    const id = getProductId(pathname);
+    // product detail: build locale-specific slugs from productList
+    if (id && locale) {
+        const trPath = buildProductPath("tr", id);
+        const enPath = buildProductPath("en", id);
+        return [
+            {
+                href: withBase(trPath),
+                hreflang: "tr",
+                hrefIsAbsolute: true,
+            },
+            {
+                href: withBase(enPath),
+                hreflang: "en",
+                hrefIsAbsolute: true,
+            },
+        ];
+    }
+    // root: serve both languages
+    if (pathname === "/") {
+        return [
+            { href: withBase("/tr/"), hreflang: "tr", hrefIsAbsolute: true },
+            { href: withBase("/en/"), hreflang: "en", hrefIsAbsolute: true },
+        ];
+    }
+    // neutral single-path pages (pomexblok)
+    if (pathname === "/pomexblok/") {
+        return [
+            {
+                href: withBase("/pomexblok/"),
+                hreflang: "tr",
+                hrefIsAbsolute: true,
+            },
+            {
+                href: withBase("/pomexblok/"),
+                hreflang: "en",
+                hrefIsAbsolute: true,
+            },
+        ];
+    }
+    if (locale !== "tr" && locale !== "en") return undefined;
+    const target = pathname.replace(/^\/(tr|en)/, "");
     return [
-        {
-            href: withBase(swapLocale("tr")),
-            hreflang: "tr",
-        },
-        {
-            href: withBase(swapLocale("en")),
-            hreflang: "en",
-        },
+        { href: withBase(`/tr${target}`), hreflang: "tr", hrefIsAbsolute: true },
+        { href: withBase(`/en${target}`), hreflang: "en", hrefIsAbsolute: true },
     ];
 };
+
+const normalizePath = (path) => {
+    if (!path) return "/";
+    try {
+        const url = new URL(path);
+        return url.pathname.endsWith("/")
+            ? url.pathname
+            : `${url.pathname}/`;
+    } catch {
+        const p = path.startsWith("/") ? path : `/${path}`;
+        return p.endsWith("/") ? p : `${p}/`;
+    }
+};
+
+const toUrl = (value) => new URL(value);
+
+const getProductId = (pathname) => {
+    if (!pathname.includes("product-details")) return undefined;
+    const last = getLastPathSegment(pathname);
+    const id = last.split("-")[0];
+    return /^\d+$/.test(id) ? id : undefined;
+};
+
+const normalizeProductPath = (path, locale) => {
+    const id = getProductId(path);
+    if (!id || !locale) return undefined;
+    return buildProductPath(locale, id);
+};
+
+const buildProductPath = (locale, id) => {
+    const product = productList.find((itm) => `${itm.id}` === `${id}`);
+    const name =
+        (product && product.name && product.name[locale]) ||
+        (product && product.name && (product.name.en || product.name.tr)) ||
+        `${id}`;
+    const slug = slugify(name);
+    return `/${locale}/product-details/${id}-${slug}/`;
+};
+
+const slugify = (str = "") =>
+    str
+        .toString()
+        .normalize("NFKD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-zA-Z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "")
+        .toLowerCase();
