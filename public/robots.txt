@@ -9,7 +9,7 @@ Disallow: /tr/docs
 Disallow: /en/docs
 
 # Host
-Host: https://eilepomex.com/
+Host: https://www.eilepomex.com/
 
 # Sitemaps
-Sitemap: https://eilepomex.com/sitemap.xml
+Sitemap: https://www.eilepomex.com/sitemap.xml

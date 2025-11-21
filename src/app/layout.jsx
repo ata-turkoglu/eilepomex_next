@@ -3,7 +3,7 @@ import siteMetaData from "@/lib/siteMetaData";
 export async function generateMetadata() {
     return {
         metadataBase: new URL(siteMetaData.siteUrl),
-        canonical: "https://www.eilepomex.com/tr",
+        canonical: siteMetaData.siteUrl,
         alternates: {
             languages: {
                 "tr-TR": "/tr",
@@ -51,7 +51,7 @@ export async function generateMetadata() {
         },
         robots: {
             index: true,
-            folow: true,
+            follow: true,
             //noimageindex: true,
             "max-video-preview": -1,
             "max-image-preview": "large",

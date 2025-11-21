@@ -15,13 +15,22 @@ const play = Play({
 
 export async function generateMetadata({ params }) {
     const { locale } = await params;
+    const alternateLocales = {
+        "tr-TR": "/tr",
+        "en-US": "/en",
+    };
 
     return {
+        metadataBase: new URL(siteMetaData.siteUrl),
         title: {
             default:
                 locale == "tr"
                     ? "Eile Pomex Yapı Kimyasalları"
                     : "Eile Pomex Construction Chemicals",
+        },
+        alternates: {
+            canonical: `/${locale}`,
+            languages: alternateLocales,
         },
         description: siteMetaData.description[locale],
         keywords: siteMetaData.keywords[locale],
@@ -61,7 +70,7 @@ export async function generateMetadata({ params }) {
         },
         robots: {
             index: true,
-            folow: true,
+            follow: true,
             //noimageindex: true,
             "max-video-preview": -1,
             "max-image-preview": "large",

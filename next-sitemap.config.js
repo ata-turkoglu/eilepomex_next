@@ -2,7 +2,7 @@
 // Default code you can customize according to your requirements.
 const productList = require("./src/data/productList.json");
 module.exports = {
-    siteUrl: "https://eilepomex.com/",
+    siteUrl: "https://www.eilepomex.com/",
     changefreq: "monthly",
     priority: 0.7,
     generateIndexSitemap: false,
@@ -16,9 +16,18 @@ module.exports = {
         "/en/docs/",
     ],
     transform: async (config, path) => {
+        const withBase = (targetPath) => {
+            if (targetPath.startsWith("http")) return targetPath;
+            const normalizedBase = config.siteUrl.replace(/\/$/, "");
+            const normalizedPath = targetPath.startsWith("/")
+                ? targetPath
+                : `/${targetPath}`;
+            return normalizedBase + normalizedPath;
+        };
+
         if (path == "/" || path == "/tr" || path == "/en") {
             return {
-                loc: path,
+                loc: withBase(path),
                 changefreq: config.changefreq,
                 priority: 1.0,
                 lastmod: config.autoLastmod
@@ -26,16 +35,14 @@ module.exports = {
                     : undefined,
                 images: [
                     {
-                        loc: {
-                            href: "https://eilepomex.com/assets/logos/eilepomex-round.png",
-                        },
+                        loc: withBase("/assets/logos/eilepomex-round.png"),
                     },
                 ],
             };
         }
         if (path == "/pomexblok") {
             return {
-                loc: path,
+                loc: withBase(path),
                 changefreq: config.changefreq,
                 priority: 0.9,
                 lastmod: config.autoLastmod
@@ -43,9 +50,7 @@ module.exports = {
                     : undefined,
                 images: [
                     {
-                        loc: {
-                            href: "https://eilepomex.com/assets/logos/pomexblok-logo.png",
-                        },
+                        loc: withBase("/assets/logos/pomexblok-logo.png"),
                     },
                 ],
             };
@@ -53,17 +58,17 @@ module.exports = {
         if (checkProductDetail(path)) {
             const imgUrl = getProductImage(path);
             return {
-                loc: path,
+                loc: withBase(path),
                 changefreq: config.changefreq,
                 priority: 0.9,
                 lastmod: config.autoLastmod
                     ? new Date().toISOString()
                     : undefined,
-                images: [{ loc: { href: config.siteUrl + imgUrl } }],
+                images: [{ loc: withBase(imgUrl) }],
             };
         }
         return {
-            loc: path,
+            loc: withBase(path),
             changefreq: config.changefreq,
             priority: config.priority,
             lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
@@ -84,6 +89,7 @@ module.exports = {
                 ],
             },
         ],
+        additionalSitemaps: ["https://www.eilepomex.com/sitemap.xml"],
     },
 };
 
