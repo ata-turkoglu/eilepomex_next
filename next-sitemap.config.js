@@ -5,6 +5,8 @@ module.exports = {
     siteUrl: "https://www.eilepomex.com/",
     changefreq: "monthly",
     priority: 0.7,
+    outDir: "public",
+    autoLastmod: true,
     generateIndexSitemap: false,
     generateRobotsTxt: true,
     exclude: [
@@ -14,6 +16,8 @@ module.exports = {
         "/en/projects/",
         "/tr/docs/",
         "/en/docs/",
+        "/tr/product-details/[0-9]*/",
+        "/en/product-details/[0-9]*/",
     ],
     transform: async (config, path) => {
         const withBase = (targetPath) => {
@@ -24,6 +28,12 @@ module.exports = {
                 : `/${targetPath}`;
             return normalizedBase + normalizedPath;
         };
+
+        const locale = getLocaleFromPath(path);
+        const alternates =
+            locale === "tr" || locale === "en"
+                ? buildAlternateRefs(withBase, path, locale)
+                : undefined;
 
         if (path == "/" || path == "/tr" || path == "/en") {
             return {
@@ -38,6 +48,7 @@ module.exports = {
                         loc: withBase("/assets/logos/eilepomex-round.png"),
                     },
                 ],
+                alternateRefs: alternates,
             };
         }
         if (path == "/pomexblok") {
@@ -53,9 +64,14 @@ module.exports = {
                         loc: withBase("/assets/logos/pomexblok-logo.png"),
                     },
                 ],
+                alternateRefs: alternates,
             };
         }
         if (checkProductDetail(path)) {
+            if (isPlainIdPath(path)) {
+                // Skip numeric-only product detail URLs to avoid duplicate entries
+                return null;
+            }
             const imgUrl = getProductImage(path);
             return {
                 loc: withBase(path),
@@ -65,6 +81,7 @@ module.exports = {
                     ? new Date().toISOString()
                     : undefined,
                 images: [{ loc: withBase(imgUrl) }],
+                alternateRefs: alternates,
             };
         }
         return {
@@ -72,6 +89,7 @@ module.exports = {
             changefreq: config.changefreq,
             priority: config.priority,
             lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
+            alternateRefs: alternates,
         };
     },
     robotsTxtOptions: {
@@ -97,9 +115,42 @@ const checkProductDetail = (path) => {
     return path.includes("product-details");
 };
 
+const getLocaleFromPath = (path) => {
+    const segments = path.split("/").filter(Boolean);
+    const first = segments[0];
+    if (first === "tr" || first === "en") return first;
+    if (segments.length === 0) return undefined;
+    return undefined;
+};
+
+const isPlainIdPath = (path) => {
+    const last = getLastPathSegment(path);
+    return /^\d+$/.test(last);
+};
+
+const getLastPathSegment = (path) => {
+    const segments = path.split("/").filter(Boolean);
+    return segments[segments.length - 1] || "";
+};
+
 const getProductImage = (path) => {
-    const list = path.split("/");
-    const last = list[list.length - 1];
+    const last = getLastPathSegment(path);
     const id = last.split("-")[0];
     return productList.find((itm) => itm.id == id).img.slice(1);
+};
+
+const buildAlternateRefs = (withBase, path, currentLocale) => {
+    const otherLocale = currentLocale === "tr" ? "en" : "tr";
+    const swapLocale = (targetLocale) =>
+        path.replace(/^\/(tr|en)/, `/${targetLocale}`);
+    return [
+        {
+            href: withBase(swapLocale("tr")),
+            hreflang: "tr",
+        },
+        {
+            href: withBase(swapLocale("en")),
+            hreflang: "en",
+        },
+    ];
 };

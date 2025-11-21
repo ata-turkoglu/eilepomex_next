@@ -3,7 +3,7 @@ import siteMetaData from "@/lib/siteMetaData";
 export async function generateMetadata() {
     return {
         metadataBase: new URL(siteMetaData.siteUrl),
-        canonical: siteMetaData.siteUrl,
+        canonical: new URL("tr/", siteMetaData.siteUrl).toString(),
         alternates: {
             languages: {
                 "tr-TR": "/tr",
