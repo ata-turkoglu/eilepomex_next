@@ -73,7 +73,8 @@
         "thermalInsulationSystemCertificates": "Thermal Insulation System Certificates",
         "plasterCertificates": "Plaster Certificates",
         "cementBasedAdhesiveCertificates": "Cement Based Adhesive Certificates",
-        "cementBasedGroutingsCertificates": "Cement Based Groutings Certificates"
+        "cementBasedGroutingsCertificates": "Cement Based Groutings Certificates",
+        "documentsBelongingEilePomexCompany": "Documents Belonging to Our Eile Pomex Company"
     },
     "ProductsPage": {
         "products": "products",

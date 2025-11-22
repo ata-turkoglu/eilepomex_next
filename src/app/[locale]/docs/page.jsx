@@ -40,7 +40,7 @@ function Docs() {
                         <Accordion.Body>
                             <div className="container_body">
                                 <div className="content">
-                                    <h4>Eile Pomex Firmamıza Ait Belgeler</h4>
+                                    <h4>{t('documentsBelongingEilePomexCompany')}</h4>
                                     <div className="buttons">
                                         <a
                                             className="button"
@@ -285,7 +285,7 @@ function Docs() {
                         </Accordion.Body>
                     </Accordion.Item>
 
-                    <Accordion.Item eventKey="5">
+                    {/* <Accordion.Item eventKey="5">
                         <Accordion.Header>
                             <h5>
                                 {t("acrylicBasedWaterproofingCertificates")}
@@ -307,7 +307,7 @@ function Docs() {
                                 </div>
                             </div>
                         </Accordion.Body>
-                    </Accordion.Item>
+                    </Accordion.Item> */}
 
                     <Accordion.Item eventKey="6">
                         <Accordion.Header>

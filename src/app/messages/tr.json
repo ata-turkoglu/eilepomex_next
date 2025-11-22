@@ -73,7 +73,8 @@
         "thermalInsulationSystemCertificates": "Isı Yalıtım Belgelerimiz",
         "plasterCertificates": "Sıva Belgelerimiz",
         "cementBasedAdhesiveCertificates": "Çimento Esaslı Yapıştırıcı Belgelerimiz",
-        "cementBasedGroutingsCertificates": "Çimento Esaslı Derz Dolgu Belgelerimiz"
+        "cementBasedGroutingsCertificates": "Çimento Esaslı Derz Dolgu Belgelerimiz",
+        "documentsBelongingEilePomexCompany": "Eile Pomex Firmamıza Ait Belgeler"
     },
     "ProductsPage": {
         "products": "ürünler",
