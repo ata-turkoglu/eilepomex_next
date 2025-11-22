@@ -431,13 +431,13 @@ function Docs() {
                                 <div className="content">
                                     <h4>THERMOMEX ISI YALITIM SIVASI</h4>
                                     <div className="buttons">
-                                        <a
+                                        {/* <a
                                             className="button three"
                                             href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-INCE_SIVA.pdf"
                                             onClick={(e) => handleClick(e)}
                                         >
                                             UTO
-                                        </a>
+                                        </a> */}
                                         <a
                                             className="button two"
                                             href="/assets/docs/TSE_THERMOMEX-KALIN_SIVA-INCE_SIVA.pdf"

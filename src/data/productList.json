@@ -2160,6 +2160,7 @@
             "en": "Unopened original packaging should be stored in a cool, dry place and stacked no more than 10 bags high."
         },
         "docs": {
+            "tse": "/assets/docs/TSE_THERMOMEX-KALIN_SIVA-INCE_SIVA.pdf",
             "tds": {
                 "en": "",
                 "tr": "/assets/docs/tds/tr/4-is-yaltm/eip-tds-125-eile-pls-2000-rev0-tr.pdf"
@@ -2267,6 +2268,7 @@
             "en": "Best stored in cool and dry place in their unopened package with a maximum 10-fold stacking."
         },
         "docs": {
+            "tse": "/assets/docs/TSE_EILE_PLY_2100.pdf",
             "tds": {
                 "en": "",
                 "tr": "/assets/docs/tds/tr/4-is-yaltm/eip-tds-126-eile-ply-2100-rev0-tr.pdf"
@@ -6650,6 +6652,7 @@
             "en": "It should be stored in its original package in a cool and dry environment with a maximum 10-fold stacking."
         },
         "docs": {
+            "ce": "/assets/docs/ce_pomex_saten_siva.pdf",
             "tds": {
                 "en": "/assets/docs/tds/en/5-plasters/eip-tds-94-pomex-satin-plaster-rev0-eng.pdf",
                 "tr": "/assets/docs/tds/tr/5-svalar/eip-tds-94-pomex-saten-sva-rev0-tr.pdf"
@@ -10225,6 +10228,8 @@
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
         },
         "docs": {
+            "tse": "/assets/docs/TSE_EILE_SYP_1000.pdf",
+            "ce": "/assets/docs/ce_syp_1000_belgesi.pdf",
             "tds": {
                 "tr": "/assets/docs/tds/tr/6-yapstrclar/eip-tds-103-eile-syp-1000-rev0-tr.pdf",
                 "en": "/assets/docs/tds/en/6-adhesives/concrete/eip-tds-103-eile-syp-1000-rev0-eng.pdf"
@@ -10495,6 +10500,7 @@
             ]
         },
         "docs": {
+            "tse": "/assets/docs/tse_gazbeton_yap.pdf",
             "tds": {
                 "en": "/assets/docs/tds/en/6-adhesives/concrete/eip-tds-099-pomex-aerated-concrete-adhesive-mortar-rev0-eng.pdf",
                 "tr": "/assets/docs/tds/tr/6-yapstrclar/eip-tds-99-pomex-gaz-beton-yapistirma-harci-rev0-tr.pdf"
@@ -11353,6 +11359,7 @@
         },
         "docs": {
             "tse": "/assets/docs/tse_eile_yuzey_sertlestiriciler.pdf",
+            "ce": "/assets/docs/ce_eile_top_110_s.pdf",
             "tds": {
                 "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-058-eile-epx-110-rev0-eng.pdf",
                 "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-079-eile-top-110s-rev0-tr.pdf"
@@ -12093,7 +12100,7 @@
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
         },
         "docs": {
-            "tse": "/assets/docs/TSE_POMEX_ZEMİN_YÜZEY_SERTLEŞTİRİCİSİ.pdf",
+            "tse": "/assets/docs/TSE_POMEX_ZEMIN_YUZEY_SERTLESTIRICISI.pdf",
             "ce": "/assets/docs/ce_pomex_zemin_yuzey_sertlestiricisi.pdf",
             "tds": {
                 "en": "/assets/docs/tds/en/3-ground-systems/surface-hardeners/eip-tds-081-pomex-floor-surface-hardener-rev0-eng.pdf",
