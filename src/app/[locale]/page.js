@@ -31,6 +31,20 @@ export default function Home({ params: { locale } }) {
             <Metrics />
             <Catalogs />
             <Info
+                image="/assets/products/pomex_yuzey_sertlestirici.png"
+                header={t("highPerformanceSurfaceHardener")}
+                text={t("infoThermomex")}
+                bg="/assets/info/surfaceHardenerBg.png"
+                productId={99}
+                textColor="white"
+                locale={locale}
+                productName={{
+                    tr: "POMEX ZEMİN YÜZEY SERTLEŞTİRİCİ",
+                    en: "POMEX GROUND SURFACE HARDENER",
+                }}
+            />
+            <Banner image="/assets/info/etiperview.jpg" />
+            <Info
                 image="/assets/products/thermomex_isi_ve_yalitim_sivasi.png"
                 header={t("naturalSolutionsInInsulation")}
                 text={t("infoThermomex")}
@@ -42,13 +56,14 @@ export default function Home({ params: { locale } }) {
                     en: "POMEX THERMOMEX PLASTER",
                 }}
             />
-            <Banner image="/assets/info/etiperview.jpg" />
+            <ProjectSamplesSection />
             <Info
                 image={"/assets/pomexblok/bims-blok.png"}
                 header="Pomex Blok"
                 text={t("infoPomexBlok")}
                 to="/pomexblok"
                 bg="/assets/pomexblok/cure-room.jpg"
+                bgB30={true}
                 textColor="white"
                 headerInside="true"
                 locale={locale}
@@ -57,7 +72,6 @@ export default function Home({ params: { locale } }) {
                     tr: "POMEX BLOK",
                 }}
             />
-            <ProjectSamplesSection />
             <Brands />
             <div className="spacerH50"></div>
         </main>

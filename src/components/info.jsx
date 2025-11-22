@@ -17,6 +17,7 @@ function Info({
     headerInside = false,
     locale,
     productName,
+    bgB30= false
 }) {
     const router = useRouter();
     const [mobile, setMobile] = useState(null);
@@ -59,7 +60,7 @@ function Info({
                     <p>{text}</p>
                 </div>
                 {bg && (
-                    <div className="content-bg">
+                    <div className={bgB30?"content-bg-30":"content-bg"}>
                         <img src={bg} alt={productName[locale]} />
                     </div>
                 )}
