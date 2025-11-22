@@ -126,8 +126,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_astar_e.doc",
-                "en": "/assets/docs/tds/en/eile_astar_e.docx"
+                "tr": "/assets/docs/tds/tr/8-astarlar/eip-tds-122-eile-astar-e-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/8-primer-and-support/eip-tds-122-eile-astar-e-rev0-eng.pdf"
             }
         }
     },
@@ -241,8 +241,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_fiber.doc",
-                "en": "/assets/docs/tds/en/eile_fiber.docx"
+                "tr": "/assets/docs/tds/tr/8-astarlar/eip-tds-117-eile-fiber-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/8-primer-and-support/eip-tds-117-eile-fiber-rev0-eng.pdf"
             }
         }
     },
@@ -355,8 +355,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_ka_300.doc",
-                "en": "/assets/docs/tds/en/eile_ka_300.doc"
+                "tr": "/assets/docs/tds/tr/8-astarlar/eip-tds-118-eile-ka-300-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/8-primer-and-support/eip-tds-118-eile-ka-300-rev0-eng.pdf"
             }
         }
     },
@@ -467,8 +467,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_latex.doc",
-                "en": "/assets/docs/tds/en/eile_latex.docx"
+                "tr": "/assets/docs/tds/tr/8-astarlar/eip-tds-116-eile-latex-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/8-primer-and-support/eip-tds-116-eile-latex-rev0-eng.pdf"
             }
         }
     },
@@ -581,8 +581,8 @@
         "docs": {
             "tse": "/assets/docs/tse_tu_05.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_tu_05.doc",
-                "en": "/assets/docs/tds/en/eile_tu_05.doc"
+                "tr": "/assets/docs/tds/tr/8-astarlar/eip-tds-120-eile-tu-05-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/8-primer-and-support/eip-tds-120-eile-tu-05-rev0-eng.pdf"
             }
         }
     },
@@ -694,8 +694,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_tu_06.doc",
-                "en": "/assets/docs/tds/en/eile_tu_06.docx"
+                "tr": "/assets/docs/tds/tr/8-astarlar/eip-tds-121-eile-tu-06-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/8-primer-and-support/eip-tds-121-eile-tu-06-rev0-eng.pdf"
             }
         }
     },
@@ -815,8 +815,8 @@
         "docs": {
             "tse": "/assets/docs/TSE_POMEX_DERZ_DOLGU.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/pomex_fuga.doc",
-                "en": "/assets/docs/tds/en/Pomex_Fuga_ing.docx"
+                "tr": "/assets/docs/tds/tr/7-derz-dolgular/eip-tds-108-pomex-fuga-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/7-tile-grouts/cement-based/eip-tds-108-pomex-joint-rev0-eng.pdf"
             }
         }
     },
@@ -939,8 +939,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/pomex_fuga.doc",
-                "en": "/assets/docs/tds/en/pomex_derz_dolgu.docx"
+                "tr": "/assets/docs/tds/tr/7-derz-dolgular/eip-tds-107-pomex-flex-fuga-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/7-tile-grouts/cement-based/eip-tds-107-pomex-flex-joint-rev0-eng.pdf"
             }
         }
     },
@@ -1060,6 +1060,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 1O kat istifle depolanmalıdır. ",
             "en": "Best stored in cool and dry place in their unopened package with a maximum 10-fold stacking."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/7-tile-grouts/cement-based/eip-tds-109-pomex-pool-joint-sealant-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/7-derz-dolgular/eip-tds-109-pomex-havuz-fuga-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -1179,8 +1185,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/pomex_rustik_fuga.doc",
-                "en": "/assets/docs/tds/en/Pomex_Rustik_Joint_Sealant_ing.docx"
+                "tr": "/assets/docs/tds/tr/7-derz-dolgular/eip-tds-110-pomex-rustik-fuga-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/7-tile-grouts/cement-based/eip-tds-110-pomex-rustic-joint-sealant-rev0-eng.pdf"
             }
         }
     },
@@ -1302,6 +1308,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır. ",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, protected from direct sunlight and frost."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/7-tile-grouts/epoxy-based/eip-tds-111-eile-epx-630-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/7-derz-dolgular/eip-tds-111-eile-epx-630-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -1414,6 +1426,12 @@
         "storage": {
             "tr": " Açılmamış orjinal ambalajında, serin ve kuru ortamda depolanmalıdır. ",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/7-tile-grouts/sealants/eip-tds-112-eile-polyurethane-sealant-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/7-derz-dolgular/eip-tds-112-eile-poliuretan-mastik-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -1534,6 +1552,12 @@
         "storage": {
             "tr": "Açılmamış orijinal kovalarında, 5 °C ile 25 °C arasında, kuru ortamlarda depolanmalıdır. Açılan kovalardaki malzeme derhal kullanılmalıdır.",
             "en": "Store in original buckets, between 5 °C and 25 °C, in dry environments. The material in the opened buckets should be used immediately."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/7-tile-grouts/sealants/eip-tds-112-eile-polyurethane-sealant-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/7-derz-dolgular/eip-tds-113-eile-poliuretan-mastik-100-d-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -1658,6 +1682,12 @@
         "storage": {
             "tr": "Sudan, dondan ve olumsuz hava koşullarından korunmalıdır. Kuru ve serin bir ortamda ( +10 0C ve +25 oC in arasında ) saklanmalıdır.",
             "en": "It must be protected from water, frost and adverse weather conditions. Should be stored in a dry and cool environment (between +10 °C and +25 °C)."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/7-tile-grouts/sealants/eip-tds-112-eile-polyurethane-sealant-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/7-derz-dolgular/eip-tds-114-eile-poliuretan-mastik-200-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -1796,6 +1826,12 @@
         "storage": {
             "tr": "",
             "en": ""
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/7-tile-grouts/sealants/eip-tds-115-eile-psm-700-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/7-derz-dolgular/eip-tds-115-eile-psm-700-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -1902,7 +1938,11 @@
             "en": "Unopened original packaging should be stored in a cool, dry environment, stacked no more than 10 layers high."
         },
         "docs": {
-            "ce": "/assets/docs/ce_pomex_ds_40.pdf"
+            "ce": "/assets/docs/ce_pomex_ds_40.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/4-thermal-insulation/eip-tds-83-eile-ds-40-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/4-is-yaltm/eip-tds-83-eile-ds-40-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -2005,7 +2045,11 @@
             "en": "It should be stored in the original unopened package at a temperature of +5°C -+30°C, protected from frost and direct sunlight."
         },
         "docs": {
-            "ce": "/assets/docs/ce_pomex_ds_40.pdf"
+            "ce": "/assets/docs/ce_pomex_ds_40.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/4-thermal-insulation/eip-tds-82-eile-ds-40-acryl-rev0-eng-son.pdf",
+                "tr": "/assets/docs/tds/tr/4-is-yaltm/eip-tds-82-eile-ds-40-acryl-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -2114,6 +2158,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "Unopened original packaging should be stored in a cool, dry place and stacked no more than 10 bags high."
+        },
+        "docs": {
+            "tds": {
+                "en": "",
+                "tr": "/assets/docs/tds/tr/4-is-yaltm/eip-tds-125-eile-pls-2000-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -2215,6 +2265,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "Best stored in cool and dry place in their unopened package with a maximum 10-fold stacking."
+        },
+        "docs": {
+            "tds": {
+                "en": "",
+                "tr": "/assets/docs/tds/tr/4-is-yaltm/eip-tds-126-eile-ply-2100-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -2325,7 +2381,11 @@
             "en": "Best stored in cool and dry place in unopened package  with a maximum 10-fold stacking."
         },
         "docs": {
-            "ce": "/assets/docs/ce_eile_son_kat_elyafli_siva.pdf"
+            "ce": "/assets/docs/ce_eile_son_kat_elyafli_siva.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/4-thermal-insulation/eip-tds-84-eile-eile-finishing-coat-fiber-plaster-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/4-is-yaltm/eip-tds-84-eile-son-kat-elyafli-siva-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -2433,6 +2493,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "Best stored in cool and dry place in their unopened package with a maximum 10-fold stacking."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/4-thermal-insulation/eip-tds-85-pomex-thermal-ins-plaster-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/4-is-yaltm/eip-tds-85-pomex-isi-mantolama-sivasi-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -2535,6 +2601,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 1O kat istifle depolanmalıdır.",
             "en": "Best stored in cool and dry place in their unopened package with a maximum 10-fold stacking."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/4-thermal-insulation/eip-tds-86-pomex-thermal-ins-adhesive-mortar-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/4-is-yaltm/eip-tds-86-pomex-isi-mantolama-levha-yapistiricisi-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -2681,8 +2753,8 @@
             "tse": "/assets/docs/TSE_THERMOMEX-KALIN_SIVA-INCE_SIVA.pdf",
             "ce": "/assets/docs/ce_pomex_thermomex.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/pomex_thermomex_siva.doc",
-                "en": "/assets/docs/tds/en/POMEX_Thermomex_Plaster_ing.docx"
+                "tr": "/assets/docs/tds/tr/4-is-yaltm/eip-tds-87-pomex-thermomex-siva-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/4-thermal-insulation/eip-tds-87-pomex-thermomex-plaster-rev0-eng.pdf"
             }
         }
     },
@@ -2826,7 +2898,11 @@
             "en": "It is  stored in cool and dry place in their unopened package in a maximum pile of 10 packages."
         },
         "docs": {
-            "ce": "/assets/docs/ce_pomex_thermomex.pdf"
+            "ce": "/assets/docs/ce_pomex_thermomex.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/4-thermal-insulation/eip-tds-88-pomex-thermomex-screed-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/4-is-yaltm/eip-tds-88-pomex-thermomex-sap-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -2949,6 +3025,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "It should be stored in unopened original package in a cool and dry place and stack maximum 10 packages on top of each other."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/cement-acrylic-based/eip-tds-033-eile-a-seal-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-033-eile-a-seal-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -3077,7 +3159,11 @@
             "en": "t should be stored in unopened original package in a cool and dry place and stack maximum 10 packages on top of each other."
         },
         "docs": {
-            "ce": "/assets/docs/ce_ak8_50c_60c_th60_th70_watbon.pdf"
+            "ce": "/assets/docs/ce_ak8_50c_60c_th60_th70_watbon.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/cement-based/eip-tds-006-eile-grout-50-c-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-006-eile-grout-50-c-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -3203,8 +3289,8 @@
         "docs": {
             "ce": "/assets/docs/ce_ak8_50c_60c_th60_th70_watbon.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_grout_60_c.doc",
-                "en": "/assets/docs/tds/en/Eile_GROUT_60_C_ing.docx"
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-007-eile-grout-60-c-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/cement-based/eip-tds-007-eile-grout-60-c-rev0-eng.pdf"
             }
         }
     },
@@ -3326,6 +3412,12 @@
         "tds": {
             "tr": "/assets/docs/tds/tr/eile_grout_100_C.doc",
             "en": "/assets/docs/tds/en/Eile_GROUT_100_C_ing.docx"
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/cement-based/eip-tds-008-eile-grout-100-c-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-008-eile-grout-100-c-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -3441,8 +3533,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_sns_804.doc",
-                "en": "/assets/docs/tds/en/sns_804_SON.docx"
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-011-eile-sns-804-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/cement-based/eip-tds-011-eile-sns-804-rev0-eng.pdf"
             }
         }
     },
@@ -3568,6 +3660,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/cement-based/eip-tds-009-eile-th-60-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-009-eile-th-60-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -3691,8 +3789,8 @@
             "tse": "/assets/docs/TSE_EILE_TH_70.pdf",
             "ce": "/assets/docs/ce_ak8_50c_60c_th60_th70_watbon.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_th_70.doc",
-                "en": "/assets/docs/tds/en/Eile_TH_70_ing.docx"
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-010-eile-th-70-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/cement-based/eip-tds-010-eile-th-70-rev0-eng.pdf"
             }
         }
     },
@@ -3816,6 +3914,12 @@
         "storage": {
             "tr": "Açılmamış orijinal ambalajında +5 °C ve +35 °C sıcaklık aralığında depolanmalıdır. Direk güneş ışığından ve dondan korunmalıdır. Muhafaza edilmelidir. Açılmış ürün kendi ambalajında, kapağı iyice kapatılarak muhafaza edilmelidir.",
             "en": "It should be stored in unopened original package between +5°C and +35°C. It should be protected from direct sunlight and frost. An opened product should be stored in original package by closing its cover."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/epoxy-based/eip-tds-014-epx-50-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-014-epx-50-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -3954,7 +4058,11 @@
             "en": "The product should be stored between 5-35°C. The product should not be exposed direct sunlight. An opened product should be stored in original package by closing its cover."
         },
         "docs": {
-            "ce": "/assets/docs/ce_epox_epx100_epx240g.pdf"
+            "ce": "/assets/docs/ce_epox_epx100_epx240g.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/epoxy-based/eip-tds-015-epx-100-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-015-epx-100-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -4065,6 +4173,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından ve dondan korunmalıdır.",
             "en": "It should be stored in unopened original package between +5°C and +35°C. It should be protected from direct sunlight and frost."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/epoxy-based/eip-tds-016-epx-120-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-016-epx-120-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -4193,7 +4307,11 @@
             "en": "The product should be stored between 5-35°C. The product should not be exposed direct sunlight. An opened product should be stored in original package by closing its cover."
         },
         "docs": {
-            "ce": "/assets/docs/ce_epox_epx100_epx240g.pdf"
+            "ce": "/assets/docs/ce_epox_epx100_epx240g.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/carbon-based/eip-tds-004-eile-epx-33-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-065-eile-epx-830-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -4314,6 +4432,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C sıcaklık aralığında direkt güneş ışığından ve dondan korunarak depolanmalıdır.",
             "en": "It should be stored in unopened original package in a cool and dry place and over +5°C and under +35°C away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/epoxy-based/eip-tds-018-epx-300-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-018-epx-300-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -4434,6 +4558,12 @@
         "storage": {
             "tr": "Kuru yerlerde ve güneş ışığına maruz bırakılmadan saklanmalıdır.",
             "en": "It should be stored in dry places and without exposing to sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/carbon-based/eip-tds-001-eile-carbofrp-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-001-eile-carbofrp-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -4540,6 +4670,12 @@
         "storage": {
             "tr": "",
             "en": ""
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/carbon-based/eip-tds-002-carbon-mesh-170-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-002-carbon-mesh-170-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -4658,6 +4794,12 @@
         "storage": {
             "tr": "Açılmamış orijinal ambalajında, serin ve kuru yerde, direkt güneş ışığından +5°C'nin üzerinde ve +35°C'nin altında depolanmalıdır.",
             "en": "It should be stored in unopened original package in a cool and dry place and over +5°C and under +35°C away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/chemical-anchors/eip-tds-012-eile-epox-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-003-eile-carboshield-rev0-eng.pdf"
+            }
         }
     },
     {
@@ -4774,6 +4916,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direkt güneş ışığından ve dondan korunmalıdır.",
             "en": "It should be stored in unopened original package in a cool and dry place and over +5°C and under +35°C away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/carbon-based/eip-tds-004-eile-epx-33-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-004-eile-epx-33-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -4900,7 +5048,11 @@
             "en": "it should be stored in unopened original package in a cool and dry place and over + C and under +35° C. The product should be protected from direct sunlight. "
         },
         "docs": {
-            "ce": "/assets/docs/ce_epox_epx100_epx240g.pdf"
+            "ce": "/assets/docs/ce_epox_epx100_epx240g.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/chemical-anchors/eip-tds-012-eile-epox-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-012-eile-epox-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -5025,6 +5177,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından ve dondan korunmalıdır.",
             "en": "it should be stored in unopened original package in a cool and dry place and over +5°C and under +35°C. The product should be protected from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/chemical-anchors/eip-tds-013-eile-rotfix-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-013-eile-rotfix-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -5147,6 +5305,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "It should be stored in unopened original package in a cool and dry place and stack maximum 10 packages on top of each other."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/historical-artifact-repair/eip-tds-021-pomex-horasan-mortar-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-021-pomex-horasan-harc-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -5259,6 +5423,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "It should be stored in unopened original package in a cool and dry place and stack maximum 10 packages on top of each other."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/historical-artifact-repair/eip-tds-022-pomex-lime-injection-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-022-eile-lime-injection-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -5373,6 +5543,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda depolanmalıdır.",
             "en": "It should be stored in unpacked original package in a cool and dry place."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/historical-artifact-repair/eip-tds-019-eile-hrs-10-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-019-eile-hrs-10-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -5489,6 +5665,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında +5 °C - +30 °C sıcaklık aralığında, dondan ve direkt güneş ışığından korunarak depolanmalıdır.",
             "en": "In its bulk original packaging at +5 0C - + 300C, it should be stored in temperature range, protected from frost and direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/historical-artifact-repair/eip-tds-020-eile-seal-sb-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/1-onarm-guclendirme/eip-tds-020-eile-seal-sb-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -5605,7 +5787,11 @@
             "en": "It should be stored in its unopened original packaging, in a cool and dry environment, with a maximum of 10 layers stacked."
         },
         "docs": {
-            "ce": "/assets/docs/CE_eile_gbs_5000.pdf"
+            "ce": "/assets/docs/CE_eile_gbs_5000.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/5-plasters/eip-tds-89-eile-gbs-5000-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/5-svalar/eip-tds-89-eile-gbs-5000-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -5724,7 +5910,11 @@
             "en": "It should be stored in its original package in a cool and dry environment with a maximum 10-fold stacking."
         },
         "docs": {
-            "ce": "/assets/docs/eile_brut_beton_siva.pdf"
+            "ce": "/assets/docs/eile_brut_beton_siva.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/5-plasters/eip-tds-91-pomex-exposed-concrete-plaster-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/5-svalar/eip-tds-91-pomex-brut-beton-sva-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -5843,7 +6033,11 @@
             "en": "It should be stored in its original package in a cool and dry environment with a maximum"
         },
         "docs": {
-            "ce": "/assets/docs/eile_brut_beton_siva.pdf"
+            "ce": "/assets/docs/eile_brut_beton_siva.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/7-tile-grouts/cement-based/eip-tds-110-pomex-rustic-joint-sealant-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/5-svalar/eip-tds-90-eile-dolgu-macunu-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -5961,7 +6155,11 @@
         },
         "docs": {
             "tse": "/assets/docs/TSE_THERMOMEX-KALIN_SIVA-INCE_SIVA.pdf",
-            "ce": "/assets/docs/ce_pomex_ince_siva.pdf"
+            "ce": "/assets/docs/ce_pomex_ince_siva.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/5-plasters/eip-tds-96-pomex-thin-plaster-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/5-svalar/eip-tds-127-pomex-makine-siva-ince-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -6089,7 +6287,11 @@
         },
         "docs": {
             "tse": "/assets/docs/TSE_THERMOMEX-KALIN_SIVA-INCE_SIVA.pdf",
-            "ce": "/assets/docs/ce_pomex_kalin_siva.pdf"
+            "ce": "/assets/docs/ce_pomex_kalin_siva.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/5-plasters/eip-tds-95-pomex-thick-plaster-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/4-is-yaltm/eip-tds-87-pomex-thermomex-siva-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -6206,6 +6408,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda En fazla 1O kat istifle depolanmalıdır.",
             "en": "It should be stored in its original package in a cool and dry environment with a maximum 10-fold stacking."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/5-plasters/eip-tds-92-pomex-machine-plaster-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/5-svalar/eip-tds-96-pomex-ince-sva-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -6322,6 +6530,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda En fazla 1O kat istifle depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging, in a cool and dry environment, with a maximum of 10 layers stacked."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/5-plasters/eip-tds-92-pomex-machine-plaster-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/4-is-yaltm/eip-tds-85-pomex-isi-mantolama-sivasi-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -6434,6 +6648,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "It should be stored in its original package in a cool and dry environment with a maximum 10-fold stacking."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/5-plasters/eip-tds-94-pomex-satin-plaster-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/5-svalar/eip-tds-94-pomex-saten-sva-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -6525,8 +6745,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_elastomer.doc",
-                "en": "/assets/docs/tds/en/Eile_ELASTOMER_ing.docx"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-023-eile-elastomer-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/acrylic-based/eip-tds-023-eile-elastomer-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -6641,8 +6861,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_elastomer_texture.doc",
-                "en": "/assets/docs/tds/en/Eile_ELASTOMER_TEXTURE_ing.doc"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-025-eile-elastomer-texture-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/acrylic-based/eip-tds-025-eile-elastomer-texture-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -6771,8 +6991,8 @@
         "docs": {
             "tse": "/assets/docs/TSE_EILE_LIKIT_AKRILIK.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_likit_akrilik.doc",
-                "en": "/assets/docs/tds/en/Eile_LIQUID_ACRYLIC_ing.doc"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-024-eile-likit-akrilik-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/acrylic-based/eip-tds-024-eile-liquid-acrylic-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -6881,8 +7101,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_pur_1kb.doc",
-                "en": "/assets/docs/tds/en/Eile_PUR_1KB_ing.doc"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-045-eile-pur-1kb-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/polyurethane-based/eip-tds-045-eile-pur-1kb-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -7034,6 +7254,12 @@
                 "It is a two-component, polyurethane-bitumen modified, fast-curing, elastic waterproofing material that adheres perfectly to various surfaces",
                 "Roof, terrace areas, parking lots"
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-069-eile-pur-712-2k-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-069-eile-pur-712-2k-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -7166,6 +7392,12 @@
                 "Cement and polymer modified, bitumen rubber based, two-component, non-solvent, trowel consistent waterproofing material",
                 "All underground and aboveground, horizontal and vertical, indoor and outdoor places."
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/bitum-based/eip-tds-027-eile-bitucim-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-027-eile-bitucim-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -7280,8 +7512,8 @@
         "docs": {
             "tse": "/assets/docs/ce_bitucim_per_bey_rap.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_bitucim_elastik.doc",
-                "en": "/assets/docs/tds/en/Eile_BITUCIM_FLEXIBLE_ing.pdf"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-026-eile-bitucim-elastik-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/bitum-based/eip-tds-026-eile-bitucim-flexible-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -7411,8 +7643,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_met_zzk_40.doc",
-                "en": "/assets/docs/tds/en/Eile_MET_ZZK_40_ing.doc"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-028-eile-met-zzk-40-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/bitum-based/eip-tds-028-eile-met-zzk-40-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -7550,6 +7782,12 @@
                 "POMEX BİTÜLAST is a single-component, solvent-free, elastic, bitumen-based waterproofing material",
                 "As a waterproofing material in the foundation and basement curtains of buildings."
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/bitum-based/eip-tds-029-pomex-bitulast-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-029-pomex-bitulast-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -7637,8 +7875,8 @@
         "docs": {
             "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_a_seal.doc",
-                "en": "/assets/docs/tds/en/Eile_A_Seal_ing.pdf"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-033-eile-a-seal-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/cement-acrylic-based/eip-tds-033-eile-a-seal-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -7761,8 +7999,8 @@
         "docs": {
             "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_kapiler.doc",
-                "en": "/assets/docs/tds/en/Eile_Kapiler_ing.docx"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-034-eile-kapiler-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/cement-acrylic-based/eip-tds-034-eile-kapiler-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -7900,6 +8138,12 @@
                 "It is a two-component, cement and polymer emulsion-based waterproofing material that can be applied in negative and positive directions",
                 "In vertical and horizontal applications in interior and exterior spaces of buildings,"
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/cement-based/eip-tds-030-eile-kapiler-2k-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-030-eile-kapiler-2k-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -8004,8 +8248,8 @@
         "docs": {
             "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_max_seal.doc",
-                "en": "/assets/docs/tds/en/Eile_Max_Seal_ing.docx"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-036-eile-max-seal-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/cement-acrylic-based/eip-tds-036-eile-max-seal-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -8134,8 +8378,8 @@
         "docs": {
             "ce": "/assets/docs/ce_aseal_kapiler_maxseal_maxsealelas.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_max_seal_elastik.doc",
-                "en": "/assets/docs/tds/en/Eile_Max_Seal_Elastic_ing.docx"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-035-eile-max-seal-elastik-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/cement-acrylic-based/eip-tds-035-eile-max-seal-elastic-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -8260,8 +8504,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/pomex_2_k.doc",
-                "en": "/assets/docs/tds/en/POMEX_2K_EN_ing.doc"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-038-pomex-2k-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/cement-acrylic-based/eip-tds-038-pomex-2k-en-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -8372,8 +8616,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/pomex_2_k_elastik.doc",
-                "en": "/assets/docs/tds/en/POMEX_2K_ELASTIK_EN_ing.doc"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-037-pomex-2k-elastik-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/cement-acrylic-based/eip-tds-038-pomex-2k-en-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -8511,6 +8755,12 @@
                 "Cement based, rapid set when mixed with water, hardens with expansion and appropriate for montage and repairing water plugging mortar which provides high ad he rence",
                 "Outdoor and indoor places, vertical or horizontal applications."
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/cement-based/eip-tds-032-pomex-waterbond-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-032-pomex-waterbond-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -8600,8 +8850,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/pomex_t_seal.doc",
-                "en": "/assets/docs/tds/en/POMEX_T_SEAL_ing.doc"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-031-pomex-t-seal-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/cement-based/eip-tds-031-pomex-t-seal-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -8732,6 +8982,12 @@
                 "Polyurethane Injection Resin and Accelerator",
                 "To stop water leakages in negative direction."
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/polyurethane-based/eip-tds-041-eile-polijet-120-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-041-eile-polijet-120-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -8849,6 +9105,12 @@
                 "Single component, polyurethane based, flexible, air curing waterproofing material",
                 "Waterproofing of roofs, balconies and terraces, concrete walls."
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/polyurethane-based/eip-tds-047-eile-pur-022-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-068-eile-pur-710-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -8959,6 +9221,12 @@
                 "It is a two-component, epoxy-based, solvent-free, polyurethane-based waterproofing material that can bridge cracks",
                 "In water tanks"
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/polyurethane-based/eip-tds-047-eile-pur-022-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-047-eile-pur-022-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -9063,6 +9331,12 @@
                 "It is a single-component, polyurethane-based, elastic, air-curing waterproofing material",
                 "Plaster and cement panels"
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/polyurethane-based/eip-tds-048-eile-pur-042-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-048-eile-pur-042-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -9177,6 +9451,12 @@
                 "It is a two-component, pure polyurea system that does not contain solvents and plasticizers and consists of 100% solid materials",
                 "Swimming pools, water tanks,"
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/polyurethane-based/eip-tds-042-eile-poliurea-500-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-042-eile-poliurea-500-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -9287,6 +9567,12 @@
                 "It is a two-component, solvent- and plasticizer-free hybrid polyurea system consisting of 100% solid materials",
                 "Swimming pools, water tanks"
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/polyurethane-based/eip-tds-044-eile-poliurea-hp-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-044-eile-poliurea-hp-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -9391,6 +9677,12 @@
                 "it is a TPE based insulation band that is flexible in every direction and can be used far insulation of dilation, grouts and crack that occur due to various reasons",
                 "Dilatation joints and moving grouts."
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/auxiliary/eip-tds-050-eile-fc-805-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-050-eile-fc-805-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -9489,6 +9781,12 @@
                 "It is a chamfer tape with elastomeric structure and high elasticity, used in the insulation of chamfers",
                 "It is used in the corners at the junction of the floor and the wall."
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/auxiliary/eip-tds-051-eile-pb-12-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-051-eile-pb-12-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -9587,6 +9885,12 @@
                 "eile Swell is a hydrophilic joint tape that swells when in contact with water",
                 "In all kinds of construction joints,"
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/auxiliary/eip-tds-052-eile-swell-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-052-eile-swell-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -9696,6 +10000,12 @@
                 "It is a single component, high-adhesive, solvent-free acrylic dispersion based adhesive developed for PVC and linoleum flooring materials",
                 "Indoors"
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/6-adhesives/acrylic/eip-tds-097-eile-pma-100-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/6-yapstrclar/eip-tds-97-eile-pma-100-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -9811,6 +10121,12 @@
                 "It is a two-component, flexible, long-lasting, cement and acrylic resin based adhesive mortar with reduced slip properties",
                 "It is used for adhering coating materials such as ceramics, natural stone, porcelain ceramics, decorative bricks on walls and floors, concrete, plaster or screed in interior and exterior spaces."
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/6-adhesives/concrete/eip-tds-098-eile-pomax-28-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/6-yapstrclar/eip-tds-98-eile-pomax-28-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -9910,8 +10226,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_syp_1000.doc",
-                "en": "/assets/docs/tds/en/Eile_SYP_1000_ing.docx"
+                "tr": "/assets/docs/tds/tr/6-yapstrclar/eip-tds-103-eile-syp-1000-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/6-adhesives/concrete/eip-tds-103-eile-syp-1000-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -10046,8 +10362,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/pomex_flex_yapistiricisi.doc",
-                "en": "/assets/docs/tds/en/Pomex_Flex_Adhesive_ing.docx"
+                "tr": "/assets/docs/tds/tr/6-yapstrclar/eip-tds-100-pomex-flex-yapistiricisi-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/6-adhesives/concrete/eip-tds-100-pomex-flex-adhesive-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -10177,6 +10493,12 @@
                 "Cement-based, single-component practical aerated concrete mesh mortar containing a filler of special grain sizes and chemical additives that increase product workability",
                 "It can be used safely in interior and exterior spaces in the laying of building elements such as aerated concrete and brick, which have high water absorption capacity."
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/6-adhesives/concrete/eip-tds-099-pomex-aerated-concrete-adhesive-mortar-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/6-yapstrclar/eip-tds-99-pomex-gaz-beton-yapistirma-harci-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -10275,8 +10597,8 @@
         "docs": {
             "tse": "/assets/docs/TSE_POMEX_GRANIT_YAPISTIRICISI.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/pomex_granit_yapistiricisi.doc",
-                "en": "/assets/docs/tds/en/Pomex_Granite_Adhesive_ing.docx"
+                "tr": "/assets/docs/tds/tr/6-yapstrclar/eip-tds-101-pomex-granit-yapistiricisi-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/6-adhesives/concrete/eip-tds-101-pomex-granite-adhesive-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -10436,6 +10758,12 @@
                 "It is a cement-based, polymer-added ceramic adhesive mortar with reduced slip properties, extended open time, and elastic properties",
                 "In laying ceramics, glass mosaics, natural stone and granite ceramics, granite and similar coating materials on walls and floors in indoor and outdoor spaces."
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/6-adhesives/concrete/eip-tds-105-pomex-ceramic-adhesive-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/6-yapstrclar/eip-tds-102-pomex-havuz-yapistiricisi-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -10525,8 +10853,8 @@
             "tse": "/assets/docs/TSE_POMEX_SERAMIK_YAPISTIRICISI.pdf",
             "ce": "/assets/docs/ce_pomex_seramik_belgesi.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/pomex_hizli_donan_seramik_yapistiricisi.doc",
-                "en": "/assets/docs/tds/en/POMEX_Rapid_Hard_Ceramic_Adhesive_ing.docx"
+                "tr": "/assets/docs/tds/tr/6-yapstrclar/eip-tds-93-pomex-hzl-donan-seramik-yapstrcs-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/5-plasters/eip-tds-93-pomex-rapid-hardening-ceramic-adhesive-rev0-eng.pdf"
             }
         },
         "keywords": {
@@ -10647,7 +10975,11 @@
         },
         "docs": {
             "tse": "/assets/docs/TSE_POMEX_SERAMIK_YAPISTIRICISI.pdf",
-            "ce": "/assets/docs/ce_pomex_seramik_belgesi.pdf"
+            "ce": "/assets/docs/ce_pomex_seramik_belgesi.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/6-adhesives/concrete/eip-tds-105-pomex-ceramic-adhesive-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/6-yapstrclar/eip-tds-99-pomex-gaz-beton-yapistirma-harci-rev0-tr.pdf"
+            }
         },
         "keywords": {
             "tr": [
@@ -10780,6 +11112,12 @@
                 "It is a cement-based, polymer-reinforced, high-performance, fast-hardening adhesive mortar",
                 "It is used for adhesion of ceramics, granite, porcelain and natural stones, on indoor walls and floors, on concrete, screed and plaster, on outdoor floors, on concrete, screed and plaster, which are intended to be used within a day."
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/6-adhesives/concrete/eip-tds-105-pomex-ceramic-adhesive-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/6-yapstrclar/eip-tds-99-pomex-gaz-beton-yapistirma-harci-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -10886,6 +11224,12 @@
                 "It is a solvent-free, two-component, thixotropic, paste-like, high-strength, adhesive and filling mortar",
                 "It is used for adhering coating materials such as ceramics, tiles, granite ceramic glass mosaic, alumina brick, etc. to walls, floors, masonry and/or sheet metal, and in environments requiring resistance to chemicals."
             ]
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/6-adhesives/epoxy/eip-tds-106-eile-epx-927-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/6-yapstrclar/eip-tds-106-eile-epx-927-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -11008,7 +11352,11 @@
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, stacked in maximum 10 layers."
         },
         "docs": {
-            "tse": "/assets/docs/tse_eile_yuzey_sertlestiriciler.pdf"
+            "tse": "/assets/docs/tse_eile_yuzey_sertlestiriciler.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-058-eile-epx-110-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-079-eile-top-110s-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -11130,7 +11478,11 @@
         },
         "docs": {
             "tse": "/assets/docs/tse_eile_yuzey_sertlestiriciler.pdf",
-            "ce": "/assets/docs/ce_eile_top_110_s.pdf"
+            "ce": "/assets/docs/ce_eile_top_110_s.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/surface-hardeners/eip-tds-080-pomex-125-kk-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-080-pomex-125-kk-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -11252,7 +11604,11 @@
         },
         "docs": {
             "tse": "/assets/docs/tse_eile_yuzey_sertlestiriciler.pdf",
-            "ce": "/assets/docs/ce_eile_korund_120_f.pdf"
+            "ce": "/assets/docs/ce_eile_korund_120_f.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/2-waterproofing/polyurethane-based/eip-tds-041-eile-polijet-120-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-077-eile-korund-120f-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -11378,8 +11734,8 @@
             "tse": "/assets/docs/TSE_EILE_LEVEL.pdf",
             "ce": "/assets/docs/ce_level.pdf",
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_level.doc",
-                "en": "/assets/docs/tds/en/Eile_Level_ing.docx"
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-075-eile-level-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/3-ground-systems/level-screeds/eip-tds-075-eile-level-rev0-eng.pdf"
             }
         }
     },
@@ -11492,6 +11848,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda en fazla 10 kat istifle depolanmalıdır.",
             "en": "It must be stored unopened in its original packaging, in cool and dry conditions with a maximum 10-fold stacking."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/level-screeds/eip-tds-073-eile-level-10-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-073-eile-level-10-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -11608,8 +11970,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_level_15.doc",
-                "en": "/assets/docs/tds/en/Eile_Level_ing.docx"
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-074-eile-level-15-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/3-ground-systems/level-screeds/eip-tds-074-eile-level-15-rev0-eng.pdf"
             }
         }
     },
@@ -11732,7 +12094,11 @@
         },
         "docs": {
             "tse": "/assets/docs/TSE_POMEX_ZEMİN_YÜZEY_SERTLEŞTİRİCİSİ.pdf",
-            "ce": "/assets/docs/ce_pomex_zemin_yuzey_sertlestiricisi.pdf"
+            "ce": "/assets/docs/ce_pomex_zemin_yuzey_sertlestiricisi.pdf",
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/surface-hardeners/eip-tds-081-pomex-floor-surface-hardener-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-081-pomex-floor-surface-hardener-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -11879,6 +12245,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında +5°C - +35°C sıcaklık aralığında depolanmalıdır. Ürün direk güneş ışığından ve dondan korunarak depolanmalıdır.",
             "en": "Store in its original unopened package between the temperatures ​​+5°C -+30°C. Keep it away from direct sunlight and frost"
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-056-eile-epx-018-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-056-eile-epx-018-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -11996,6 +12368,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, protected from direct sunlight and frost."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-062-eile-epx-400-p-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-062-eile-epx-400-p-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -12114,6 +12492,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, above +5°C - +35°C, away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-063-eile-epx-550-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-063-eile-epx-550-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -12232,6 +12616,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, above +5°C - +35°C, away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/8-primer-and-support/eip-tds-123-eile-epx-550-boya-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-123-eile-epx-550-boya-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -12342,6 +12732,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-064-eile-epx-730-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-064-eile-epx-730-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -12452,6 +12848,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-065-eile-epx-830-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-065-eile-epx-830-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -12558,6 +12960,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından ve dondan korunarak depolanmalıdır.",
             "en": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından ve dondan korunarak depolanmalıdır."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/1-repair-and-reinforcement/carbon-based/eip-tds-004-eile-epx-33-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-065-eile-epx-830-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -12680,6 +13088,12 @@
         "storage": {
             "tr": "Açılmamış orijinal kovalarında, 5°C ile 25°C arası sıcaklıktaki kuru ortamlarda minimum 12 ay saklanabilir. Açılan kovadaki malzeme mümkün olduğunca en kısa sürede kullanılmalıdır.",
             "en": "Açılmamış orijinal kovalarında, 5°C ile 25°C arası sıcaklıktaki kuru ortamlarda minimum 12 ay saklanabilir. Açılan kovadaki malzeme mümkün olduğunca en kısa sürede kullanılmalıdır."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-071-eile-pu-concrete-3k-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-071-eile-pur-concrete-3k-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -12804,6 +13218,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, protected from direct sunlight and frost."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-066-eile-pur-053-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-066-eile-pur-053-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -12922,6 +13342,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, protected from direct sunlight and frost."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-067-eile-pur-060-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-067-eile-pur-060-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -13028,6 +13454,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından dondan korunarak depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment, protected from direct sunlight and frost."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-070-eile-pur-750-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-070-eile-pur-750-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -13140,6 +13572,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından ve dondan korunarak depolanmalıdır.",
             "en": "Açılmamış orjinal ambalajında, serin ve kuru ortamda direkt güneş ışığından ve dondan korunarak depolanmalıdır."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/stone-protectors/eip-tds-076-eile-sealgard-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-076-eile-sealgard-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -13246,6 +13684,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında +5 0C  -+30 0C sıcaklık aralığında, dondan ve direkt güneş ışığından korunarak depolanmalıdır.",
             "en": "Açılmamış orjinal ambalajında +5 0C  -+30 0C sıcaklık aralığında, dondan ve direkt güneş ışığından korunarak depolanmalıdır."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-072-pomex-stone-carpet2k-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-072-pomex-stone-carpet2k-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -13360,6 +13804,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-057-eile-epx-021-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-057-eile-epx-021-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -13478,6 +13928,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-058-eile-epx-110-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-058-eile-epx-110-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -13597,6 +14053,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-059-eile-epx-225-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-059-eile-epx-225-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -13717,6 +14179,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-060-eile-epx-260-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-060-eile-epx-260-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -13825,6 +14293,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C -+25°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C -+25°C, away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-061-eile-epx-280fl-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-061-eile-epx-280fl-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -13953,6 +14427,12 @@
         "storage": {
             "tr": "Orijinal kendi ambalajında, +5°C ile +25°C aralığında, nem ve güneş ışığından korunarak depolanmalıdır.",
             "en": "Orijinal kendi ambalajında, +5°C ile +25°C aralığında, nem ve güneş ışığından korunarak depolanmalıdır."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-068-eile-pur-710-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-068-eile-pur-710-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -14063,6 +14543,12 @@
         "storage": {
             "tr": "Orijinal kendi ambalajında, +5 °C ile +25 °C aralığında, nem ve güneş ışığından korunarak depolanmalıdır.",
             "en": "Orijinal kendi ambalajında, +5 °C ile +25 °C aralığında, nem ve güneş ışığından korunarak depolanmalıdır."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/epoxy-polyurethane/eip-tds-069-eile-pur-712-2k-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-069-eile-pur-712-2k-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -14193,6 +14679,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/curing-materials/eip-tds-053-eile-curing-105-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-053-eile-curing-105-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -14319,6 +14811,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/curing-materials/eip-tds-054-eile-curing-ast-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-054-eile-curing-ast-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -14449,6 +14947,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "It should be stored in its unopened original packaging in a cool and dry environment at temperatures above +5°C - +35°C, away from direct sunlight."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/curing-materials/eip-tds-055-eile-parkur-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-055-eile-parkur-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -14561,6 +15065,12 @@
         "storage": {
             "tr": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır.",
             "en": "Açılmamış orjinal ambalajında, serin ve kuru ortamda +5°C - +35°C üstünde direkt güneş ışığından uzak yerlerde depolanmalıdır."
+        },
+        "docs": {
+            "tds": {
+                "en": "/assets/docs/tds/en/3-ground-systems/surface-hardeners/eip-tds-078-eile-silika-100-rev0-eng.pdf",
+                "tr": "/assets/docs/tds/tr/3-zemin-sistemleri/eip-tds-078-eile-silika-100-rev0-tr.pdf"
+            }
         }
     },
     {
@@ -14662,8 +15172,8 @@
         },
         "docs": {
             "tds": {
-                "tr": "/assets/docs/tds/tr/eile_double_poliurea.doc",
-                "en": "/assets/docs/tds/en/Eile_DOUBLE_POLIUREA_ing.pdf"
+                "tr": "/assets/docs/tds/tr/2-su-yaltm/eip-tds-040-eile-double-poliurea-rev0-tr.pdf",
+                "en": "/assets/docs/tds/en/2-waterproofing/polyurethane-based/eip-tds-040-eile-double-poliurea-rev0-eng.pdf"
             }
         },
         "keywords": {

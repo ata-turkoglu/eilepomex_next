@@ -96,21 +96,26 @@ function ProductDetails({ params: { locale, slug } }) {
                         </a>
                     );
                 } else {
-                    list.push(
-                        <a
-                            key={index}
-                            href={docs[key][lang]}
-                            target="_blank"
-                            style={{
-                                marginRight: "20px",
-                                textTransform: "uppercase",
-                                color: "black",
-                            }}
-                            aria-label={product.name[locale] + "document"}
-                        >
-                            {key}
-                        </a>
-                    );
+                    {
+                        docs[key][lang] &&
+                            list.push(
+                                <a
+                                    key={index}
+                                    href={docs[key][lang]}
+                                    target="_blank"
+                                    style={{
+                                        marginRight: "20px",
+                                        textTransform: "uppercase",
+                                        color: "black",
+                                    }}
+                                    aria-label={
+                                        product.name[locale] + "document"
+                                    }
+                                >
+                                    {key}
+                                </a>
+                            );
+                    }
                 }
             });
 
