@@ -74,6 +74,13 @@ function Header() {
     }, []);
 
     useEffect(() => {
+        if (searchState) {
+            const input = document.getElementById("productSearchInput");
+            input?.focus();
+        }
+    }, [searchState]);
+
+    useEffect(() => {
         const res = (
             <div id="productListContainer" className="productListContainer">
                 {productsJSON.map((item) => {
@@ -415,6 +422,7 @@ function Header() {
                                     />
                                 ) : (
                                     <Search
+                                        id="searchIcon"
                                         color="rgb(16,16,89)"
                                         style={{
                                             cursor: "pointer",

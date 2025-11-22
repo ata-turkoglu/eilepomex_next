@@ -20,7 +20,7 @@ export default function ProductSearch({ searchState }) {
                 <ul>
                     {productList
                         .filter((item) =>
-                            item.name[locale]
+                            productSearchText(item, searchText)
                                 .toLowerCase()
                                 .includes(searchText.toLowerCase())
                         )
@@ -37,6 +37,21 @@ export default function ProductSearch({ searchState }) {
         }
     };
 
+    const productSearchText = (item, searchText) => {
+        const searchTxtArr = searchText.toLowerCase().split(" ");
+        if (searchTxtArr.length > 1) {
+            return [
+                item?.name[locale],
+                item?.info[locale],
+                item.description[locale],
+                item?.areasOfUsage[locale],
+                item?.featuresOfProduct[locale],
+            ].join(" ");
+        } else {
+            return item.name[locale];
+        }
+    };
+
     const filteredProductClick = (product) => {
         const slug =
             product.id.toString() + "-" + slugify(product.name[locale]);
@@ -49,6 +64,7 @@ export default function ProductSearch({ searchState }) {
             {searchState && (
                 <div className="productSearch">
                     <input
+                        id="productSearchInput"
                         placeholder={t("productSearch")}
                         style={
                             searchText != ""
