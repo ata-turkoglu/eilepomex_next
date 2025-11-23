@@ -96,7 +96,7 @@ export async function generateMetadata({ params }) {
             title: name,
             description,
             url: canonicalUrl,
-            type: "product",
+            type: "website",
             locale,
             images: [
                 {
