@@ -73,7 +73,7 @@ export default function Home({ params: { locale } }) {
                     tr: "POMEX BLOK",
                 }}
             />
-            <Brands />
+            <Brands locale={locale} />
             <div className="spacerH50"></div>
         </main>
     );

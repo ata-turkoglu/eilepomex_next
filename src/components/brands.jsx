@@ -2,11 +2,13 @@
 import React from "react";
 import "./brands.scss";
 import { useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
-function Brands() {
+function Brands({ locale }) {
     const [mobile, setMobile] = useState(null);
     const t = useTranslations("Home");
+    const currentLocale = locale || useLocale();
+
     useEffect(() => {
         window.innerWidth < 768 ? setMobile(true) : setMobile(false);
     }, []);
@@ -81,7 +83,7 @@ function Brands() {
                 <div className="images">
                     <div className="imgContainer">
                         <a
-                            href="https://www.pomzaexport.com/product/7/"
+                            href={`https://www.pomzaexport.com/${currentLocale}/product/7/`}
                             target="_blank"
                             aria-label="etiper"
                         >
@@ -94,7 +96,7 @@ function Brands() {
                     </div>
                     <div className="imgContainer">
                         <a
-                            href="https://www.pomzaexport.com/product/1/"
+                            href={`https://www.pomzaexport.com/${currentLocale}/product/1/`}
                             target="_blank"
                             aria-label="sardes quartz"
                         >
@@ -107,7 +109,7 @@ function Brands() {
                     </div>
                     <div className="imgContainer">
                         <a
-                            href="https://www.pomzaexport.com/product/9/"
+                            href={`https://www.pomzaexport.com/${currentLocale}/product/9/`}
                             target="_blank"
                             aria-label="emerex"
                         >
@@ -135,7 +137,7 @@ function Brands() {
                     </div>
                     <div className="imgContainer">
                         <a
-                            href="https://www.pomzaexport.com/product/4/"
+                            href={`https://www.pomzaexport.com/${currentLocale}/product/4/`}
                             target="_blank"
                             aria-label="pomex garnet"
                         >
@@ -148,7 +150,7 @@ function Brands() {
                     </div>
                     <div className="imgContainer">
                         <a
-                            href="https://www.pomzaexport.com/product/10/"
+                            href={`https://www.pomzaexport.com/${currentLocale}/product/10/`}
                             target="_blank"
                             aria-label="pomex beton"
                         >
