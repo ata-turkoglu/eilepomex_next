@@ -7,6 +7,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Play } from "next/font/google";
 import siteMetaData from "@/lib/siteMetaData";
+import Preloader from "@/components/preloader";
 
 const play = Play({
     weight: "400",
@@ -94,6 +95,7 @@ export default async function LocaleLayout({ children, params }) {
         <html lang={locale}>
             <body className={play.className}>
                 <NextIntlClientProvider messages={messages}>
+                <Preloader/>
                     <div
                         style={{
                             width: "100%",
