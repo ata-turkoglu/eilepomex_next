@@ -17,7 +17,8 @@ function Info({
     headerInside = false,
     locale,
     productName,
-    bgB30= false
+    bgB30= false,
+    reverse = false
 }) {
     const router = useRouter();
     const [mobile, setMobile] = useState(null);
@@ -44,7 +45,7 @@ function Info({
             style={mobile && bg ? { marginTop: "4rem", paddingBlock: "0" } : {}}
         >
             {(!headerInside || !mobile) && <h2>{header}</h2>}
-            <div className="content" style={{ color: textColor }}>
+            <div className="content" style={{ color: textColor, flexDirection: mobile && reverse ? 'column-reverse' : '' }}>
                 {headerInside && mobile && (
                     <h2 style={{ marginTop: "2rem" }}>{header}</h2>
                 )}

@@ -42,6 +42,7 @@ export default function Home({ params: { locale } }) {
                     tr: "POMEX ZEMİN YÜZEY SERTLEŞTİRİCİ",
                     en: "POMEX GROUND SURFACE HARDENER",
                 }}
+                reverse={true}
             />
             <Banner image="/assets/info/etiperview.jpg" />
             <Info

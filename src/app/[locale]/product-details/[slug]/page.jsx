@@ -46,12 +46,16 @@ function ProductDetails({ params: { locale, slug } }) {
 
     const renderAreasofUsage = (list = []) => {
         if (!list || list.length <= 0) return null;
-        return list.map((item, index) => <li key={index}>{item}</li>);
+        return <ul>
+            {list.map((item, index) => <li key={index}>{item}</li>)}
+        </ul>
     };
 
     const renderFeatures = (list = []) => {
         if (!list || list.length <= 0) return null;
-        return list.map((item, index) => <li key={index}>{item.trim()}</li>);
+        return <ul>
+            {list.map((item, index) => <li key={index}>{item.trim()}</li>)}
+        </ul>
     };
 
     const renderConsumption = (list = []) => {
