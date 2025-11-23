@@ -231,8 +231,7 @@ export default async function ProductDetailsLayout({ children, params }) {
                 style={{
                     width: "100%",
                     height: "100%",
-                    overflow: "auto",
-                    paddingTop: "30px",
+                    overflow: "auto"
                 }}
             >
                 {children}

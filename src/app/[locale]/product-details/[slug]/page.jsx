@@ -3,6 +3,7 @@ import productList from "@/data/productList.json";
 import { useState, useLayoutEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 import { Accordion } from "react-bootstrap";
 import { ChevronLeft } from "lucide-react";
 import "../../css/productDetails.scss";
@@ -125,7 +126,26 @@ function ProductDetails({ params: { locale, slug } }) {
                         <ChevronLeft strokeWidth={3} onClick={handleBack} />
                     </div>
                 )}
-                <h1>{product.name[lang]}</h1>
+                <div>
+                    <nav className="breadcrumbNav" aria-label="breadcrumb">
+                        <ol>
+                            <li>
+                                <Link href="/">
+                                    {lang === "en" ? "Home" : "Ana Sayfa"}
+                                </Link>
+                            </li>
+                            <span className="breadcrumbSeparator">/</span>
+                            <li>
+                                <Link href="/products/0">
+                                    {lang === "en" ? "Products" : "Ürünler"}
+                                </Link>
+                            </li>
+                            <span className="breadcrumbSeparator">/</span>
+                            <li aria-current="page">{product.name[lang]}</li>
+                        </ol>
+                    </nav>
+                    <h1>{product.name[lang]}</h1>
+                </div>
                 {mobileView && <div className="filter-icon"></div>}
             </div>
             <div className="firstPart">
@@ -137,9 +157,7 @@ function ProductDetails({ params: { locale, slug } }) {
                             alt={product.name[locale]}
                         />
                     </div>
-                    <div className="tags">
-                        {renderInfo(product.info[lang])}
-                    </div>
+                    <div className="tags">{renderInfo(product.info[lang])}</div>
                 </div>
                 <div className="informationPart">
                     <div className="centerPart">
@@ -205,12 +223,15 @@ function ProductDetails({ params: { locale, slug } }) {
 
                             <Accordion.Item eventKey="3">
                                 <Accordion.Header>
-                                    <h5>{t("pointsToTakeIntoConsideration")}</h5>
+                                    <h5>
+                                        {t("pointsToTakeIntoConsideration")}
+                                    </h5>
                                 </Accordion.Header>
                                 <Accordion.Body>
                                     <ul>
                                         {renderConsumption(
-                                            product.pointsToTakeIntoConsideration[
+                                            product
+                                                .pointsToTakeIntoConsideration[
                                                 lang
                                             ]
                                         )}
